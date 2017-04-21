@@ -83,24 +83,22 @@ sudo apt install pycharm
 
 #----------------------------------------------------------------------------
 # Git repositories
-echo "Seting up git repositories"
-cd ~/projects/
-git clone crap
+git "ssh_address" ~/projects/
 
 
 
 #----------------------------------------------------------------------------
 # profiles 
 
-cp ./.profile ~/.profile 
-cp ./.gitconfig ~/.gitconfig
-cp ./.ssh/config ~/.ssh/config
+sudo cp ./config/.profile ~/.profile 
+sudo cp ./config/.gitconfig ~/.gitconfig
+sudo cp ./config/ssh/config ~/.ssh/config
 
 
 #----------------------------------------------------------------------------
 #add a function file
 #just insert ./etc/functions at the being of the file
-cp functions /etc/functions
+sudo cp functions /etc/functions
 
 
 #----------------------------------------------------------------------------

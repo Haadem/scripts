@@ -6,7 +6,7 @@
 ###################################################
 
 dir="$(dirname "$0")"
-source $dir/links.sh
+source $dir/data/links.sh
 
 google-chrome --new-window $LINKS
 google-chrome --new-window $LINKS2

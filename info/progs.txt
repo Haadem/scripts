@@ -1,3 +1,5 @@
+
+-----------Ubuntu-----------
 devilspie2
 nixnote --evernote ubuntu
 git
@@ -5,7 +7,7 @@ git
 
 
 
---WEB--
+-----------WEB--------------
 slack
 trello
 atlassian.net
