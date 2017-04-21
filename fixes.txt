@@ -1,0 +1,6 @@
+#fix sound 
+sudo alsa force-reload
+
+#Tensorflow cuda problem
+source ~/.profile
+

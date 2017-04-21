@@ -1,0 +1,6 @@
+[user]
+	email = sven@gmail.com
+	name = Sven
+
+[alias]
+        lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cD) %C(bold blue)<%an>%Creset' --abbrev-commit
