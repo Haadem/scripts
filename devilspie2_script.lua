@@ -13,7 +13,7 @@ if (get_application_name() == "Terminal") then
 end
 
 
--- Matching by windows that end in "Mozilla Firefox" :   
+-- Matching by windows that end in "Google Chrome" :   
 if (End=='' or string.sub(get_window_name(),-string.len("Google Chrome"))=="Google Chrome") then
         set_window_size(1300, 2000);
 end
