@@ -1,9 +1,9 @@
 #!/bin/bash
-####################################
+###################################################
 #
-# First time setup for new Ubuntu install
+# First time setup for a fresh Ubuntu installation
 #
-####################################
+###################################################
 
 
 
@@ -17,6 +17,7 @@ sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
 sudo add-apt-repository -y ppa:tuxpoldo/btsync
 sudo add-apt-repository -y ppa:freyja-dev/unity-tweak-tool-daily
 sudo add-apt-repository -y ppa:stefansundin/truecrypt
+sudo add-apt-repository -y ppa:nixnote/nixnote2-daily
 sudo apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 94558F59
 sudo wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
@@ -25,6 +26,8 @@ sudo wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-ke
 sudo apt-get -y --force-yes update
 sudo apt-get -y --force-yes upgrade
 
+
+#----------------------------------------------------------------------------
 # install apps
 sudo apt-get -y install \
     libxss1 spotify-client sublime-text-installer git gitk gitg \
@@ -35,14 +38,22 @@ sudo apt-get -y install \
     php5-curl php5-json phpunit mcrypt ssmtp mailutils mpack truecrypt\
     nautilus-open-terminal google-talkplugin linux-headers-generic \
     build-essential tp-smapi-dkms thinkfan moc libglib2.0-bin nautilus-dropbox \
-    dconf-cli python3 python3-pip
+    dconf-cli python3 python3-pip nixnote2 devilspie2 lua5.2
+
+#----------------------------------------------------------------------------
+# pip3 updates
+sudo pip3 install libpython3-dev
+sudo pip3 install numpy
+sudo pip3 install pandas
+sudo pip3 install jupyter
 
 
+#----------------------------------------------------------------------------
 # Terminal
 cp -a ./data/gconf/%gconf.xml ~/.gconf/apps/gnome-terminal/profiles/Default/
 
 
-
+#----------------------------------------------------------------------------
 # Create directories
 mkdir ~/projects/
 
@@ -57,25 +68,45 @@ mkdir ~/projects/
 #echo "Installing python"
 
 
+#----------------------------------------------------------------------------
+# Manuall Software
 echo "Setting up software"
+
+# Pycharm
 sudo sh -c 'echo "deb http://archive.getdeb.net/ubuntu yakkety-getdeb apps" >> /etc/apt/sources.list.d/etdeb.list'
 wget -q -O - http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add 
 sudo apt update
 sudo apt install pycharm
 
-echo "Seting up tensorflow"
+
+
+
+#----------------------------------------------------------------------------
+# Git repositories
+echo "Seting up git repositories"
 cd ~/projects/
 git clone crap
 
 
-echo "Setting up bash profile"
-cp ./.profile ~/.profile 
 
+#----------------------------------------------------------------------------
+# profiles 
+
+cp ./.profile ~/.profile 
+cp ./.gitconfig ~/.gitconfig
+cp ./.ssh/config ~/.ssh/config
+
+
+#----------------------------------------------------------------------------
+#add a function file
+#just insert ./etc/functions at the being of the file
+cp functions /etc/functions
+
+
+#----------------------------------------------------------------------------
+# update system settings
 echo "Seting up system settings"
 dconf load / < old-gsettings-data.txt
-
-
-# update system settings
 gsettings set com.canonical.indicator.power show-percentage true
 gsettings set com.canonical.indicator.sound interested-media-players "['spotify.desktop']"
 gsettings set com.canonical.indicator.sound preferred-media-players "['spotify.desktop']"
@@ -140,13 +171,15 @@ dconf write /org/compiz/profiles/unity/plugins/unityshell/alt-tab-bias-viewport 
 
 
 
+#----------------------------------------------------------------------------
+
 #echo "Seting up system settings"
 #cp ~/.config/dconf/user ./dconf/user
 #XDG_CONFIG_HOME=./ dconf dump / > old-gsettings-data.txt
 
 
 
-
+#----------------------------------------------------------------------------
 # prompt for a reboot
 clear
 echo ""
