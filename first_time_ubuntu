@@ -34,7 +34,8 @@ sudo apt-get -y install \
     ubuntu-wallpapers* php5-cli php5-common php5-mcrypt php5-sqlite \
     php5-curl php5-json phpunit mcrypt ssmtp mailutils mpack truecrypt\
     nautilus-open-terminal google-talkplugin linux-headers-generic \
-    build-essential tp-smapi-dkms thinkfan moc
+    build-essential tp-smapi-dkms thinkfan moc libglib2.0-bin nautilus-dropbox \
+    dconf-cli python3 python3-pip
 
 
 # Terminal
@@ -47,17 +48,20 @@ mkdir ~/projects/
 
 
 #Install dependencies
-echo "Installing dependencies"
-apt install git
-apt install libglib2.0-bin
-apt install dconf-cli
+#echo "Installing dependencies"
+#apt install git
+#apt install libglib2.0-bin
+#apt install dconf-cli
+#apt-get install nautilus-dropbox
 
-echo "Installing python"
+#echo "Installing python"
 
 
 echo "Setting up software"
-
-
+sudo sh -c 'echo "deb http://archive.getdeb.net/ubuntu yakkety-getdeb apps" >> /etc/apt/sources.list.d/etdeb.list'
+wget -q -O - http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add 
+sudo apt update
+sudo apt install pycharm
 
 echo "Seting up tensorflow"
 cd ~/projects/
@@ -65,7 +69,7 @@ git clone crap
 
 
 echo "Setting up bash profile"
-
+cp ./.profile ~/.profile 
 
 echo "Seting up system settings"
 dconf load / < old-gsettings-data.txt
