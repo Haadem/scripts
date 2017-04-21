@@ -1,0 +1,3213 @@
+org.gnome.system.proxy.https host ''
+org.gnome.system.proxy.https port 0
+org.cinnamon.desktop.thumbnailers disable-all false
+org.cinnamon.desktop.thumbnailers disable @as []
+org.cinnamon.settings-daemon.plugins.screensaver-proxy active true
+org.cinnamon.settings-daemon.plugins.screensaver-proxy priority 8
+org.cinnamon.desktop.default-applications.office.tasks exec 'evolution -c tasks'
+org.cinnamon.desktop.default-applications.office.tasks needs-term false
+org.nemo.preferences tabs-open-position 'after-current-tab'
+org.nemo.preferences default-folder-viewer 'list-view'
+org.nemo.preferences show-image-thumbnails 'local-only'
+org.nemo.preferences show-computer-icon-toolbar false
+org.nemo.preferences show-icon-text 'never'
+org.nemo.preferences context-menus-show-all-actions false
+org.nemo.preferences show-hidden-files false
+org.nemo.preferences show-icon-view-icon-toolbar true
+org.nemo.preferences show-home-icon-toolbar false
+org.nemo.preferences desktop-is-home-dir false
+org.nemo.preferences never-queue-file-ops false
+org.nemo.preferences quick-renames-with-pause-in-between false
+org.nemo.preferences swap-trash-delete false
+org.nemo.preferences date-format 'locale'
+org.nemo.preferences show-up-icon-toolbar true
+org.nemo.preferences mouse-use-extra-buttons true
+org.nemo.preferences always-use-browser true
+org.nemo.preferences close-device-view-on-device-eject false
+org.nemo.preferences tooltips-show-file-type false
+org.nemo.preferences tooltips-on-desktop false
+org.nemo.preferences executable-text-activation 'ask'
+org.nemo.preferences show-new-folder-icon-toolbar false
+org.nemo.preferences show-directory-item-counts 'local-only'
+org.nemo.preferences sort-directories-first true
+org.nemo.preferences mouse-forward-button 9
+org.nemo.preferences show-places-in-to-menus true
+org.nemo.preferences thumbnail-limit uint64 4294967295
+org.nemo.preferences ignore-view-metadata false
+org.nemo.preferences last-server-connect-method 2
+org.nemo.preferences show-reload-icon-toolbar false
+org.nemo.preferences size-prefixes 'base-10'
+org.nemo.preferences tooltips-show-access-date false
+org.nemo.preferences show-search-icon-toolbar true
+org.nemo.preferences show-edit-icon-toolbar true
+org.nemo.preferences tooltips-show-mod-date false
+org.nemo.preferences disable-menu-warning false
+org.nemo.preferences enable-delete true
+org.nemo.preferences bulk-rename-tool @ay []
+org.nemo.preferences show-open-in-terminal-toolbar false
+org.nemo.preferences confirm-trash true
+org.nemo.preferences show-advanced-permissions false
+org.nemo.preferences tooltips-in-icon-view false
+org.nemo.preferences click-policy 'double'
+org.nemo.preferences show-previous-icon-toolbar true
+org.nemo.preferences mouse-back-button 8
+org.nemo.preferences tooltips-show-path false
+org.nemo.preferences default-sort-in-reverse-order false
+org.nemo.preferences show-full-path-titles true
+org.nemo.preferences show-compact-view-icon-toolbar true
+org.nemo.preferences show-location-entry true
+org.nemo.preferences show-list-view-icon-toolbar true
+org.nemo.preferences show-next-icon-toolbar true
+org.nemo.preferences show-bookmarks-in-to-menus true
+org.nemo.preferences default-sort-order 'name'
+org.nemo.preferences tooltips-in-list-view false
+org.nemo.preferences start-with-dual-pane false
+org.gnome.settings-daemon.plugins.cursor active true
+org.gnome.settings-daemon.plugins.cursor priority 0
+org.x.editor.plugins.filebrowser.on-load virtual-root 'file:///usr/local/cuda/bin'
+org.x.editor.plugins.filebrowser.on-load tree-view true
+org.x.editor.plugins.filebrowser.on-load enable-remote false
+org.x.editor.plugins.filebrowser.on-load root 'file:///'
+org.cinnamon.desktop.keybindings.wm move-to-workspace-5 @as []
+org.cinnamon.desktop.keybindings.wm minimize @as []
+org.cinnamon.desktop.keybindings.wm move-to-workspace-6 @as []
+org.cinnamon.desktop.keybindings.wm push-snap-left ['<Control><Super>Left']
+org.cinnamon.desktop.keybindings.wm move-to-monitor-left ['<Super><Shift>Left']
+org.cinnamon.desktop.keybindings.wm move-to-workspace-7 @as []
+org.cinnamon.desktop.keybindings.wm move-to-workspace-8 @as []
+org.cinnamon.desktop.keybindings.wm move-to-workspace-9 @as []
+org.cinnamon.desktop.keybindings.wm move-to-workspace-10 @as []
+org.cinnamon.desktop.keybindings.wm move-to-workspace-11 @as []
+org.cinnamon.desktop.keybindings.wm move-to-workspace-12 @as []
+org.cinnamon.desktop.keybindings.wm move-to-center @as []
+org.cinnamon.desktop.keybindings.wm unmaximize ['<Alt>F5']
+org.cinnamon.desktop.keybindings.wm push-tile-down ['<Super>Down']
+org.cinnamon.desktop.keybindings.wm switch-to-workspace-up ['<Control><Alt>Up', '<Alt>F1']
+org.cinnamon.desktop.keybindings.wm tab-popup-select @as []
+org.cinnamon.desktop.keybindings.wm push-tile-up ['<Super>Up']
+org.cinnamon.desktop.keybindings.wm panel-run-dialog ['<Alt>F2']
+org.cinnamon.desktop.keybindings.wm push-snap-right ['<Control><Super>Right']
+org.cinnamon.desktop.keybindings.wm switch-to-workspace-down ['<Control><Alt>Down']
+org.cinnamon.desktop.keybindings.wm move-to-corner-ne @as []
+org.cinnamon.desktop.keybindings.wm move-to-side-e @as []
+org.cinnamon.desktop.keybindings.wm toggle-recording ['<Control><Shift><Alt>r']
+org.cinnamon.desktop.keybindings.wm move-to-workspace-right ['<Control><Shift><Alt>Right']
+org.cinnamon.desktop.keybindings.wm move-to-workspace-up ['<Control><Shift><Alt>Up']
+org.cinnamon.desktop.keybindings.wm raise @as []
+org.cinnamon.desktop.keybindings.wm maximize @as []
+org.cinnamon.desktop.keybindings.wm move-to-side-n @as []
+org.cinnamon.desktop.keybindings.wm move-to-side-s @as []
+org.cinnamon.desktop.keybindings.wm maximize-horizontally @as []
+org.cinnamon.desktop.keybindings.wm tab-popup-cancel @as []
+org.cinnamon.desktop.keybindings.wm move-to-side-w @as []
+org.cinnamon.desktop.keybindings.wm move-to-corner-nw @as []
+org.cinnamon.desktop.keybindings.wm switch-windows ['<Alt>Tab']
+org.cinnamon.desktop.keybindings.wm push-snap-down ['<Control><Super>Down']
+org.cinnamon.desktop.keybindings.wm begin-move ['<Alt>F7']
+org.cinnamon.desktop.keybindings.wm move-to-monitor-down ['<Super><Shift>Down']
+org.cinnamon.desktop.keybindings.wm switch-windows-backward @as []
+org.cinnamon.desktop.keybindings.wm move-to-workspace-left ['<Control><Shift><Alt>Left']
+org.cinnamon.desktop.keybindings.wm move-to-corner-se @as []
+org.cinnamon.desktop.keybindings.wm activate-window-menu ['<Alt>space']
+org.cinnamon.desktop.keybindings.wm push-tile-right ['<Super>Right']
+org.cinnamon.desktop.keybindings.wm toggle-above @as []
+org.cinnamon.desktop.keybindings.wm move-to-monitor-right ['<Super><Shift>Right']
+org.cinnamon.desktop.keybindings.wm toggle-fullscreen @as []
+org.cinnamon.desktop.keybindings.wm lower @as []
+org.cinnamon.desktop.keybindings.wm toggle-on-all-workspaces @as []
+org.cinnamon.desktop.keybindings.wm move-to-monitor-up ['<Super><Shift>Up']
+org.cinnamon.desktop.keybindings.wm move-to-corner-sw @as []
+org.cinnamon.desktop.keybindings.wm toggle-shaded @as []
+org.cinnamon.desktop.keybindings.wm switch-to-workspace-1 @as []
+org.cinnamon.desktop.keybindings.wm switch-to-workspace-2 @as []
+org.cinnamon.desktop.keybindings.wm switch-to-workspace-3 @as []
+org.cinnamon.desktop.keybindings.wm switch-to-workspace-4 @as []
+org.cinnamon.desktop.keybindings.wm raise-or-lower @as []
+org.cinnamon.desktop.keybindings.wm switch-panels-backward @as []
+org.cinnamon.desktop.keybindings.wm increase-opacity @as []
+org.cinnamon.desktop.keybindings.wm switch-to-workspace-5 @as []
+org.cinnamon.desktop.keybindings.wm maximize-vertically @as []
+org.cinnamon.desktop.keybindings.wm push-tile-left ['<Super>Left']
+org.cinnamon.desktop.keybindings.wm switch-to-workspace-8 @as []
+org.cinnamon.desktop.keybindings.wm show-desktop ['<Super>d']
+org.cinnamon.desktop.keybindings.wm push-snap-up ['<Control><Super>Up']
+org.cinnamon.desktop.keybindings.wm switch-to-workspace-9 @as []
+org.cinnamon.desktop.keybindings.wm switch-panels ['<Control><Alt>Tab']
+org.cinnamon.desktop.keybindings.wm switch-to-workspace-7 @as []
+org.cinnamon.desktop.keybindings.wm switch-to-workspace-10 @as []
+org.cinnamon.desktop.keybindings.wm switch-to-workspace-11 @as []
+org.cinnamon.desktop.keybindings.wm switch-to-workspace-12 @as []
+org.cinnamon.desktop.keybindings.wm switch-to-workspace-left ['<Control><Alt>Left']
+org.cinnamon.desktop.keybindings.wm toggle-maximized ['<Alt>F10']
+org.cinnamon.desktop.keybindings.wm set-spew-mark @as []
+org.cinnamon.desktop.keybindings.wm move-to-workspace-new @as []
+org.cinnamon.desktop.keybindings.wm begin-resize ['<Alt>F8']
+org.cinnamon.desktop.keybindings.wm move-to-workspace-down ['<Control><Shift><Alt>Down']
+org.cinnamon.desktop.keybindings.wm decrease-opacity @as []
+org.cinnamon.desktop.keybindings.wm switch-group-backward @as []
+org.cinnamon.desktop.keybindings.wm switch-group ['<Alt>Above_Tab']
+org.cinnamon.desktop.keybindings.wm close ['<Alt>F4']
+org.cinnamon.desktop.keybindings.wm switch-to-workspace-6 @as []
+org.cinnamon.desktop.keybindings.wm move-to-workspace-1 @as []
+org.cinnamon.desktop.keybindings.wm move-to-workspace-2 @as []
+org.cinnamon.desktop.keybindings.wm move-to-workspace-3 @as []
+org.cinnamon.desktop.keybindings.wm move-to-workspace-4 @as []
+org.cinnamon.desktop.keybindings.wm switch-to-workspace-right ['<Control><Alt>Right']
+org.x.pix.browser thumbnail-limit 0
+org.x.pix.browser viewer-sidebar 'hidden'
+org.x.pix.browser show-hidden-files false
+org.x.pix.browser image-pane-visible true
+org.x.pix.browser properties-visible true
+org.x.pix.browser filterbar-visible true
+org.x.pix.browser show-thumbnails true
+org.x.pix.browser toolbar-style 'text-below'
+org.x.pix.browser window-height 0
+org.x.pix.browser general-filter 'file::type::is_media'
+org.x.pix.browser viewer-thumbnails-orientation 'horizontal'
+org.x.pix.browser reuse-active-window false
+org.x.pix.browser maximized false
+org.x.pix.browser startup-current-file ''
+org.x.pix.browser statusbar-visible true
+org.x.pix.browser sort-type 'file::mtime'
+org.x.pix.browser viewer-sidebar-width 285
+org.x.pix.browser thumbnail-caption 'comment::note,comment::time'
+org.x.pix.browser browser-sidebar-width 285
+org.x.pix.browser save-thumbnails true
+org.x.pix.browser thumbnail-list-size 0
+org.x.pix.browser sidebar-visible true
+org.x.pix.browser use-startup-location false
+org.x.pix.browser sort-inverse false
+org.x.pix.browser go-to-last-location true
+org.x.pix.browser thumbnail-list-visible true
+org.x.pix.browser startup-location ''
+org.x.pix.browser thumbnail-size 128
+org.x.pix.browser fast-file-type true
+org.x.pix.browser shrink-wrap-viewer false
+org.x.pix.browser toolbar-visible true
+org.x.pix.browser properties-on-the-right false
+org.x.pix.browser window-width 0
+org.cinnamon.keybindings custom-list @as []
+org.cinnamon.muffin attach-modal-dialogs false
+org.cinnamon.muffin tile-hud-threshold 25
+org.cinnamon.muffin workspace-cycle false
+org.cinnamon.muffin unredirect-fullscreen-windows false
+org.cinnamon.muffin invert-workspace-flip-direction false
+org.cinnamon.muffin dynamic-workspaces false
+org.cinnamon.muffin edge-resistance-window true
+org.cinnamon.muffin edge-tiling true
+org.cinnamon.muffin draggable-border-width 10
+org.cinnamon.muffin tile-maximize false
+org.cinnamon.muffin snap-modifier 'Control'
+org.cinnamon.muffin workspaces-only-on-primary false
+org.cinnamon.muffin legacy-snap false
+org.cinnamon.muffin button-layout ':minimize,maximize,close'
+org.cinnamon.muffin placement-mode 'center'
+org.cinnamon.muffin resize-threshold 24
+org.cinnamon.muffin.keybindings cycle-windows-backward @as []
+org.cinnamon.muffin.keybindings minimize @as []
+org.cinnamon.muffin.keybindings move-to-workspace-7 @as []
+org.cinnamon.muffin.keybindings push-snap-left @as []
+org.cinnamon.muffin.keybindings move-to-workspace-8 @as []
+org.cinnamon.muffin.keybindings move-to-workspace-9 @as []
+org.cinnamon.muffin.keybindings move-to-workspace-5 @as []
+org.cinnamon.muffin.keybindings move-to-workspace-6 @as []
+org.cinnamon.muffin.keybindings move-to-workspace-10 @as []
+org.cinnamon.muffin.keybindings move-to-workspace-11 @as []
+org.cinnamon.muffin.keybindings move-to-workspace-12 @as []
+org.cinnamon.muffin.keybindings move-to-center @as []
+org.cinnamon.muffin.keybindings unmaximize @as []
+org.cinnamon.muffin.keybindings panel-main-menu @as []
+org.cinnamon.muffin.keybindings cycle-windows @as []
+org.cinnamon.muffin.keybindings push-tile-down @as []
+org.cinnamon.muffin.keybindings cycle-panels-backward @as []
+org.cinnamon.muffin.keybindings push-tile-up @as []
+org.cinnamon.muffin.keybindings panel-run-dialog @as []
+org.cinnamon.muffin.keybindings push-snap-right @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-down @as []
+org.cinnamon.muffin.keybindings tab-popup-select @as []
+org.cinnamon.muffin.keybindings move-to-corner-ne @as []
+org.cinnamon.muffin.keybindings move-to-side-e @as []
+org.cinnamon.muffin.keybindings toggle-recording @as []
+org.cinnamon.muffin.keybindings move-to-workspace-right @as []
+org.cinnamon.muffin.keybindings move-to-workspace-up @as []
+org.cinnamon.muffin.keybindings raise @as []
+org.cinnamon.muffin.keybindings maximize @as []
+org.cinnamon.muffin.keybindings cycle-group-backward @as []
+org.cinnamon.muffin.keybindings move-to-side-n @as []
+org.cinnamon.muffin.keybindings move-to-side-s @as []
+org.cinnamon.muffin.keybindings maximize-horizontally @as []
+org.cinnamon.muffin.keybindings tab-popup-cancel @as []
+org.cinnamon.muffin.keybindings move-to-side-w @as []
+org.cinnamon.muffin.keybindings move-to-corner-nw @as []
+org.cinnamon.muffin.keybindings switch-windows @as []
+org.cinnamon.muffin.keybindings push-snap-down @as []
+org.cinnamon.muffin.keybindings begin-move @as []
+org.cinnamon.muffin.keybindings switch-windows-backward @as []
+org.cinnamon.muffin.keybindings move-to-workspace-left @as []
+org.cinnamon.muffin.keybindings move-to-corner-se @as []
+org.cinnamon.muffin.keybindings activate-window-menu @as []
+org.cinnamon.muffin.keybindings push-tile-right @as []
+org.cinnamon.muffin.keybindings toggle-above @as []
+org.cinnamon.muffin.keybindings toggle-fullscreen @as []
+org.cinnamon.muffin.keybindings lower @as []
+org.cinnamon.muffin.keybindings cycle-panels @as []
+org.cinnamon.muffin.keybindings toggle-on-all-workspaces @as []
+org.cinnamon.muffin.keybindings move-to-corner-sw @as []
+org.cinnamon.muffin.keybindings toggle-shaded @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-1 @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-2 @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-3 @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-4 @as []
+org.cinnamon.muffin.keybindings raise-or-lower @as []
+org.cinnamon.muffin.keybindings switch-panels @as []
+org.cinnamon.muffin.keybindings switch-panels-backward @as []
+org.cinnamon.muffin.keybindings increase-opacity @as []
+org.cinnamon.muffin.keybindings maximize-vertically @as []
+org.cinnamon.muffin.keybindings push-tile-left @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-5 @as []
+org.cinnamon.muffin.keybindings show-desktop @as []
+org.cinnamon.muffin.keybindings push-snap-up @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-8 @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-9 @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-6 @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-7 @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-10 @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-11 @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-12 @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-left @as []
+org.cinnamon.muffin.keybindings toggle-maximized @as []
+org.cinnamon.muffin.keybindings set-spew-mark @as []
+org.cinnamon.muffin.keybindings begin-resize @as []
+org.cinnamon.muffin.keybindings move-to-workspace-down @as []
+org.cinnamon.muffin.keybindings decrease-opacity @as []
+org.cinnamon.muffin.keybindings switch-group-backward @as []
+org.cinnamon.muffin.keybindings switch-group @as []
+org.cinnamon.muffin.keybindings cycle-group @as []
+org.cinnamon.muffin.keybindings close @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-up @as []
+org.cinnamon.muffin.keybindings move-to-workspace-1 @as []
+org.cinnamon.muffin.keybindings move-to-workspace-2 @as []
+org.cinnamon.muffin.keybindings move-to-workspace-3 @as []
+org.cinnamon.muffin.keybindings move-to-workspace-4 @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-right @as []
+org.cinnamon.desktop.a11y.keyboard slowkeys-beep-press false
+org.cinnamon.desktop.a11y.keyboard mousekeys-accel-time 300
+org.cinnamon.desktop.a11y.keyboard bouncekeys-beep-reject false
+org.cinnamon.desktop.a11y.keyboard slowkeys-beep-reject false
+org.cinnamon.desktop.a11y.keyboard togglekeys-enable false
+org.cinnamon.desktop.a11y.keyboard togglekeys-sound-on '/usr/share/cinnamon/sounds/togglekeys-sound-on.ogg'
+org.cinnamon.desktop.a11y.keyboard disable-timeout 200
+org.cinnamon.desktop.a11y.keyboard enable false
+org.cinnamon.desktop.a11y.keyboard bouncekeys-enable false
+org.cinnamon.desktop.a11y.keyboard stickykeys-enable false
+org.cinnamon.desktop.a11y.keyboard togglekeys-enable-beep false
+org.cinnamon.desktop.a11y.keyboard togglekeys-sound-off '/usr/share/cinnamon/sounds/togglekeys-sound-off.ogg'
+org.cinnamon.desktop.a11y.keyboard feature-state-change-beep false
+org.cinnamon.desktop.a11y.keyboard slowkeys-beep-accept false
+org.cinnamon.desktop.a11y.keyboard bouncekeys-delay 300
+org.cinnamon.desktop.a11y.keyboard mousekeys-max-speed 10
+org.cinnamon.desktop.a11y.keyboard togglekeys-enable-osd false
+org.cinnamon.desktop.a11y.keyboard mousekeys-enable false
+org.cinnamon.desktop.a11y.keyboard timeout-enable false
+org.cinnamon.desktop.a11y.keyboard slowkeys-delay 300
+org.cinnamon.desktop.a11y.keyboard stickykeys-modifier-beep false
+org.cinnamon.desktop.a11y.keyboard stickykeys-two-key-off false
+org.cinnamon.desktop.a11y.keyboard mousekeys-init-delay 300
+org.cinnamon.desktop.a11y.keyboard slowkeys-enable false
+org.x.pix.rotate background-color '#000'
+org.x.pix.rotate keep-aspect-ratio true
+org.x.pix.rotate resize 'crop'
+org.x.pix.rotate grid-type 'thirds'
+org.cinnamon.settings-daemon.plugins.sound active true
+org.cinnamon.settings-daemon.plugins.sound priority 5
+org.x.editor.plugins.time selected-format '%c'
+org.x.editor.plugins.time prompt-type 'prompt-selected-format'
+org.x.editor.plugins.time custom-format '%d/%m/%Y %H:%M:%S'
+org.x.viewer.plugins.fullscreenbg background-color '#000000'
+org.x.viewer.plugins.fullscreenbg use-custom true
+org.cinnamon.settings-daemon.peripherals.touchscreen orientation-lock false
+org.cinnamon.settings-daemon.plugins.power button-power 'interactive'
+org.cinnamon.settings-daemon.plugins.power sleep-display-battery 600
+org.cinnamon.settings-daemon.plugins.power use-time-for-policy true
+org.cinnamon.settings-daemon.plugins.power critical-battery-action 'hibernate'
+org.cinnamon.settings-daemon.plugins.power percentage-low 10
+org.cinnamon.settings-daemon.plugins.power priority 1
+org.cinnamon.settings-daemon.plugins.power idle-dim-time 90
+org.cinnamon.settings-daemon.plugins.power backlight-helper-force false
+org.cinnamon.settings-daemon.plugins.power lid-close-suspend-with-external-monitor false
+org.cinnamon.settings-daemon.plugins.power button-hibernate 'hibernate'
+org.cinnamon.settings-daemon.plugins.power sleep-inactive-ac-timeout 0
+org.cinnamon.settings-daemon.plugins.power sleep-inactive-ac-type 'suspend'
+org.cinnamon.settings-daemon.plugins.power button-suspend 'suspend'
+org.cinnamon.settings-daemon.plugins.power sleep-inactive-battery-timeout 0
+org.cinnamon.settings-daemon.plugins.power time-low 1200
+org.cinnamon.settings-daemon.plugins.power lid-close-ac-action 'suspend'
+org.cinnamon.settings-daemon.plugins.power lock-on-suspend true
+org.cinnamon.settings-daemon.plugins.power idle-dim-ac false
+org.cinnamon.settings-daemon.plugins.power percentage-action 2
+org.cinnamon.settings-daemon.plugins.power sleep-inactive-battery-type 'suspend'
+org.cinnamon.settings-daemon.plugins.power percentage-critical 3
+org.cinnamon.settings-daemon.plugins.power time-action 120
+org.cinnamon.settings-daemon.plugins.power time-critical 300
+org.cinnamon.settings-daemon.plugins.power idle-dim-battery true
+org.cinnamon.settings-daemon.plugins.power idle-brightness 30
+org.cinnamon.settings-daemon.plugins.power backlight-helper-preference-order ['firmware', 'platform', 'raw']
+org.cinnamon.settings-daemon.plugins.power lid-close-battery-action 'suspend'
+org.cinnamon.settings-daemon.plugins.power active true
+org.cinnamon.settings-daemon.plugins.power sleep-display-ac 600
+org.gnome.evolution-data-server.calendar contacts-reminder-interval 15
+org.gnome.evolution-data-server.calendar contacts-reminder-units 'minutes'
+org.gnome.evolution-data-server.calendar contacts-reminder-enabled false
+org.gnome.settings-daemon.peripherals.keyboard remember-numlock-state true
+org.gnome.settings-daemon.peripherals.keyboard bell-pitch 400
+org.gnome.settings-daemon.peripherals.keyboard click-volume 0
+org.gnome.settings-daemon.peripherals.keyboard numlock-state 'unknown'
+org.gnome.settings-daemon.peripherals.keyboard bell-duration 100
+org.gnome.settings-daemon.peripherals.keyboard bell-mode 'on'
+org.gnome.settings-daemon.peripherals.keyboard bell-custom-file ''
+org.gnome.settings-daemon.peripherals.keyboard click true
+org.blueberry tray-enabled true
+org.gnome.desktop.search-providers sort-order ['gnome-contacts.desktop', 'gnome-documents.desktop', 'nautilus.desktop']
+org.gnome.desktop.search-providers disabled @as []
+org.gnome.desktop.search-providers disable-external false
+org.gnome.desktop.search-providers enabled @as []
+org.gnome.libgnomekbd.preview width -1
+org.gnome.libgnomekbd.preview height -1
+org.gnome.libgnomekbd.preview x -1
+org.gnome.libgnomekbd.preview y -1
+org.gnome.libgnomekbd.indicator background-color ''
+org.gnome.libgnomekbd.indicator font-size 10
+org.gnome.libgnomekbd.indicator show-flags false
+org.gnome.libgnomekbd.indicator foreground-color ''
+org.gnome.libgnomekbd.indicator secondary 0
+org.gnome.libgnomekbd.indicator font-family ''
+org.gnome.login-screen fallback-logo ''
+org.gnome.login-screen disable-user-list false
+org.gnome.login-screen allowed-failures 3
+org.gnome.login-screen enable-smartcard-authentication true
+org.gnome.login-screen banner-message-enable false
+org.gnome.login-screen enable-password-authentication true
+org.gnome.login-screen disable-restart-buttons false
+org.gnome.login-screen logo '/lib/plymouth/ubuntu_logo.png'
+org.gnome.login-screen enable-fingerprint-authentication true
+org.gnome.login-screen banner-message-text ''
+org.gnome.evolution.shell.network-config authentication-user ''
+org.gnome.evolution.shell.network-config secure-host ''
+org.gnome.evolution.shell.network-config secure-port 0
+org.gnome.evolution.shell.network-config use-authentication false
+org.gnome.evolution.shell.network-config autoconfig-url ''
+org.gnome.evolution.shell.network-config http-host ''
+org.gnome.evolution.shell.network-config http-port 0
+org.gnome.evolution.shell.network-config proxy-type 0
+org.gnome.evolution.shell.network-config authentication-password ''
+org.gnome.evolution.shell.network-config socks-host ''
+org.gnome.evolution.shell.network-config ignore-hosts @as []
+org.gnome.evolution.shell.network-config use-http-proxy false
+org.gnome.evolution.shell.network-config socks-port 0
+org.gnome.system.smb workgroup ''
+org.gnome.calculator target-currency ''
+org.gnome.calculator show-zeroes false
+org.gnome.calculator source-currency ''
+org.gnome.calculator show-thousands false
+org.gnome.calculator button-mode 'basic'
+org.gnome.calculator target-units 'radian'
+org.gnome.calculator word-size 64
+org.gnome.calculator number-format 'automatic'
+org.gnome.calculator angle-units 'degrees'
+org.gnome.calculator base 10
+org.gnome.calculator source-units 'degree'
+org.gnome.calculator precision 2000
+org.gnome.calculator accuracy 9
+org.gnome.settings-daemon.plugins.a11y-settings active true
+org.gnome.settings-daemon.plugins.a11y-settings priority 0
+org.gnome.desktop.media-handling automount-open true
+org.gnome.desktop.media-handling automount true
+org.gnome.desktop.media-handling autorun-x-content-start-app ['x-content/unix-software']
+org.gnome.desktop.media-handling autorun-never false
+org.gnome.desktop.media-handling autorun-x-content-ignore @as []
+org.gnome.desktop.media-handling autorun-x-content-open-folder @as []
+org.cinnamon.desktop.background picture-uri 'file:///usr/share/backgrounds/linuxmint/default_background.jpg'
+org.cinnamon.desktop.background color-shading-type 'solid'
+org.cinnamon.desktop.background primary-color '#000000'
+org.cinnamon.desktop.background picture-options 'zoom'
+org.cinnamon.desktop.background picture-opacity 100
+org.cinnamon.desktop.background secondary-color '#000000'
+org.gnome.settings-daemon.plugins.smartcard active true
+org.gnome.settings-daemon.plugins.smartcard priority 0
+org.gnome.desktop.default-applications.terminal exec-arg '-e'
+org.gnome.desktop.default-applications.terminal exec 'x-terminal-emulator'
+org.gnome.desktop.default-applications.office.calendar exec 'evolution -c calendar'
+org.gnome.desktop.default-applications.office.calendar needs-term false
+org.gnome.desktop.default-applications.office.tasks exec 'evolution -c tasks'
+org.gnome.desktop.default-applications.office.tasks needs-term false
+org.gnome.nm-applet stamp 0
+org.gnome.nm-applet disable-disconnected-notifications false
+org.gnome.nm-applet disable-vpn-notifications false
+org.gnome.nm-applet disable-connected-notifications false
+org.gnome.nm-applet suppress-wireless-networks-available false
+org.gnome.nm-applet show-applet true
+org.gnome.nm-applet disable-wifi-create false
+org.gnome.Terminal.ProfilesList list ['b1dcc9dd-5262-4d8d-a863-c897e6d979b9']
+org.gnome.Terminal.ProfilesList default 'b1dcc9dd-5262-4d8d-a863-c897e6d979b9'
+org.gnome.gnome-system-log logfile '/var/log/syslog'
+org.gnome.gnome-system-log width 600
+org.gnome.gnome-system-log logfiles ['/var/log/auth.log', '/var/log/dpkg.log', '/var/log/mail.log', '/var/log/syslog', '/var/log/Xorg.0.log']
+org.gnome.gnome-system-log fontsize 10
+org.gnome.gnome-system-log height 400
+org.gnome.gnome-system-log filters @as []
+org.nemo.icon-view captions ['none', 'size', 'date_modified']
+org.nemo.icon-view thumbnail-size 64
+org.nemo.icon-view default-zoom-level 'standard'
+org.nemo.icon-view default-use-tighter-layout false
+org.nemo.icon-view labels-beside-icons false
+org.nemo.icon-view text-ellipsis-limit ['3']
+org.gnome.settings-daemon.plugins whitelisted-plugins ['all']
+org.gnome.settings-daemon.plugins.orientation active true
+org.gnome.settings-daemon.plugins.orientation priority 0
+org.gnome.settings-daemon.plugins.keyboard active true
+org.gnome.settings-daemon.plugins.keyboard priority 0
+org.gnome.settings-daemon.plugins.smartcard active true
+org.gnome.settings-daemon.plugins.smartcard priority 0
+org.gnome.settings-daemon.plugins.mouse active true
+org.gnome.settings-daemon.plugins.mouse priority 0
+org.gnome.settings-daemon.plugins.remote-display active true
+org.gnome.settings-daemon.plugins.remote-display priority 0
+org.gnome.settings-daemon.plugins.xsettings disabled-gtk-modules @as []
+org.gnome.settings-daemon.plugins.xsettings priority 0
+org.gnome.settings-daemon.plugins.xsettings hinting 'slight'
+org.gnome.settings-daemon.plugins.xsettings overrides @a{sv} {}
+org.gnome.settings-daemon.plugins.xsettings rgba-order 'rgb'
+org.gnome.settings-daemon.plugins.xsettings antialiasing 'rgba'
+org.gnome.settings-daemon.plugins.xsettings active true
+org.gnome.settings-daemon.plugins.xsettings enabled-gtk-modules @as []
+org.gnome.settings-daemon.plugins.media-keys logout '<Control><Alt>Delete'
+org.gnome.settings-daemon.plugins.media-keys screenreader '<Alt><Super>s'
+org.gnome.settings-daemon.plugins.media-keys volume-mute 'XF86AudioMute'
+org.gnome.settings-daemon.plugins.media-keys volume-up 'XF86AudioRaiseVolume'
+org.gnome.settings-daemon.plugins.media-keys window-screenshot '<Alt>Print'
+org.gnome.settings-daemon.plugins.media-keys previous 'XF86AudioPrev'
+org.gnome.settings-daemon.plugins.media-keys control-center 'XF86Tools'
+org.gnome.settings-daemon.plugins.media-keys stop 'XF86AudioStop'
+org.gnome.settings-daemon.plugins.media-keys home 'XF86Explorer'
+org.gnome.settings-daemon.plugins.media-keys terminal '<Primary><Alt>t'
+org.gnome.settings-daemon.plugins.media-keys screenshot-clip '<Ctrl>Print'
+org.gnome.settings-daemon.plugins.media-keys magnifier '<Alt><Super>8'
+org.gnome.settings-daemon.plugins.media-keys help ''
+org.gnome.settings-daemon.plugins.media-keys search 'XF86Search'
+org.gnome.settings-daemon.plugins.media-keys custom-keybindings @as []
+org.gnome.settings-daemon.plugins.media-keys magnifier-zoom-in '<Alt><Super>equal'
+org.gnome.settings-daemon.plugins.media-keys calculator 'XF86Calculator'
+org.gnome.settings-daemon.plugins.media-keys video-out '<Super>p'
+org.gnome.settings-daemon.plugins.media-keys eject 'XF86Eject'
+org.gnome.settings-daemon.plugins.media-keys window-screenshot-clip '<Ctrl><Alt>Print'
+org.gnome.settings-daemon.plugins.media-keys area-screenshot-clip '<Ctrl><Shift>Print'
+org.gnome.settings-daemon.plugins.media-keys media 'XF86AudioMedia'
+org.gnome.settings-daemon.plugins.media-keys www 'XF86WWW'
+org.gnome.settings-daemon.plugins.media-keys play 'XF86AudioPlay'
+org.gnome.settings-daemon.plugins.media-keys email 'XF86Mail'
+org.gnome.settings-daemon.plugins.media-keys volume-down 'XF86AudioLowerVolume'
+org.gnome.settings-daemon.plugins.media-keys decrease-text-size ''
+org.gnome.settings-daemon.plugins.media-keys on-screen-keyboard ''
+org.gnome.settings-daemon.plugins.media-keys next 'XF86AudioNext'
+org.gnome.settings-daemon.plugins.media-keys screenshot 'Print'
+org.gnome.settings-daemon.plugins.media-keys increase-text-size ''
+org.gnome.settings-daemon.plugins.media-keys max-screencast-length uint32 30
+org.gnome.settings-daemon.plugins.media-keys magnifier-zoom-out '<Alt><Super>minus'
+org.gnome.settings-daemon.plugins.media-keys priority 0
+org.gnome.settings-daemon.plugins.media-keys screencast '<Ctrl><Shift><Alt>R'
+org.gnome.settings-daemon.plugins.media-keys screensaver '<Control><Alt>l'
+org.gnome.settings-daemon.plugins.media-keys toggle-contrast ''
+org.gnome.settings-daemon.plugins.media-keys pause 'XF86AudioPause'
+org.gnome.settings-daemon.plugins.media-keys active true
+org.gnome.settings-daemon.plugins.media-keys area-screenshot '<Shift>Print'
+org.gnome.settings-daemon.plugins.a11y-keyboard active true
+org.gnome.settings-daemon.plugins.a11y-keyboard priority 0
+org.gnome.settings-daemon.plugins.gsdwacom active true
+org.gnome.settings-daemon.plugins.gsdwacom priority 0
+org.gnome.settings-daemon.plugins.updates frequency-get-updates 86400
+org.gnome.settings-daemon.plugins.updates frequency-get-upgrades 604800
+org.gnome.settings-daemon.plugins.updates last-updates-notification uint64 0
+org.gnome.settings-daemon.plugins.updates notify-distro-upgrades false
+org.gnome.settings-daemon.plugins.updates frequency-updates-notification 604800
+org.gnome.settings-daemon.plugins.updates priority 0
+org.gnome.settings-daemon.plugins.updates connection-use-mobile false
+org.gnome.settings-daemon.plugins.updates auto-download-updates true
+org.gnome.settings-daemon.plugins.updates frequency-refresh-cache 86400
+org.gnome.settings-daemon.plugins.updates update-battery false
+org.gnome.settings-daemon.plugins.updates ignored-devices ''
+org.gnome.settings-daemon.plugins.updates banned-firmware '*/intel-ucode/*'
+org.gnome.settings-daemon.plugins.updates media-repo-filenames 'media.repo,.discinfo'
+org.gnome.settings-daemon.plugins.updates enable-check-firmware true
+org.gnome.settings-daemon.plugins.updates active false
+org.gnome.settings-daemon.plugins.xrandr active true
+org.gnome.settings-daemon.plugins.xrandr priority 0
+org.gnome.settings-daemon.plugins.xrandr default-monitors-setup 'follow-lid'
+org.gnome.settings-daemon.plugins.xrandr default-configuration-file '/etc/gnome-settings-daemon/xrandr/monitors.xml'
+org.gnome.settings-daemon.plugins.sound active true
+org.gnome.settings-daemon.plugins.sound priority 0
+org.gnome.settings-daemon.plugins.cursor active true
+org.gnome.settings-daemon.plugins.cursor priority 0
+org.gnome.settings-daemon.plugins.print-notifications active false
+org.gnome.settings-daemon.plugins.print-notifications priority 0
+org.gnome.settings-daemon.plugins.datetime active true
+org.gnome.settings-daemon.plugins.datetime priority 0
+org.gnome.settings-daemon.plugins.a11y-settings active true
+org.gnome.settings-daemon.plugins.a11y-settings priority 0
+org.gnome.settings-daemon.plugins.housekeeping min-notify-period 10
+org.gnome.settings-daemon.plugins.housekeeping active true
+org.gnome.settings-daemon.plugins.housekeeping free-size-gb-no-notify 1
+org.gnome.settings-daemon.plugins.housekeeping ignore-paths @as []
+org.gnome.settings-daemon.plugins.housekeeping free-percent-notify 0.050000000000000003
+org.gnome.settings-daemon.plugins.housekeeping free-percent-notify-again 0.01
+org.gnome.settings-daemon.plugins.housekeeping priority 0
+org.gnome.settings-daemon.plugins.power button-power 'interactive'
+org.gnome.settings-daemon.plugins.power sleep-inactive-ac-timeout 0
+org.gnome.settings-daemon.plugins.power power-button-action 'suspend'
+org.gnome.settings-daemon.plugins.power critical-battery-action 'suspend'
+org.gnome.settings-daemon.plugins.power percentage-low 10
+org.gnome.settings-daemon.plugins.power priority 0
+org.gnome.settings-daemon.plugins.power lid-close-suspend-with-external-monitor false
+org.gnome.settings-daemon.plugins.power idle-dim true
+org.gnome.settings-daemon.plugins.power button-hibernate 'hibernate'
+org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'suspend'
+org.gnome.settings-daemon.plugins.power button-suspend 'suspend'
+org.gnome.settings-daemon.plugins.power button-sleep 'suspend'
+org.gnome.settings-daemon.plugins.power sleep-inactive-battery-timeout 0
+org.gnome.settings-daemon.plugins.power time-low 1200
+org.gnome.settings-daemon.plugins.power lid-close-ac-action 'suspend'
+org.gnome.settings-daemon.plugins.power notify-perhaps-recall true
+org.gnome.settings-daemon.plugins.power percentage-critical 3
+org.gnome.settings-daemon.plugins.power percentage-action 2
+org.gnome.settings-daemon.plugins.power sleep-inactive-battery-type 'suspend'
+org.gnome.settings-daemon.plugins.power time-action 120
+org.gnome.settings-daemon.plugins.power lid-close-battery-action 'suspend'
+org.gnome.settings-daemon.plugins.power idle-brightness 30
+org.gnome.settings-daemon.plugins.power ambient-enabled true
+org.gnome.settings-daemon.plugins.power time-critical 300
+org.gnome.settings-daemon.plugins.power active true
+org.gnome.settings-daemon.plugins.power use-time-for-policy true
+org.gnome.settings-daemon.plugins.screensaver-proxy active true
+org.gnome.settings-daemon.plugins.screensaver-proxy priority 0
+org.gnome.settings-daemon.plugins.background active false
+org.gnome.settings-daemon.plugins.background priority 97
+org.gnome.settings-daemon.plugins.sharing active true
+org.gnome.settings-daemon.plugins.sharing priority 0
+org.gnome.settings-daemon.plugins.color active true
+org.gnome.settings-daemon.plugins.color priority 0
+org.gnome.settings-daemon.plugins.color recalibrate-display-threshold uint32 0
+org.gnome.settings-daemon.plugins.color recalibrate-printer-threshold uint32 0
+org.gnome.settings-daemon.plugins.clipboard active true
+org.gnome.settings-daemon.plugins.clipboard priority 0
+org.x.player repeat false
+org.x.player shuffle false
+org.x.player audio-output-type 'stereo'
+org.x.player network-buffer-threshold 2.0
+org.x.player brightness 32767
+org.x.player auto-resize false
+org.x.player subtitle-encoding 'UTF-8'
+org.x.player saturation 32767
+org.x.player subtitle-font 'Sans Bold 20'
+org.x.player disable-user-plugins false
+org.x.player disable-keyboard-shortcuts false
+org.x.player debug false
+org.x.player show-visualizations false
+org.x.player contrast 32767
+org.x.player autoload-chapters true
+org.x.player disable-deinterlacing false
+org.x.player lock-screensaver-on-audio true
+org.x.player active-plugins ['skipto', 'chapters', 'screenshot', 'media_player_keys', 'screensaver', 'movie-properties']
+org.x.player autoload-subtitles false
+org.x.player remember-position false
+org.x.player open-uri ''
+org.x.player hue 32767
+org.x.player screenshot-save-uri ''
+org.x.player visualization-quality 'small'
+org.x.player visualization-name 'goom'
+org.x.pix.change-date time-adjustment 0
+org.x.pix.change-date set-comment-date false
+org.x.pix.change-date date ''
+org.x.pix.change-date set-last-modified-date false
+org.x.pix.change-date adjust-time false
+org.x.pix.change-date to-file-creation-date false
+org.x.pix.change-date to-following-date false
+org.x.pix.change-date to-file-modified-date false
+org.x.pix.change-date to-photo-original-date false
+org.gnome.gedit.state.file-filter filter-id 0
+org.gnome.gedit.state.history-entry search-for-entry ['']
+org.gnome.gedit.state.history-entry replace-with-entry ['']
+org.gnome.gedit.state.window size (900, 700)
+org.gnome.gedit.state.window state 128
+org.gnome.gedit.state.window bottom-panel-active-page ''
+org.gnome.gedit.state.window bottom-panel-size 140
+org.gnome.gedit.state.window side-panel-active-page 'GeditWindowDocumentsPanel'
+org.gnome.gedit.state.window side-panel-size 200
+org.gnome.gedit.preferences.ui bottom-panel-visible false
+org.gnome.gedit.preferences.ui max-recents uint32 5
+org.gnome.gedit.preferences.ui statusbar-visible true
+org.gnome.gedit.preferences.ui show-tabs-mode 'auto'
+org.gnome.gedit.preferences.ui side-panel-visible false
+org.gnome.gedit.preferences.ui toolbar-visible true
+org.gnome.gedit.plugins active-plugins ['docinfo', 'modelines', 'time', 'filebrowser', 'spell']
+org.gnome.settings-daemon.plugins.gsdwacom active true
+org.gnome.settings-daemon.plugins.gsdwacom priority 0
+org.gnome.FileRoller.Dialogs.New default-extension '.tar.gz'
+org.gnome.FileRoller.Dialogs.New other-options false
+org.gnome.FileRoller.Dialogs.New volume-size 0
+org.gnome.FileRoller.Dialogs.New encrypt-header false
+org.x.pix.facebook max-resolution 2048
+org.gnome.yelp show-cursor false
+org.gnome.yelp font-adjustment 0
+org.gnome.desktop.a11y.mouse dwell-time 1.2
+org.gnome.desktop.a11y.mouse secondary-click-time 1.2
+org.gnome.desktop.a11y.mouse click-type-window-visible true
+org.gnome.desktop.a11y.mouse secondary-click-enabled false
+org.gnome.desktop.a11y.mouse dwell-gesture-double 'up'
+org.gnome.desktop.a11y.mouse dwell-mode 'window'
+org.gnome.desktop.a11y.mouse dwell-gesture-single 'left'
+org.gnome.desktop.a11y.mouse dwell-click-enabled false
+org.gnome.desktop.a11y.mouse dwell-threshold 10
+org.gnome.desktop.a11y.mouse dwell-gesture-drag 'down'
+org.gnome.desktop.a11y.mouse dwell-gesture-secondary 'right'
+org.gnome.desktop.wm.preferences disable-workarounds false
+org.gnome.desktop.wm.preferences focus-new-windows 'smart'
+org.gnome.desktop.wm.preferences action-right-click-titlebar 'menu'
+org.gnome.desktop.wm.preferences mouse-button-modifier '<Alt>'
+org.gnome.desktop.wm.preferences action-middle-click-titlebar 'lower'
+org.gnome.desktop.wm.preferences titlebar-uses-system-font false
+org.gnome.desktop.wm.preferences theme 'Mint-X'
+org.gnome.desktop.wm.preferences num-workspaces 4
+org.gnome.desktop.wm.preferences raise-on-click true
+org.gnome.desktop.wm.preferences auto-raise false
+org.gnome.desktop.wm.preferences visual-bell false
+org.gnome.desktop.wm.preferences focus-mode 'click'
+org.gnome.desktop.wm.preferences action-double-click-titlebar 'toggle-maximize'
+org.gnome.desktop.wm.preferences auto-raise-delay 500
+org.gnome.desktop.wm.preferences button-layout 'menu:minimize,maximize,close'
+org.gnome.desktop.wm.preferences workspace-names @as []
+org.gnome.desktop.wm.preferences audible-bell true
+org.gnome.desktop.wm.preferences resize-with-right-button false
+org.gnome.desktop.wm.preferences titlebar-font 'Noto Sans Bold 10'
+org.gnome.desktop.wm.preferences visual-bell-type 'fullscreen-flash'
+org.gnome.online-accounts whitelisted-providers ['all']
+org.gnome.gedit.state.history-entry search-for-entry ['']
+org.gnome.gedit.state.history-entry replace-with-entry ['']
+org.gnome.settings-daemon.plugins.xsettings disabled-gtk-modules @as []
+org.gnome.settings-daemon.plugins.xsettings priority 0
+org.gnome.settings-daemon.plugins.xsettings hinting 'slight'
+org.gnome.settings-daemon.plugins.xsettings overrides @a{sv} {}
+org.gnome.settings-daemon.plugins.xsettings rgba-order 'rgb'
+org.gnome.settings-daemon.plugins.xsettings antialiasing 'rgba'
+org.gnome.settings-daemon.plugins.xsettings active true
+org.gnome.settings-daemon.plugins.xsettings enabled-gtk-modules @as []
+org.cinnamon.SessionManager auto-save-session false
+org.cinnamon.SessionManager quit-delay-toggle false
+org.cinnamon.SessionManager quit-time-delay 60
+org.cinnamon.SessionManager debug false
+org.cinnamon.SessionManager autostart-blacklist ['gnome-settings-daemon', 'gnome-fallback-mount-helper', 'gnome-screensaver', 'mate-screensaver', 'mate-keyring-daemon', 'indicator-session', 'gnome-initial-setup-copy-worker', 'gnome-initial-setup-first-login', 'gnome-welcome-tour', 'xscreensaver-autostart', 'nautilus-autostart', 'caja', 'xfce4-power-manager']
+org.cinnamon.SessionManager logout-prompt true
+org.cinnamon.SessionManager show-fallback-warning true
+org.gnome.FileRoller.Dialogs.LastOutput width -1
+org.gnome.FileRoller.Dialogs.LastOutput height -1
+org.gnome.libgnomekbd.keyboard layouts @as []
+org.gnome.libgnomekbd.keyboard model ''
+org.gnome.libgnomekbd.keyboard options @as []
+org.gnome.nautilus.window-state sidebar-width 188
+org.gnome.nautilus.window-state start-with-sidebar true
+org.gnome.nautilus.window-state geometry ''
+org.gnome.nautilus.window-state maximized false
+org.gnome.nautilus.window-state start-with-location-bar true
+org.x.pix.dialogs.save-file show-options true
+org.cinnamon.keyboard activation-mode 'on-demand'
+org.cinnamon.keyboard keyboard-type 'touch'
+org.gnome.gnome-screenshot delay 0
+org.gnome.gnome-screenshot border-effect 'none'
+org.gnome.gnome-screenshot include-pointer false
+org.gnome.gnome-screenshot auto-save-directory ''
+org.gnome.gnome-screenshot include-border true
+org.gnome.gnome-screenshot last-save-directory ''
+org.gnome.gnome-screenshot include-icc-profile true
+org.gnome.gnome-screenshot default-file-type 'png'
+org.gnome.gnome-screenshot take-window-shot false
+org.cinnamon.recorder pipeline ''
+org.cinnamon.recorder file-extension 'webm'
+org.cinnamon.recorder framerate 15
+org.x.pix.image-viewer transparency-type 'none'
+org.x.pix.image-viewer zoom-change 'fit-size-if-larger'
+org.x.pix.image-viewer check-type 'midtone'
+org.x.pix.image-viewer check-size 'medium'
+org.x.pix.image-viewer zoom-quality 'low'
+org.x.pix.image-viewer reset-scrollbars true
+org.gnome.seahorse server-auto-retrieve false
+org.gnome.seahorse last-search-text ''
+org.gnome.seahorse last-search-servers @as []
+org.gnome.seahorse server-auto-publish false
+org.gnome.seahorse server-publish-to ''
+com.linuxmint.desktop mate-window-manager 'marco-composite'
+com.linuxmint.desktop xfce-window-manager 'xfwm4-composite'
+org.gnome.settings-daemon.plugins.media-keys logout '<Control><Alt>Delete'
+org.gnome.settings-daemon.plugins.media-keys screenreader '<Alt><Super>s'
+org.gnome.settings-daemon.plugins.media-keys volume-mute 'XF86AudioMute'
+org.gnome.settings-daemon.plugins.media-keys volume-up 'XF86AudioRaiseVolume'
+org.gnome.settings-daemon.plugins.media-keys window-screenshot '<Alt>Print'
+org.gnome.settings-daemon.plugins.media-keys previous 'XF86AudioPrev'
+org.gnome.settings-daemon.plugins.media-keys control-center 'XF86Tools'
+org.gnome.settings-daemon.plugins.media-keys stop 'XF86AudioStop'
+org.gnome.settings-daemon.plugins.media-keys home 'XF86Explorer'
+org.gnome.settings-daemon.plugins.media-keys terminal '<Primary><Alt>t'
+org.gnome.settings-daemon.plugins.media-keys screenshot-clip '<Ctrl>Print'
+org.gnome.settings-daemon.plugins.media-keys magnifier '<Alt><Super>8'
+org.gnome.settings-daemon.plugins.media-keys help ''
+org.gnome.settings-daemon.plugins.media-keys search 'XF86Search'
+org.gnome.settings-daemon.plugins.media-keys custom-keybindings @as []
+org.gnome.settings-daemon.plugins.media-keys magnifier-zoom-in '<Alt><Super>equal'
+org.gnome.settings-daemon.plugins.media-keys calculator 'XF86Calculator'
+org.gnome.settings-daemon.plugins.media-keys video-out '<Super>p'
+org.gnome.settings-daemon.plugins.media-keys eject 'XF86Eject'
+org.gnome.settings-daemon.plugins.media-keys window-screenshot-clip '<Ctrl><Alt>Print'
+org.gnome.settings-daemon.plugins.media-keys area-screenshot-clip '<Ctrl><Shift>Print'
+org.gnome.settings-daemon.plugins.media-keys media 'XF86AudioMedia'
+org.gnome.settings-daemon.plugins.media-keys www 'XF86WWW'
+org.gnome.settings-daemon.plugins.media-keys play 'XF86AudioPlay'
+org.gnome.settings-daemon.plugins.media-keys email 'XF86Mail'
+org.gnome.settings-daemon.plugins.media-keys volume-down 'XF86AudioLowerVolume'
+org.gnome.settings-daemon.plugins.media-keys decrease-text-size ''
+org.gnome.settings-daemon.plugins.media-keys on-screen-keyboard ''
+org.gnome.settings-daemon.plugins.media-keys next 'XF86AudioNext'
+org.gnome.settings-daemon.plugins.media-keys screenshot 'Print'
+org.gnome.settings-daemon.plugins.media-keys increase-text-size ''
+org.gnome.settings-daemon.plugins.media-keys max-screencast-length uint32 30
+org.gnome.settings-daemon.plugins.media-keys magnifier-zoom-out '<Alt><Super>minus'
+org.gnome.settings-daemon.plugins.media-keys priority 0
+org.gnome.settings-daemon.plugins.media-keys screencast '<Ctrl><Shift><Alt>R'
+org.gnome.settings-daemon.plugins.media-keys screensaver '<Control><Alt>l'
+org.gnome.settings-daemon.plugins.media-keys toggle-contrast ''
+org.gnome.settings-daemon.plugins.media-keys pause 'XF86AudioPause'
+org.gnome.settings-daemon.plugins.media-keys active true
+org.gnome.settings-daemon.plugins.media-keys area-screenshot '<Shift>Print'
+org.gnome.settings-daemon.plugins.color active true
+org.gnome.settings-daemon.plugins.color priority 0
+org.gnome.settings-daemon.plugins.color recalibrate-display-threshold uint32 0
+org.gnome.settings-daemon.plugins.color recalibrate-printer-threshold uint32 0
+org.gnome.evolution-data-server migrated false
+org.gnome.baobab.preferences excluded-uris @as []
+org.gnome.FileRoller.Dialogs.Add recursive true
+org.gnome.FileRoller.Dialogs.Add selected-files @as []
+org.gnome.FileRoller.Dialogs.Add filename ''
+org.gnome.FileRoller.Dialogs.Add no-symlinks true
+org.gnome.FileRoller.Dialogs.Add include-files ''
+org.gnome.FileRoller.Dialogs.Add exclude-files ''
+org.gnome.FileRoller.Dialogs.Add exclude-folders ''
+org.gnome.FileRoller.Dialogs.Add current-folder ''
+org.gnome.FileRoller.Dialogs.Add update false
+org.gnome.settings-daemon.plugins.gdu-sd active true
+org.gnome.settings-daemon.plugins.gdu-sd priority 1
+org.cinnamon.desktop.privacy recent-files-max-age -1
+org.cinnamon.desktop.privacy remove-old-temp-files false
+org.cinnamon.desktop.privacy old-files-age uint32 30
+org.cinnamon.desktop.privacy remember-recent-files true
+org.cinnamon.desktop.privacy remove-old-trash-files false
+org.gnome.settings-daemon.plugins.xrandr active true
+org.gnome.settings-daemon.plugins.xrandr priority 0
+org.gnome.settings-daemon.plugins.xrandr default-monitors-setup 'follow-lid'
+org.gnome.settings-daemon.plugins.xrandr default-configuration-file '/etc/gnome-settings-daemon/xrandr/monitors.xml'
+org.cinnamon.desktop.keybindings magnifier-zoom-in ['<Alt><Super>equal']
+org.cinnamon.desktop.keybindings looking-glass-keybinding ['<Super>l']
+org.cinnamon.desktop.keybindings custom-list @as []
+org.cinnamon.desktop.keybindings magnifier-zoom-out ['<Alt><Super>minus']
+org.gnome.gnome-panel.lockdown disable-force-quit false
+org.gnome.gnome-panel.lockdown locked-down false
+org.gnome.gnome-panel.lockdown disabled-applets @as []
+org.gnome.baobab.ui active-chart 'rings'
+org.gnome.baobab.ui window-state 0
+org.gnome.baobab.ui window-size (960, 600)
+org.x.pix.slideshow transition 'fade-in'
+org.x.pix.slideshow random-order false
+org.x.pix.slideshow automatic true
+org.x.pix.slideshow wrap-around false
+org.x.pix.slideshow change-delay 5.0
+org.gnome.desktop.a11y.keyboard slowkeys-beep-press false
+org.gnome.desktop.a11y.keyboard mousekeys-accel-time 300
+org.gnome.desktop.a11y.keyboard bouncekeys-beep-reject false
+org.gnome.desktop.a11y.keyboard slowkeys-beep-reject false
+org.gnome.desktop.a11y.keyboard togglekeys-enable false
+org.gnome.desktop.a11y.keyboard disable-timeout 200
+org.gnome.desktop.a11y.keyboard enable false
+org.gnome.desktop.a11y.keyboard bouncekeys-enable false
+org.gnome.desktop.a11y.keyboard stickykeys-enable false
+org.gnome.desktop.a11y.keyboard feature-state-change-beep false
+org.gnome.desktop.a11y.keyboard slowkeys-beep-accept false
+org.gnome.desktop.a11y.keyboard bouncekeys-delay 300
+org.gnome.desktop.a11y.keyboard mousekeys-max-speed 10
+org.gnome.desktop.a11y.keyboard mousekeys-enable false
+org.gnome.desktop.a11y.keyboard timeout-enable false
+org.gnome.desktop.a11y.keyboard slowkeys-delay 300
+org.gnome.desktop.a11y.keyboard stickykeys-modifier-beep false
+org.gnome.desktop.a11y.keyboard stickykeys-two-key-off false
+org.gnome.desktop.a11y.keyboard mousekeys-init-delay 300
+org.gnome.desktop.a11y.keyboard slowkeys-enable false
+org.gnome.settings-daemon.plugins.orientation active true
+org.gnome.settings-daemon.plugins.orientation priority 0
+org.cinnamon.settings-daemon.peripherals.touchpad tap-to-click true
+org.cinnamon.settings-daemon.peripherals.touchpad natural-scroll true
+org.cinnamon.settings-daemon.peripherals.touchpad left-handed 'mouse'
+org.cinnamon.settings-daemon.peripherals.touchpad horizontal-edge-scrolling false
+org.cinnamon.settings-daemon.peripherals.touchpad motion-acceleration -1.0
+org.cinnamon.settings-daemon.peripherals.touchpad two-finger-click 3
+org.cinnamon.settings-daemon.peripherals.touchpad vertical-edge-scrolling true
+org.cinnamon.settings-daemon.peripherals.touchpad disable-while-typing true
+org.cinnamon.settings-daemon.peripherals.touchpad horizontal-two-finger-scrolling false
+org.cinnamon.settings-daemon.peripherals.touchpad vertical-two-finger-scrolling true
+org.cinnamon.settings-daemon.peripherals.touchpad three-finger-click 2
+org.cinnamon.settings-daemon.peripherals.touchpad motion-threshold -1
+org.cinnamon.settings-daemon.peripherals.touchpad touchpad-enabled true
+org.gnome.desktop.a11y always-show-universal-access-status false
+org.x.pix.file-manager copy-destination-history @as []
+org.x.pix.file-manager view-destination true
+org.x.pix.file-manager last-folder ''
+org.gnome.system.proxy.socks host ''
+org.gnome.system.proxy.socks port 0
+org.gnome.desktop.interface menus-have-icons false
+org.gnome.desktop.interface cursor-blink-timeout 10
+org.gnome.desktop.interface gtk-color-palette 'black:white:gray50:red:purple:blue:light blue:green:yellow:orange:lavender:brown:goldenrod4:dodger blue:pink:light green:gray10:gray30:gray75:gray90'
+org.gnome.desktop.interface gtk-timeout-repeat 20
+org.gnome.desktop.interface automatic-mnemonics true
+org.gnome.desktop.interface toolkit-accessibility false
+org.gnome.desktop.interface cursor-theme 'DMZ-White'
+org.gnome.desktop.interface show-input-method-menu true
+org.gnome.desktop.interface clock-show-seconds false
+org.gnome.desktop.interface can-change-accels false
+org.gnome.desktop.interface cursor-blink-time 1200
+org.gnome.desktop.interface toolbar-detachable false
+org.gnome.desktop.interface enable-animations true
+org.gnome.desktop.interface menubar-detachable false
+org.gnome.desktop.interface toolbar-style 'both-horiz'
+org.gnome.desktop.interface toolbar-icons-size 'large'
+org.gnome.desktop.interface gtk-im-module ''
+org.gnome.desktop.interface icon-theme 'Mint-X'
+org.gnome.desktop.interface gtk-timeout-initial 200
+org.gnome.desktop.interface scaling-factor uint32 0
+org.gnome.desktop.interface clock-format '24h'
+org.gnome.desktop.interface buttons-have-icons false
+org.gnome.desktop.interface monospace-font-name 'Monospace 10'
+org.gnome.desktop.interface text-scaling-factor 1.0
+org.gnome.desktop.interface menus-have-tearoff false
+org.gnome.desktop.interface gtk-im-preedit-style 'callback'
+org.gnome.desktop.interface show-unicode-menu true
+org.gnome.desktop.interface cursor-blink true
+org.gnome.desktop.interface gtk-theme 'Mint-X'
+org.gnome.desktop.interface gtk-key-theme 'Default'
+org.gnome.desktop.interface gtk-im-status-style 'callback'
+org.gnome.desktop.interface menubar-accel 'F10'
+org.gnome.desktop.interface cursor-size 24
+org.gnome.desktop.interface font-name 'Noto Sans 9'
+org.gnome.desktop.interface clock-show-date false
+org.gnome.desktop.interface document-font-name 'Noto Sans 10'
+org.gnome.desktop.interface gtk-color-scheme ''
+org.x.editor.plugins.spell autocheck-type 'document'
+org.x.viewer.plugins.pythonconsole command-color '#0000FF'
+org.x.viewer.plugins.pythonconsole use-system-font true
+org.x.viewer.plugins.pythonconsole error-color '#FF0000'
+org.x.viewer.plugins.pythonconsole font 'Monospace 10'
+org.x.viewer.view zoom-multiplier 0.050000000000000003
+org.x.viewer.view scroll-wheel-zoom true
+org.x.viewer.view trans-color '#000000'
+org.x.viewer.view interpolate true
+org.x.viewer.view use-background-color true
+org.x.viewer.view transparency 'checked'
+org.x.viewer.view extrapolate true
+org.x.viewer.view background-color '#000000'
+org.x.viewer.view autorotate true
+org.cinnamon.settings-daemon.plugins.xrandr active true
+org.cinnamon.settings-daemon.plugins.xrandr priority 2
+org.cinnamon.settings-daemon.plugins.xrandr default-monitors-setup 'follow-lid'
+org.cinnamon.settings-daemon.plugins.xrandr default-configuration-file '/etc/cinnamon-settings-daemon/xrandr/monitors.xml'
+org.cinnamon.desktop.keybindings.media-keys logout ['<Control><Alt>Delete']
+org.cinnamon.desktop.keybindings.media-keys kbd-brightness-toggle ['XF86KbdLightOnOff']
+org.cinnamon.desktop.keybindings.media-keys volume-down-quiet ['<Alt>XF86AudioLowerVolume']
+org.cinnamon.desktop.keybindings.media-keys screenreader ['']
+org.cinnamon.desktop.keybindings.media-keys volume-mute ['XF86AudioMute']
+org.cinnamon.desktop.keybindings.media-keys screen-brightness-up ['XF86MonBrightnessUp']
+org.cinnamon.desktop.keybindings.media-keys shutdown ['<Control><Alt>End', 'XF86PowerOff']
+org.cinnamon.desktop.keybindings.media-keys previous ['XF86AudioPrev']
+org.cinnamon.desktop.keybindings.media-keys stop ['XF86AudioStop']
+org.cinnamon.desktop.keybindings.media-keys volume-up ['XF86AudioRaiseVolume']
+org.cinnamon.desktop.keybindings.media-keys home ['<Super>e', 'XF86Explorer']
+org.cinnamon.desktop.keybindings.media-keys terminal ['<Primary><Alt>t']
+org.cinnamon.desktop.keybindings.media-keys audio-repeat ['XF86AudioRepeat']
+org.cinnamon.desktop.keybindings.media-keys screenshot-clip ['<Control>Print']
+org.cinnamon.desktop.keybindings.media-keys audio-random ['XF86AudioRandomPlay']
+org.cinnamon.desktop.keybindings.media-keys touchpad-on ['XF86TouchpadOn']
+org.cinnamon.desktop.keybindings.media-keys help ['']
+org.cinnamon.desktop.keybindings.media-keys audio-rewind ['XF86AudioRewind']
+org.cinnamon.desktop.keybindings.media-keys kbd-brightness-down ['XF86KbdBrightnessDown']
+org.cinnamon.desktop.keybindings.media-keys restart-cinnamon ['<Control><Alt>Escape']
+org.cinnamon.desktop.keybindings.media-keys kbd-brightness-up ['XF86KbdBrightnessUp']
+org.cinnamon.desktop.keybindings.media-keys calculator ['XF86Calculator']
+org.cinnamon.desktop.keybindings.media-keys eject ['XF86Eject']
+org.cinnamon.desktop.keybindings.media-keys video-outputs ['<Super>p', 'XF86Display']
+org.cinnamon.desktop.keybindings.media-keys area-screenshot-clip ['<Control><Shift>Print']
+org.cinnamon.desktop.keybindings.media-keys media ['XF86AudioMedia']
+org.cinnamon.desktop.keybindings.media-keys search ['XF86Search']
+org.cinnamon.desktop.keybindings.media-keys window-screenshot-clip ['<Control><Alt>Print']
+org.cinnamon.desktop.keybindings.media-keys play ['XF86AudioPlay']
+org.cinnamon.desktop.keybindings.media-keys email ['XF86Mail']
+org.cinnamon.desktop.keybindings.media-keys audio-forward ['XF86AudioForward']
+org.cinnamon.desktop.keybindings.media-keys volume-down ['XF86AudioLowerVolume']
+org.cinnamon.desktop.keybindings.media-keys decrease-text-size ['']
+org.cinnamon.desktop.keybindings.media-keys hibernate ['XF86Suspend', 'XF86Hibernate']
+org.cinnamon.desktop.keybindings.media-keys next ['XF86AudioNext']
+org.cinnamon.desktop.keybindings.media-keys screenshot ['Print']
+org.cinnamon.desktop.keybindings.media-keys battery ['XF86Battery']
+org.cinnamon.desktop.keybindings.media-keys touchpad-off ['XF86TouchpadOff']
+org.cinnamon.desktop.keybindings.media-keys increase-text-size ['']
+org.cinnamon.desktop.keybindings.media-keys mute-quiet ['XF86AudioMute']
+org.cinnamon.desktop.keybindings.media-keys screensaver ['<Control><Alt>l', 'XF86ScreenSaver']
+org.cinnamon.desktop.keybindings.media-keys touchpad-toggle ['XF86TouchpadToggle']
+org.cinnamon.desktop.keybindings.media-keys on-screen-keyboard ['']
+org.cinnamon.desktop.keybindings.media-keys video-rotation ['XF86RotateWindows']
+org.cinnamon.desktop.keybindings.media-keys toggle-contrast ['']
+org.cinnamon.desktop.keybindings.media-keys volume-up-quiet ['<Alt>XF86AudioRaiseVolume']
+org.cinnamon.desktop.keybindings.media-keys screen-brightness-down ['XF86MonBrightnessDown']
+org.cinnamon.desktop.keybindings.media-keys pause ['XF86AudioPause']
+org.cinnamon.desktop.keybindings.media-keys www ['XF86WWW']
+org.cinnamon.desktop.keybindings.media-keys suspend ['XF86Sleep']
+org.cinnamon.desktop.keybindings.media-keys mic-mute ['XF86AudioMicMute']
+org.cinnamon.desktop.keybindings.media-keys area-screenshot ['<Shift>Print']
+org.cinnamon.desktop.keybindings.media-keys window-screenshot ['<Alt>Print']
+org.x.pix.general active-extensions ['default']
+org.x.pix.general store-metadata-in-files true
+org.gnome.system.proxy use-same-proxy true
+org.gnome.system.proxy mode 'none'
+org.gnome.system.proxy autoconfig-url ''
+org.gnome.system.proxy ignore-hosts ['localhost', '127.0.0.0/8', '::1']
+org.gnome.system.proxy.ftp host ''
+org.gnome.system.proxy.ftp port 0
+org.gnome.system.proxy.socks host ''
+org.gnome.system.proxy.socks port 0
+org.gnome.system.proxy.http host ''
+org.gnome.system.proxy.http port 8080
+org.gnome.system.proxy.http use-authentication false
+org.gnome.system.proxy.http authentication-password ''
+org.gnome.system.proxy.http authentication-user ''
+org.gnome.system.proxy.http enabled false
+org.gnome.system.proxy.https host ''
+org.gnome.system.proxy.https port 0
+org.gnome.settings-daemon.plugins.housekeeping min-notify-period 10
+org.gnome.settings-daemon.plugins.housekeeping active true
+org.gnome.settings-daemon.plugins.housekeeping free-size-gb-no-notify 1
+org.gnome.settings-daemon.plugins.housekeeping ignore-paths @as []
+org.gnome.settings-daemon.plugins.housekeeping free-percent-notify 0.050000000000000003
+org.gnome.settings-daemon.plugins.housekeeping free-percent-notify-again 0.01
+org.gnome.settings-daemon.plugins.housekeeping priority 0
+org.gnome.gedit.preferences.encodings candidate-encodings ['']
+org.gnome.gedit.preferences.print print-syntax-highlighting true
+org.gnome.gedit.preferences.print margin-bottom 25.0
+org.gnome.gedit.preferences.print print-font-numbers-pango 'Sans 8'
+org.gnome.gedit.preferences.print print-header true
+org.gnome.gedit.preferences.print print-line-numbers uint32 0
+org.gnome.gedit.preferences.print print-wrap-mode 'word'
+org.gnome.gedit.preferences.print margin-top 15.0
+org.gnome.gedit.preferences.print print-font-body-pango 'Monospace 9'
+org.gnome.gedit.preferences.print margin-left 25.0
+org.gnome.gedit.preferences.print margin-right 25.0
+org.gnome.gedit.preferences.print print-font-header-pango 'Sans 11'
+org.gnome.gedit.preferences.editor wrap-mode 'word'
+org.gnome.gedit.preferences.editor display-right-margin false
+org.gnome.gedit.preferences.editor highlight-current-line false
+org.gnome.gedit.preferences.editor search-highlighting true
+org.gnome.gedit.preferences.editor display-overview-map false
+org.gnome.gedit.preferences.editor create-backup-copy false
+org.gnome.gedit.preferences.editor auto-save false
+org.gnome.gedit.preferences.editor restore-cursor-position true
+org.gnome.gedit.preferences.editor bracket-matching false
+org.gnome.gedit.preferences.editor scheme 'classic'
+org.gnome.gedit.preferences.editor display-line-numbers false
+org.gnome.gedit.preferences.editor editor-font 'Monospace 12'
+org.gnome.gedit.preferences.editor insert-spaces false
+org.gnome.gedit.preferences.editor right-margin-position uint32 80
+org.gnome.gedit.preferences.editor tabs-size uint32 8
+org.gnome.gedit.preferences.editor background-pattern 'none'
+org.gnome.gedit.preferences.editor use-default-font true
+org.gnome.gedit.preferences.editor ensure-trailing-newline true
+org.gnome.gedit.preferences.editor wrap-last-split-mode 'word'
+org.gnome.gedit.preferences.editor smart-home-end 'after'
+org.gnome.gedit.preferences.editor auto-indent false
+org.gnome.gedit.preferences.editor max-undo-actions 2000
+org.gnome.gedit.preferences.editor auto-save-interval uint32 10
+org.gnome.gedit.preferences.editor syntax-highlighting true
+org.gnome.gedit.preferences.ui bottom-panel-visible false
+org.gnome.gedit.preferences.ui max-recents uint32 5
+org.gnome.gedit.preferences.ui statusbar-visible true
+org.gnome.gedit.preferences.ui show-tabs-mode 'auto'
+org.gnome.gedit.preferences.ui side-panel-visible false
+org.gnome.gedit.preferences.ui toolbar-visible true
+org.gnome.metacity placement-mode 'smart'
+org.gnome.metacity compositing-manager true
+org.gnome.metacity theme 'Mint-X'
+org.gnome.metacity reduced-resources false
+org.gnome.metacity alt-tab-thumbnails false
+org.gnome.metacity edge-tiling true
+org.gnome.mousetweaks click-type-window-style 'both'
+org.gnome.mousetweaks click-type-window-geometry ''
+org.gnome.mousetweaks click-type-window-orientation 'vertical'
+org.gnome.settings-daemon.plugins.datetime active true
+org.gnome.settings-daemon.plugins.datetime priority 0
+org.gnome.desktop.a11y.applications screen-keyboard-enabled false
+org.gnome.desktop.a11y.applications screen-magnifier-enabled false
+org.gnome.desktop.a11y.applications screen-reader-enabled false
+org.gnome.settings-daemon.plugins.rfkill active true
+org.gnome.settings-daemon.plugins.rfkill priority 0
+org.gnome.desktop.lockdown disable-command-line false
+org.gnome.desktop.lockdown disable-application-handlers false
+org.gnome.desktop.lockdown disable-user-switching false
+org.gnome.desktop.lockdown user-administration-disabled false
+org.gnome.desktop.lockdown disable-printing false
+org.gnome.desktop.lockdown disable-log-out false
+org.gnome.desktop.lockdown disable-lock-screen false
+org.gnome.desktop.lockdown disable-print-setup false
+org.gnome.desktop.lockdown disable-save-to-disk false
+org.cinnamon.desktop.wm.preferences application-based false
+org.cinnamon.desktop.wm.preferences disable-workarounds false
+org.cinnamon.desktop.wm.preferences action-right-click-titlebar 'menu'
+org.cinnamon.desktop.wm.preferences mouse-button-modifier '<Alt>'
+org.cinnamon.desktop.wm.preferences focus-new-windows 'smart'
+org.cinnamon.desktop.wm.preferences workspace-names @as []
+org.cinnamon.desktop.wm.preferences action-middle-click-titlebar 'lower'
+org.cinnamon.desktop.wm.preferences titlebar-uses-system-font false
+org.cinnamon.desktop.wm.preferences theme 'Mint-X'
+org.cinnamon.desktop.wm.preferences num-workspaces 4
+org.cinnamon.desktop.wm.preferences action-scroll-titlebar 'none'
+org.cinnamon.desktop.wm.preferences raise-on-click true
+org.cinnamon.desktop.wm.preferences auto-raise false
+org.cinnamon.desktop.wm.preferences visual-bell false
+org.cinnamon.desktop.wm.preferences focus-mode 'click'
+org.cinnamon.desktop.wm.preferences action-double-click-titlebar 'toggle-maximize'
+org.cinnamon.desktop.wm.preferences min-window-opacity 30
+org.cinnamon.desktop.wm.preferences mouse-button-zoom-modifier '<Alt>'
+org.cinnamon.desktop.wm.preferences auto-raise-delay 500
+org.cinnamon.desktop.wm.preferences button-layout 'menu:minimize,maximize,close'
+org.cinnamon.desktop.wm.preferences visual-bell-type 'fullscreen-flash'
+org.cinnamon.desktop.wm.preferences audible-bell false
+org.cinnamon.desktop.wm.preferences bell-sound '/usr/share/cinnamon/sounds/bell.ogg'
+org.cinnamon.desktop.wm.preferences titlebar-font 'Noto Sans Bold 10'
+org.cinnamon.desktop.wm.preferences resize-with-right-button true
+org.x.editor.plugins.filebrowser filter-pattern ''
+org.x.editor.plugins.filebrowser filter-mode 'hidden_and_binary'
+org.x.editor.plugins.filebrowser open-at-first-doc true
+org.x.editor.plugins.filebrowser.on-load virtual-root 'file:///usr/local/cuda/bin'
+org.x.editor.plugins.filebrowser.on-load tree-view true
+org.x.editor.plugins.filebrowser.on-load enable-remote false
+org.x.editor.plugins.filebrowser.on-load root 'file:///'
+org.gnome.gedit.preferences.print print-syntax-highlighting true
+org.gnome.gedit.preferences.print margin-bottom 25.0
+org.gnome.gedit.preferences.print print-font-numbers-pango 'Sans 8'
+org.gnome.gedit.preferences.print print-header true
+org.gnome.gedit.preferences.print print-line-numbers uint32 0
+org.gnome.gedit.preferences.print print-wrap-mode 'word'
+org.gnome.gedit.preferences.print margin-top 15.0
+org.gnome.gedit.preferences.print print-font-body-pango 'Monospace 9'
+org.gnome.gedit.preferences.print margin-left 25.0
+org.gnome.gedit.preferences.print margin-right 25.0
+org.gnome.gedit.preferences.print print-font-header-pango 'Sans 11'
+org.nemo.sidebar-panels.tree show-only-directories true
+org.x.viewer.ui toolbar true
+org.x.viewer.ui external-editor ''
+org.x.viewer.ui image-gallery false
+org.x.viewer.ui sidebar true
+org.x.viewer.ui propsdialog-netbook-mode true
+org.x.viewer.ui statusbar true
+org.x.viewer.ui image-gallery-resizable false
+org.x.viewer.ui scroll-buttons true
+org.x.viewer.ui image-gallery-position 'bottom'
+org.x.viewer.ui disable-trash-confirmation false
+org.x.viewer.ui disable-close-confirmation false
+org.x.viewer.ui filechooser-xdg-fallback true
+org.gnome.metacity.keybindings toggle-tiled-right ['<Super>Right']
+org.gnome.metacity.keybindings toggle-tiled-left ['<Super>Left']
+org.x.pix.webalbums.directories html-images 'html'
+org.x.pix.webalbums.directories thumbnails 'thumbnails'
+org.x.pix.webalbums.directories images 'images'
+org.x.pix.webalbums.directories theme-files 'theme'
+org.x.pix.webalbums.directories html-indexes 'html'
+org.x.pix.webalbums.directories previews 'previews'
+org.gnome.settings-daemon.plugins.clipboard active true
+org.gnome.settings-daemon.plugins.clipboard priority 0
+org.gnome.libgnomekbd.preview width -1
+org.gnome.libgnomekbd.preview height -1
+org.gnome.libgnomekbd.preview x -1
+org.gnome.libgnomekbd.preview y -1
+com.linuxmint.updates show-type-column true
+com.linuxmint.updates show-configuration false
+com.linuxmint.updates show-size-column false
+com.linuxmint.updates level2-is-visible true
+com.linuxmint.updates window-height 626
+com.linuxmint.updates autorefresh-days 0
+com.linuxmint.updates kernel-updates-are-visible true
+com.linuxmint.updates security-updates-are-visible true
+com.linuxmint.updates show-package-column true
+com.linuxmint.updates hide-window-after-update false
+com.linuxmint.updates dist-upgrade true
+com.linuxmint.updates hide-kernel-update-warning false
+com.linuxmint.updates level3-is-visible true
+com.linuxmint.updates show-new-version-column true
+com.linuxmint.updates autorefresh-minutes 0
+com.linuxmint.updates default-repo-is-ok false
+com.linuxmint.updates level1-is-safe true
+com.linuxmint.updates security-updates-are-safe false
+com.linuxmint.updates refresh-minutes 10
+com.linuxmint.updates level2-is-safe true
+com.linuxmint.updates level3-is-safe true
+com.linuxmint.updates blacklisted-packages @as []
+com.linuxmint.updates level4-is-visible false
+com.linuxmint.updates level5-is-safe false
+com.linuxmint.updates autorefresh-hours 2
+com.linuxmint.updates refresh-days 0
+com.linuxmint.updates level4-is-safe false
+com.linuxmint.updates window-width 790
+com.linuxmint.updates window-pane-position 278
+com.linuxmint.updates show-old-version-column false
+com.linuxmint.updates kernel-updates-are-safe false
+com.linuxmint.updates hide-systray false
+com.linuxmint.updates level1-is-visible true
+com.linuxmint.updates show-level-column true
+com.linuxmint.updates level5-is-visible false
+com.linuxmint.updates show-descriptions true
+com.linuxmint.updates refresh-hours 0
+org.gnome.desktop.default-applications.office.calendar exec 'evolution -c calendar'
+org.gnome.desktop.default-applications.office.calendar needs-term false
+org.gnome.caribou keyboard-key 'space'
+org.gnome.caribou autorestart false
+org.gnome.caribou scan-grouping 1
+org.gnome.caribou inverse-scanning false
+org.gnome.caribou scan-enabled false
+org.gnome.caribou scan-cycles 1
+org.gnome.caribou switch-device 'keyboard'
+org.gnome.caribou mouse-button 2
+org.gnome.caribou step-time 1.0
+org.gnome.system.locale region ''
+org.gnome.Terminal.Legacy.Settings menu-accelerator-enabled true
+org.gnome.Terminal.Legacy.Settings tab-position 'top'
+org.gnome.Terminal.Legacy.Settings shell-integration-enabled true
+org.gnome.Terminal.Legacy.Settings confirm-close true
+org.gnome.Terminal.Legacy.Settings default-show-menubar true
+org.gnome.Terminal.Legacy.Settings mnemonics-enabled false
+org.gnome.Terminal.Legacy.Settings schema-version uint32 3
+org.gnome.Terminal.Legacy.Settings encodings ['UTF-8']
+org.gnome.Terminal.Legacy.Settings shortcuts-enabled true
+org.gnome.Terminal.Legacy.Settings tab-policy 'automatic'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-3 '<Alt>3'
+org.gnome.Terminal.Legacy.Keybindings new-profile 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-35 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-6 '<Alt>6'
+org.gnome.Terminal.Legacy.Keybindings reset 'disabled'
+org.gnome.Terminal.Legacy.Keybindings zoom-out '<Ctrl>minus'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-33 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-19 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-4 '<Alt>4'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-5 '<Alt>5'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-7 '<Alt>7'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-20 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-21 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-22 'disabled'
+org.gnome.Terminal.Legacy.Keybindings move-tab-left '<Ctrl><Shift>Page_Up'
+org.gnome.Terminal.Legacy.Keybindings find-clear '<Control><Shift>J'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-24 'disabled'
+org.gnome.Terminal.Legacy.Keybindings reset-and-clear 'disabled'
+org.gnome.Terminal.Legacy.Keybindings help 'F1'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-25 'disabled'
+org.gnome.Terminal.Legacy.Keybindings find '<Control><Shift>F'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-27 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-28 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-26 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-23 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-34 'disabled'
+org.gnome.Terminal.Legacy.Keybindings prev-tab '<Control>Page_Up'
+org.gnome.Terminal.Legacy.Keybindings new-window '<Ctrl><Shift>n'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-9 '<Alt>9'
+org.gnome.Terminal.Legacy.Keybindings copy '<Ctrl><Shift>c'
+org.gnome.Terminal.Legacy.Keybindings full-screen 'F11'
+org.gnome.Terminal.Legacy.Keybindings save-contents 'disabled'
+org.gnome.Terminal.Legacy.Keybindings zoom-normal '<Ctrl>0'
+org.gnome.Terminal.Legacy.Keybindings zoom-in '<Ctrl>plus'
+org.gnome.Terminal.Legacy.Keybindings move-tab-right '<Ctrl><Shift>Page_Down'
+org.gnome.Terminal.Legacy.Keybindings toggle-menubar 'disabled'
+org.gnome.Terminal.Legacy.Keybindings close-window '<Ctrl><Shift>q'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-1 '<Alt>1'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-10 '<Alt>0'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-11 'disabled'
+org.gnome.Terminal.Legacy.Keybindings new-tab '<Ctrl><Shift>t'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-13 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-12 'disabled'
+org.gnome.Terminal.Legacy.Keybindings paste '<Ctrl><Shift>v'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-17 'disabled'
+org.gnome.Terminal.Legacy.Keybindings detach-tab 'disabled'
+org.gnome.Terminal.Legacy.Keybindings close-tab '<Ctrl><Shift>w'
+org.gnome.Terminal.Legacy.Keybindings find-next '<Control><Shift>G'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-15 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-16 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-32 'disabled'
+org.gnome.Terminal.Legacy.Keybindings find-previous '<Control><Shift>H'
+org.gnome.Terminal.Legacy.Keybindings next-tab '<Control>Page_Down'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-2 '<Alt>2'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-29 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-18 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-14 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-30 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-31 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-8 '<Alt>8'
+org.gnome.brasero.config dao-flag false
+org.gnome.brasero.config plugins @as []
+org.gnome.brasero.config immed-flag false
+org.gnome.brasero.config raw-flag false
+org.gnome.brasero.config tmpdir ''
+org.gnome.brasero.config minbuf-value 0
+org.gnome.brasero.config checksum-image 0
+org.gnome.brasero.config checksum-files 0
+org.gnome.brasero.config engine-group ''
+org.gnome.system.proxy.ftp host ''
+org.gnome.system.proxy.ftp port 0
+org.gnome.desktop.screensaver picture-opacity 100
+org.gnome.desktop.screensaver logout-enabled false
+org.gnome.desktop.screensaver lock-enabled true
+org.gnome.desktop.screensaver logout-delay uint32 7200
+org.gnome.desktop.screensaver embedded-keyboard-enabled false
+org.gnome.desktop.screensaver primary-color '#023c88'
+org.gnome.desktop.screensaver idle-activation-enabled true
+org.gnome.desktop.screensaver secondary-color '#5789ca'
+org.gnome.desktop.screensaver logout-command ''
+org.gnome.desktop.screensaver color-shading-type 'solid'
+org.gnome.desktop.screensaver embedded-keyboard-command ''
+org.gnome.desktop.screensaver show-notifications false
+org.gnome.desktop.screensaver picture-options 'zoom'
+org.gnome.desktop.screensaver lock-delay uint32 0
+org.gnome.desktop.screensaver show-full-name-in-top-bar true
+org.gnome.desktop.screensaver picture-uri 'file:///usr/share/backgrounds/gnome/adwaita-lock.jpg'
+org.gnome.desktop.screensaver status-message-enabled true
+org.gnome.desktop.screensaver ubuntu-lock-on-suspend true
+org.gnome.desktop.screensaver user-switch-enabled true
+org.cinnamon.settings-daemon.plugins.cursor active true
+org.cinnamon.settings-daemon.plugins.cursor priority 99
+org.gnome.settings-daemon.plugins.updates frequency-get-updates 86400
+org.gnome.settings-daemon.plugins.updates frequency-get-upgrades 604800
+org.gnome.settings-daemon.plugins.updates last-updates-notification uint64 0
+org.gnome.settings-daemon.plugins.updates notify-distro-upgrades false
+org.gnome.settings-daemon.plugins.updates frequency-updates-notification 604800
+org.gnome.settings-daemon.plugins.updates priority 0
+org.gnome.settings-daemon.plugins.updates connection-use-mobile false
+org.gnome.settings-daemon.plugins.updates auto-download-updates true
+org.gnome.settings-daemon.plugins.updates frequency-refresh-cache 86400
+org.gnome.settings-daemon.plugins.updates update-battery false
+org.gnome.settings-daemon.plugins.updates ignored-devices ''
+org.gnome.settings-daemon.plugins.updates banned-firmware '*/intel-ucode/*'
+org.gnome.settings-daemon.plugins.updates media-repo-filenames 'media.repo,.discinfo'
+org.gnome.settings-daemon.plugins.updates enable-check-firmware true
+org.gnome.settings-daemon.plugins.updates active false
+org.gnome.desktop.wm.keybindings cycle-windows-backward ['<Shift><Alt>Escape']
+org.gnome.desktop.wm.keybindings minimize ['<Primary><Alt>KP_0']
+org.gnome.desktop.wm.keybindings move-to-workspace-7 @as []
+org.gnome.desktop.wm.keybindings move-to-workspace-8 @as []
+org.gnome.desktop.wm.keybindings move-to-workspace-9 @as []
+org.gnome.desktop.wm.keybindings move-to-monitor-left ['<Super><Shift>Left']
+org.gnome.desktop.wm.keybindings move-to-workspace-5 @as []
+org.gnome.desktop.wm.keybindings move-to-workspace-6 @as []
+org.gnome.desktop.wm.keybindings move-to-workspace-10 @as []
+org.gnome.desktop.wm.keybindings move-to-workspace-11 @as []
+org.gnome.desktop.wm.keybindings move-to-workspace-12 @as []
+org.gnome.desktop.wm.keybindings move-to-center @as []
+org.gnome.desktop.wm.keybindings unmaximize ['<Primary><Super>Down', '<Super>Down', '<Alt>F5']
+org.gnome.desktop.wm.keybindings panel-main-menu ['<Super>s', '<Alt>F1']
+org.gnome.desktop.wm.keybindings cycle-windows ['<Alt>Escape']
+org.gnome.desktop.wm.keybindings cycle-panels-backward ['<Shift><Control><Alt>Escape']
+org.gnome.desktop.wm.keybindings panel-run-dialog ['<Alt>F2']
+org.gnome.desktop.wm.keybindings switch-to-workspace-down ['<Control><Alt>Down']
+org.gnome.desktop.wm.keybindings move-to-corner-ne ['<Primary><Alt>KP_Prior']
+org.gnome.desktop.wm.keybindings move-to-side-e ['<Primary><Alt>KP_Right']
+org.gnome.desktop.wm.keybindings move-to-workspace-right ['<Control><Shift><Alt>Right']
+org.gnome.desktop.wm.keybindings always-on-top @as []
+org.gnome.desktop.wm.keybindings move-to-workspace-up ['<Shift><Control><Alt>Up']
+org.gnome.desktop.wm.keybindings raise @as []
+org.gnome.desktop.wm.keybindings maximize ['<Primary><Super>Up', '<Super>Up', '<Primary><Alt>KP_5']
+org.gnome.desktop.wm.keybindings cycle-group-backward ['<Shift><Alt>F6']
+org.gnome.desktop.wm.keybindings move-to-side-n ['<Primary><Alt>KP_Up']
+org.gnome.desktop.wm.keybindings move-to-side-s ['<Primary><Alt>KP_Down']
+org.gnome.desktop.wm.keybindings maximize-horizontally @as []
+org.gnome.desktop.wm.keybindings move-to-side-w ['<Primary><Alt>KP_Left']
+org.gnome.desktop.wm.keybindings move-to-corner-nw ['<Primary><Alt>KP_Home']
+org.gnome.desktop.wm.keybindings switch-windows @as []
+org.gnome.desktop.wm.keybindings begin-move ['<Alt>F7']
+org.gnome.desktop.wm.keybindings move-to-monitor-down ['<Super><Shift>Down']
+org.gnome.desktop.wm.keybindings switch-windows-backward @as []
+org.gnome.desktop.wm.keybindings move-to-workspace-left ['<Control><Shift><Alt>Left']
+org.gnome.desktop.wm.keybindings move-to-corner-se ['<Primary><Alt>KP_Next']
+org.gnome.desktop.wm.keybindings activate-window-menu ['<Alt>space']
+org.gnome.desktop.wm.keybindings switch-input-source ['<Super>space']
+org.gnome.desktop.wm.keybindings toggle-above @as []
+org.gnome.desktop.wm.keybindings move-to-monitor-right ['<Super><Shift>Right']
+org.gnome.desktop.wm.keybindings switch-input-source-backward ['<Shift><Super>space']
+org.gnome.desktop.wm.keybindings move-to-workspace-last ['<Super><Shift>End']
+org.gnome.desktop.wm.keybindings lower @as []
+org.gnome.desktop.wm.keybindings cycle-panels ['<Control><Alt>Escape']
+org.gnome.desktop.wm.keybindings toggle-fullscreen @as []
+org.gnome.desktop.wm.keybindings toggle-on-all-workspaces @as []
+org.gnome.desktop.wm.keybindings move-to-monitor-up ['<Super><Shift>Up']
+org.gnome.desktop.wm.keybindings move-to-corner-sw ['<Primary><Alt>KP_End']
+org.gnome.desktop.wm.keybindings toggle-shaded ['<Primary><Alt>s']
+org.gnome.desktop.wm.keybindings switch-to-workspace-1 ['<Super>Home']
+org.gnome.desktop.wm.keybindings switch-to-workspace-2 @as []
+org.gnome.desktop.wm.keybindings switch-to-workspace-3 @as []
+org.gnome.desktop.wm.keybindings switch-to-workspace-4 @as []
+org.gnome.desktop.wm.keybindings raise-or-lower @as []
+org.gnome.desktop.wm.keybindings switch-panels ['<Control><Alt>Tab']
+org.gnome.desktop.wm.keybindings switch-panels-backward ['<Shift><Control><Alt>Tab']
+org.gnome.desktop.wm.keybindings switch-applications-backward ['<Shift><Super>Tab', '<Shift><Alt>Tab']
+org.gnome.desktop.wm.keybindings maximize-vertically @as []
+org.gnome.desktop.wm.keybindings switch-to-workspace-7 @as []
+org.gnome.desktop.wm.keybindings switch-to-workspace-5 @as []
+org.gnome.desktop.wm.keybindings show-desktop ['<Primary><Super>d', '<Primary><Alt>d', '<Super>d']
+org.gnome.desktop.wm.keybindings switch-to-workspace-8 @as []
+org.gnome.desktop.wm.keybindings switch-to-workspace-9 @as []
+org.gnome.desktop.wm.keybindings switch-to-workspace-6 @as []
+org.gnome.desktop.wm.keybindings switch-applications ['<Super>Tab', '<Alt>Tab']
+org.gnome.desktop.wm.keybindings switch-to-workspace-10 @as []
+org.gnome.desktop.wm.keybindings switch-to-workspace-11 @as []
+org.gnome.desktop.wm.keybindings switch-to-workspace-12 @as []
+org.gnome.desktop.wm.keybindings switch-to-workspace-left ['<Control><Alt>Left']
+org.gnome.desktop.wm.keybindings toggle-maximized ['<Primary><Alt>KP_5']
+org.gnome.desktop.wm.keybindings set-spew-mark @as []
+org.gnome.desktop.wm.keybindings begin-resize ['<Alt>F8']
+org.gnome.desktop.wm.keybindings move-to-workspace-down ['<Shift><Control><Alt>Down']
+org.gnome.desktop.wm.keybindings switch-to-workspace-last ['<Super>End']
+org.gnome.desktop.wm.keybindings switch-group-backward ['<Shift><Super>Above_Tab', '<Shift><Alt>Above_Tab']
+org.gnome.desktop.wm.keybindings switch-group ['<Super>Above_Tab', '<Alt>Above_Tab']
+org.gnome.desktop.wm.keybindings cycle-group ['<Alt>F6']
+org.gnome.desktop.wm.keybindings close ['<Alt>F4']
+org.gnome.desktop.wm.keybindings switch-to-workspace-up ['<Control><Alt>Up']
+org.gnome.desktop.wm.keybindings move-to-workspace-1 ['<Super><Shift>Home']
+org.gnome.desktop.wm.keybindings move-to-workspace-2 @as []
+org.gnome.desktop.wm.keybindings move-to-workspace-3 @as []
+org.gnome.desktop.wm.keybindings move-to-workspace-4 @as []
+org.gnome.desktop.wm.keybindings switch-to-workspace-right ['<Control><Alt>Right']
+org.cinnamon.settings-daemon.plugins.orientation active true
+org.cinnamon.settings-daemon.plugins.orientation priority 1
+org.cinnamon.settings-daemon.peripherals.keyboard remember-numlock-state true
+org.cinnamon.settings-daemon.peripherals.keyboard input-sources-switcher 'off'
+org.cinnamon.settings-daemon.peripherals.keyboard delay uint32 500
+org.cinnamon.settings-daemon.peripherals.keyboard bell-pitch 400
+org.cinnamon.settings-daemon.peripherals.keyboard repeat true
+org.cinnamon.settings-daemon.peripherals.keyboard click-volume 0
+org.cinnamon.settings-daemon.peripherals.keyboard numlock-state 'on'
+org.cinnamon.settings-daemon.peripherals.keyboard bell-duration 100
+org.cinnamon.settings-daemon.peripherals.keyboard bell-mode 'on'
+org.cinnamon.settings-daemon.peripherals.keyboard bell-custom-file ''
+org.cinnamon.settings-daemon.peripherals.keyboard click true
+org.cinnamon.settings-daemon.peripherals.keyboard repeat-interval uint32 30
+org.x.pix.dialogs.messages confirm-deletion true
+org.x.pix.dialogs.messages cannot-move-to-trash true
+org.x.pix.dialogs.messages save-modified-image true
+org.gnome.gedit.preferences.encodings candidate-encodings ['']
+org.gnome.gedit.preferences.print print-syntax-highlighting true
+org.gnome.gedit.preferences.print margin-bottom 25.0
+org.gnome.gedit.preferences.print print-font-numbers-pango 'Sans 8'
+org.gnome.gedit.preferences.print print-header true
+org.gnome.gedit.preferences.print print-line-numbers uint32 0
+org.gnome.gedit.preferences.print print-wrap-mode 'word'
+org.gnome.gedit.preferences.print margin-top 15.0
+org.gnome.gedit.preferences.print print-font-body-pango 'Monospace 9'
+org.gnome.gedit.preferences.print margin-left 25.0
+org.gnome.gedit.preferences.print margin-right 25.0
+org.gnome.gedit.preferences.print print-font-header-pango 'Sans 11'
+org.gnome.gedit.preferences.editor wrap-mode 'word'
+org.gnome.gedit.preferences.editor display-right-margin false
+org.gnome.gedit.preferences.editor highlight-current-line false
+org.gnome.gedit.preferences.editor search-highlighting true
+org.gnome.gedit.preferences.editor display-overview-map false
+org.gnome.gedit.preferences.editor create-backup-copy false
+org.gnome.gedit.preferences.editor auto-save false
+org.gnome.gedit.preferences.editor restore-cursor-position true
+org.gnome.gedit.preferences.editor bracket-matching false
+org.gnome.gedit.preferences.editor scheme 'classic'
+org.gnome.gedit.preferences.editor display-line-numbers false
+org.gnome.gedit.preferences.editor editor-font 'Monospace 12'
+org.gnome.gedit.preferences.editor insert-spaces false
+org.gnome.gedit.preferences.editor right-margin-position uint32 80
+org.gnome.gedit.preferences.editor tabs-size uint32 8
+org.gnome.gedit.preferences.editor background-pattern 'none'
+org.gnome.gedit.preferences.editor use-default-font true
+org.gnome.gedit.preferences.editor ensure-trailing-newline true
+org.gnome.gedit.preferences.editor wrap-last-split-mode 'word'
+org.gnome.gedit.preferences.editor smart-home-end 'after'
+org.gnome.gedit.preferences.editor auto-indent false
+org.gnome.gedit.preferences.editor max-undo-actions 2000
+org.gnome.gedit.preferences.editor auto-save-interval uint32 10
+org.gnome.gedit.preferences.editor syntax-highlighting true
+org.gnome.gedit.preferences.ui bottom-panel-visible false
+org.gnome.gedit.preferences.ui max-recents uint32 5
+org.gnome.gedit.preferences.ui statusbar-visible true
+org.gnome.gedit.preferences.ui show-tabs-mode 'auto'
+org.gnome.gedit.preferences.ui side-panel-visible false
+org.gnome.gedit.preferences.ui toolbar-visible true
+org.gnome.gedit.plugins active-plugins ['docinfo', 'modelines', 'time', 'filebrowser', 'spell']
+org.gnome.gedit.state.file-filter filter-id 0
+org.gnome.gedit.state.history-entry search-for-entry ['']
+org.gnome.gedit.state.history-entry replace-with-entry ['']
+org.gnome.gedit.state.window size (900, 700)
+org.gnome.gedit.state.window state 128
+org.gnome.gedit.state.window bottom-panel-active-page ''
+org.gnome.gedit.state.window bottom-panel-size 140
+org.gnome.gedit.state.window side-panel-active-page 'GeditWindowDocumentsPanel'
+org.gnome.gedit.state.window side-panel-size 200
+org.gnome.Disks image-dir-uri ''
+org.cinnamon.settings-daemon.peripherals.smartcard removal-action 'none'
+org.gnome.gedit.preferences.encodings candidate-encodings ['']
+org.freedesktop.folks primary-store ''
+org.nemo.desktop text-ellipsis-limit 3
+org.nemo.desktop show-desktop-icons true
+org.nemo.desktop background-fade true
+org.nemo.desktop computer-icon-visible true
+org.nemo.desktop desktop-layout 'true::false'
+org.nemo.desktop home-icon-visible true
+org.nemo.desktop trash-icon-visible false
+org.nemo.desktop network-icon-visible false
+org.nemo.desktop show-orphaned-desktop-icons true
+org.nemo.desktop font 'Noto Sans 10'
+org.nemo.desktop volumes-visible true
+org.nemo.list-view default-visible-columns ['name', 'size', 'type', 'date_modified']
+org.nemo.list-view default-zoom-level 'smaller'
+org.nemo.list-view search-visible-columns ['name', 'size', 'type', 'where']
+org.nemo.list-view default-column-order ['name', 'size', 'type', 'date_modified']
+org.cinnamon.sounds logout-enabled true
+org.cinnamon.sounds map-file '/usr/share/mint-artwork-cinnamon/sounds/map.oga'
+org.cinnamon.sounds unplug-file '/usr/share/mint-artwork-cinnamon/sounds/unplug.oga'
+org.cinnamon.sounds map-enabled false
+org.cinnamon.sounds maximize-enabled false
+org.cinnamon.sounds login-enabled true
+org.cinnamon.sounds switch-enabled true
+org.cinnamon.sounds logout-file '/usr/share/mint-artwork-cinnamon/sounds/logout.ogg'
+org.cinnamon.sounds tile-enabled true
+org.cinnamon.sounds login-file '/usr/share/mint-artwork-cinnamon/sounds/login.oga'
+org.cinnamon.sounds minimize-enabled false
+org.cinnamon.sounds plug-file '/usr/share/mint-artwork-cinnamon/sounds/plug.oga'
+org.cinnamon.sounds close-file '/usr/share/mint-artwork-cinnamon/sounds/close.oga'
+org.cinnamon.sounds maximize-file '/usr/share/mint-artwork-cinnamon/sounds/maximize.oga'
+org.cinnamon.sounds switch-file '/usr/share/mint-artwork-cinnamon/sounds/switch.oga'
+org.cinnamon.sounds tile-file '/usr/share/mint-artwork-cinnamon/sounds/tile.oga'
+org.cinnamon.sounds unplug-enabled true
+org.cinnamon.sounds close-enabled false
+org.cinnamon.sounds plug-enabled true
+org.cinnamon.sounds minimize-file '/usr/share/mint-artwork-cinnamon/sounds/minimize.oga'
+org.cinnamon.sounds unmaximize-file '/usr/share/mint-artwork-cinnamon/sounds/unmaximize.oga'
+org.cinnamon.sounds unmaximize-enabled false
+org.gnome.FileRoller.Listing show-time true
+org.gnome.FileRoller.Listing sort-type 'ascending'
+org.gnome.FileRoller.Listing sort-method 'name'
+org.gnome.FileRoller.Listing list-mode 'as-folder'
+org.gnome.FileRoller.Listing show-type true
+org.gnome.FileRoller.Listing name-column-width 250
+org.gnome.FileRoller.Listing show-path false
+org.gnome.FileRoller.Listing show-size true
+org.gnome.gnome-system-monitor net-out-color '#EE1D00'
+org.gnome.gnome-system-monitor smooth-refresh true
+org.gnome.gnome-system-monitor show-dependencies false
+org.gnome.gnome-system-monitor current-tab 'processes'
+org.gnome.gnome-system-monitor swap-color '#49A835'
+org.gnome.gnome-system-monitor kill-dialog true
+org.gnome.gnome-system-monitor network-in-bits false
+org.gnome.gnome-system-monitor show-whose-processes 'user'
+org.gnome.gnome-system-monitor window-state (700, 500, 50, 50)
+org.gnome.gnome-system-monitor net-in-color '#2D7DB3'
+org.gnome.gnome-system-monitor graph-update-interval 1000
+org.gnome.gnome-system-monitor update-interval 3000
+org.gnome.gnome-system-monitor maximized false
+org.gnome.gnome-system-monitor mem-color '#AB1852'
+org.gnome.gnome-system-monitor disks-interval 5000
+org.gnome.gnome-system-monitor cpu-stacked-area-chart false
+org.gnome.gnome-system-monitor show-all-fs false
+org.gnome.gnome-system-monitor cpu-colors [(uint32 0, '#FF6E00'), (1, '#CB0C29'), (2, '#49A835'), (3, '#2D7DB3')]
+org.gnome.gnome-system-monitor solaris-mode true
+org.gnome.gnome-system-monitor.proctree col-14-width 48
+org.gnome.gnome-system-monitor.proctree col-20-width 59
+org.gnome.gnome-system-monitor.proctree sort-order 0
+org.gnome.gnome-system-monitor.proctree col-15-width 80
+org.gnome.gnome-system-monitor.proctree col-21-width 59
+org.gnome.gnome-system-monitor.proctree col-22-width 100
+org.gnome.gnome-system-monitor.proctree col-16-width 48
+org.gnome.gnome-system-monitor.proctree col-0-width 225
+org.gnome.gnome-system-monitor.proctree col-17-width 48
+org.gnome.gnome-system-monitor.proctree col-18-width 70
+org.gnome.gnome-system-monitor.proctree col-1-width 98
+org.gnome.gnome-system-monitor.proctree sort-col 0
+org.gnome.gnome-system-monitor.proctree col-0-visible true
+org.gnome.gnome-system-monitor.proctree col-1-visible true
+org.gnome.gnome-system-monitor.proctree col-2-width 37
+org.gnome.gnome-system-monitor.proctree columns-order [0]
+org.gnome.gnome-system-monitor.proctree col-19-width 41
+org.gnome.gnome-system-monitor.proctree col-2-visible false
+org.gnome.gnome-system-monitor.proctree col-3-visible false
+org.gnome.gnome-system-monitor.proctree col-4-width 53
+org.gnome.gnome-system-monitor.proctree col-5-visible false
+org.gnome.gnome-system-monitor.proctree col-3-width 50
+org.gnome.gnome-system-monitor.proctree col-6-visible false
+org.gnome.gnome-system-monitor.proctree col-7-visible false
+org.gnome.gnome-system-monitor.proctree col-8-visible true
+org.gnome.gnome-system-monitor.proctree col-4-visible false
+org.gnome.gnome-system-monitor.proctree col-21-visible false
+org.gnome.gnome-system-monitor.proctree col-20-visible false
+org.gnome.gnome-system-monitor.proctree col-10-visible false
+org.gnome.gnome-system-monitor.proctree col-6-width 50
+org.gnome.gnome-system-monitor.proctree col-22-visible true
+org.gnome.gnome-system-monitor.proctree col-14-visible false
+org.gnome.gnome-system-monitor.proctree col-13-visible false
+org.gnome.gnome-system-monitor.proctree col-11-visible false
+org.gnome.gnome-system-monitor.proctree col-7-width 80
+org.gnome.gnome-system-monitor.proctree col-16-visible false
+org.gnome.gnome-system-monitor.proctree col-15-visible true
+org.gnome.gnome-system-monitor.proctree col-10-width 50
+org.gnome.gnome-system-monitor.proctree col-8-width 71
+org.gnome.gnome-system-monitor.proctree col-18-visible false
+org.gnome.gnome-system-monitor.proctree col-17-visible false
+org.gnome.gnome-system-monitor.proctree col-11-width 48
+org.gnome.gnome-system-monitor.proctree col-12-visible true
+org.gnome.gnome-system-monitor.proctree col-19-visible false
+org.gnome.gnome-system-monitor.proctree col-12-width 60
+org.gnome.gnome-system-monitor.proctree col-5-width 80
+org.gnome.gnome-system-monitor.proctree col-9-width 50
+org.gnome.gnome-system-monitor.proctree col-9-visible false
+org.gnome.gnome-system-monitor.proctree col-13-width 48
+org.gnome.gnome-system-monitor.memmapstree sort-order 0
+org.gnome.gnome-system-monitor.memmapstree sort-col 0
+org.gnome.gnome-system-monitor.openfilestree sort-order 0
+org.gnome.gnome-system-monitor.openfilestree sort-col 0
+org.gnome.gnome-system-monitor.disktreenew sort-col 1
+org.gnome.gnome-system-monitor.disktreenew columns-order [0]
+org.gnome.gnome-system-monitor.disktreenew col-2-visible true
+org.gnome.gnome-system-monitor.disktreenew col-0-visible true
+org.gnome.gnome-system-monitor.disktreenew col-0-width 100
+org.gnome.gnome-system-monitor.disktreenew col-3-visible true
+org.gnome.gnome-system-monitor.disktreenew col-3-width 80
+org.gnome.gnome-system-monitor.disktreenew col-1-visible true
+org.gnome.gnome-system-monitor.disktreenew col-1-width 100
+org.gnome.gnome-system-monitor.disktreenew col-4-visible false
+org.gnome.gnome-system-monitor.disktreenew col-2-width 50
+org.gnome.gnome-system-monitor.disktreenew col-4-width 80
+org.gnome.gnome-system-monitor.disktreenew col-5-width 80
+org.gnome.gnome-system-monitor.disktreenew col-5-visible true
+org.gnome.gnome-system-monitor.disktreenew col-6-visible true
+org.gnome.gnome-system-monitor.disktreenew col-6-width 300
+org.gnome.gnome-system-monitor.disktreenew sort-order 0
+com.linuxmint.terminal show-fortunes false
+org.cinnamon.settings-daemon.plugins.keyboard active true
+org.cinnamon.settings-daemon.plugins.keyboard priority 6
+org.gnome.SessionManager auto-save-session false
+org.gnome.SessionManager auto-save-session-one-shot false
+org.gnome.SessionManager logout-prompt true
+org.gnome.SessionManager show-fallback-warning true
+org.gnome.gedit.state.window size (900, 700)
+org.gnome.gedit.state.window state 128
+org.gnome.gedit.state.window bottom-panel-active-page ''
+org.gnome.gedit.state.window bottom-panel-size 140
+org.gnome.gedit.state.window side-panel-active-page 'GeditWindowDocumentsPanel'
+org.gnome.gedit.state.window side-panel-size 200
+org.gnome.system.proxy.http host ''
+org.gnome.system.proxy.http port 8080
+org.gnome.system.proxy.http use-authentication false
+org.gnome.system.proxy.http authentication-password ''
+org.gnome.system.proxy.http authentication-user ''
+org.gnome.system.proxy.http enabled false
+org.x.pix.contact-sheet.image-wall single-page false
+org.x.pix.contact-sheet.image-wall sort-type 'general::unsorted'
+org.x.pix.contact-sheet.image-wall images-per-page 25
+org.x.pix.contact-sheet.image-wall sort-inverse false
+org.x.pix.contact-sheet.image-wall mime-type 'image/jpeg'
+org.x.pix.contact-sheet.image-wall thumbnail-size 128
+org.x.pix.contact-sheet.image-wall columns 5
+org.x.pix.contact-sheet.image-wall destination ''
+org.x.pix.contact-sheet.image-wall template '###'
+org.cinnamon.desktop.lockdown disable-command-line false
+org.cinnamon.desktop.lockdown disable-application-handlers false
+org.cinnamon.desktop.lockdown disable-user-switching false
+org.cinnamon.desktop.lockdown disable-printing false
+org.cinnamon.desktop.lockdown disable-log-out false
+org.cinnamon.desktop.lockdown disable-lock-screen false
+org.cinnamon.desktop.lockdown disable-print-setup false
+org.cinnamon.desktop.lockdown disable-save-to-disk false
+org.cinnamon.desktop.session session-manager-uses-logind true
+org.cinnamon.desktop.session session-name 'cinnamon'
+org.cinnamon.desktop.session settings-daemon-uses-logind true
+org.cinnamon.desktop.session idle-delay uint32 600
+org.cinnamon.desktop.session screensaver-uses-logind true
+org.gnome.gnome-panel.general confirm-panel-removal true
+org.gnome.gnome-panel.general panel-menu-bar '16px'
+org.gnome.gnome-panel.general enable-tooltips true
+org.gnome.gnome-panel.general panel-menu '24px'
+org.cinnamon.settings-daemon.plugins.color active true
+org.cinnamon.settings-daemon.plugins.color priority 1
+org.cinnamon.settings-daemon.plugins.color recalibrate-display-threshold uint32 0
+org.cinnamon.settings-daemon.plugins.color recalibrate-printer-threshold uint32 0
+org.gnome.desktop.background picture-opacity 100
+org.gnome.desktop.background secondary-color '#000000'
+org.gnome.desktop.background show-desktop-icons true
+org.gnome.desktop.background primary-color '#000000'
+org.gnome.desktop.background color-shading-type 'solid'
+org.gnome.desktop.background picture-options 'zoom'
+org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/linuxmint/default_background.jpg'
+org.gnome.desktop.background draw-background true
+org.x.pix.contact-sheet.contact-sheet html-image-map false
+org.x.pix.contact-sheet.contact-sheet same-size true
+org.x.pix.contact-sheet.contact-sheet single-page false
+org.x.pix.contact-sheet.contact-sheet sort-type 'general::unsorted'
+org.x.pix.contact-sheet.contact-sheet squared-thumbnail false
+org.x.pix.contact-sheet.contact-sheet theme 'default.cst'
+org.x.pix.contact-sheet.contact-sheet images-per-page 25
+org.x.pix.contact-sheet.contact-sheet sort-inverse false
+org.x.pix.contact-sheet.contact-sheet mime-type 'image/jpeg'
+org.x.pix.contact-sheet.contact-sheet thumbnail-size 128
+org.x.pix.contact-sheet.contact-sheet columns 5
+org.x.pix.contact-sheet.contact-sheet destination ''
+org.x.pix.contact-sheet.contact-sheet template '###'
+org.x.pix.contact-sheet.contact-sheet footer ''
+org.x.pix.contact-sheet.contact-sheet header ''
+org.x.pix.contact-sheet.contact-sheet thumbnail-caption 'general::datetime,general::dimensions,gth::file::display-size'
+org.x.pix.contact-sheet.image-wall single-page false
+org.x.pix.contact-sheet.image-wall sort-type 'general::unsorted'
+org.x.pix.contact-sheet.image-wall images-per-page 25
+org.x.pix.contact-sheet.image-wall sort-inverse false
+org.x.pix.contact-sheet.image-wall mime-type 'image/jpeg'
+org.x.pix.contact-sheet.image-wall thumbnail-size 128
+org.x.pix.contact-sheet.image-wall columns 5
+org.x.pix.contact-sheet.image-wall destination ''
+org.x.pix.contact-sheet.image-wall template '###'
+org.x.player.plugins.pythonconsole rpdb2-password ''
+org.gnome.gnome-panel.general confirm-panel-removal true
+org.gnome.gnome-panel.general panel-menu-bar '16px'
+org.gnome.gnome-panel.general enable-tooltips true
+org.gnome.gnome-panel.general panel-menu '24px'
+org.gnome.gnome-panel.lockdown disable-force-quit false
+org.gnome.gnome-panel.lockdown locked-down false
+org.gnome.gnome-panel.lockdown disabled-applets @as []
+org.gnome.gnome-panel.layout object-id-list @as []
+org.gnome.gnome-panel.layout toplevel-id-list @as []
+org.gnome.gnome-panel.run-dialog show-program-list false
+org.gnome.gnome-panel.run-dialog enable-autocompletion true
+org.gnome.gnome-panel.run-dialog enable-program-list true
+org.gnome.gnome-panel.run-dialog history @as []
+org.gnome.baobab.preferences excluded-uris @as []
+org.gnome.baobab.ui active-chart 'rings'
+org.gnome.baobab.ui window-state 0
+org.gnome.baobab.ui window-size (960, 600)
+org.cinnamon.settings-daemon.peripherals.input-devices hotplug-command ''
+org.gnome.brasero nautilus-extension-debug false
+org.gnome.brasero.filter broken-sym true
+org.gnome.brasero.filter hidden true
+org.gnome.brasero.filter replace-sym true
+org.gnome.brasero.config dao-flag false
+org.gnome.brasero.config plugins @as []
+org.gnome.brasero.config immed-flag false
+org.gnome.brasero.config raw-flag false
+org.gnome.brasero.config tmpdir ''
+org.gnome.brasero.config minbuf-value 0
+org.gnome.brasero.config checksum-image 0
+org.gnome.brasero.config checksum-files 0
+org.gnome.brasero.config engine-group ''
+org.gnome.brasero.display iso-folder ''
+org.gnome.brasero.display viewer true
+org.gnome.settings-daemon.peripherals.smartcard removal-action 'none'
+org.gnome.settings-daemon.peripherals.input-devices hotplug-command ''
+org.gnome.settings-daemon.peripherals.touchscreen orientation-lock false
+org.gnome.settings-daemon.peripherals.keyboard remember-numlock-state true
+org.gnome.settings-daemon.peripherals.keyboard bell-pitch 400
+org.gnome.settings-daemon.peripherals.keyboard click-volume 0
+org.gnome.settings-daemon.peripherals.keyboard numlock-state 'unknown'
+org.gnome.settings-daemon.peripherals.keyboard bell-duration 100
+org.gnome.settings-daemon.peripherals.keyboard bell-mode 'on'
+org.gnome.settings-daemon.peripherals.keyboard bell-custom-file ''
+org.gnome.settings-daemon.peripherals.keyboard click true
+org.gnome.settings-daemon.peripherals.mouse drag-threshold 8
+org.gnome.settings-daemon.peripherals.mouse double-click 400
+org.gnome.settings-daemon.peripherals.mouse locate-pointer false
+org.gnome.desktop.peripherals.touchpad natural-scroll false
+org.gnome.desktop.peripherals.touchpad click-method 'default'
+org.gnome.desktop.peripherals.touchpad scroll-method 'two-finger-scrolling'
+org.gnome.desktop.peripherals.touchpad left-handed 'mouse'
+org.gnome.desktop.peripherals.touchpad send-events 'enabled'
+org.gnome.desktop.peripherals.touchpad tap-to-click true
+org.gnome.desktop.peripherals.touchpad speed 0.0
+org.gnome.desktop.peripherals.tablet display ['', '', '']
+org.gnome.desktop.peripherals.touchscreen display ['', '', '']
+org.gnome.desktop.peripherals.trackball scroll-wheel-emulation-button 0
+org.gnome.desktop.peripherals.keyboard repeat-interval uint32 30
+org.gnome.desktop.peripherals.keyboard delay uint32 500
+org.gnome.desktop.peripherals.keyboard repeat true
+org.gnome.desktop.peripherals.mouse natural-scroll false
+org.gnome.desktop.peripherals.mouse speed 0.0
+org.gnome.desktop.peripherals.mouse left-handed false
+org.cinnamon.settings-daemon.plugins.clipboard active true
+org.cinnamon.settings-daemon.plugins.clipboard priority 99
+org.cinnamon.settings-daemon.plugins.keyboard active true
+org.cinnamon.settings-daemon.plugins.keyboard priority 6
+org.cinnamon.settings-daemon.plugins.orientation active true
+org.cinnamon.settings-daemon.plugins.orientation priority 1
+org.cinnamon.settings-daemon.plugins.mouse active true
+org.cinnamon.settings-daemon.plugins.mouse priority 7
+org.cinnamon.settings-daemon.plugins.xsettings menus-have-icons true
+org.cinnamon.settings-daemon.plugins.xsettings disabled-gtk-modules @as []
+org.cinnamon.settings-daemon.plugins.xsettings priority 2
+org.cinnamon.settings-daemon.plugins.xsettings hinting 'slight'
+org.cinnamon.settings-daemon.plugins.xsettings show-input-method-menu true
+org.cinnamon.settings-daemon.plugins.xsettings buttons-have-icons false
+org.cinnamon.settings-daemon.plugins.xsettings overrides @a{sv} {}
+org.cinnamon.settings-daemon.plugins.xsettings rgba-order 'rgb'
+org.cinnamon.settings-daemon.plugins.xsettings automatic-mnemonics true
+org.cinnamon.settings-daemon.plugins.xsettings antialiasing 'rgba'
+org.cinnamon.settings-daemon.plugins.xsettings show-unicode-menu true
+org.cinnamon.settings-daemon.plugins.xsettings active true
+org.cinnamon.settings-daemon.plugins.xsettings enabled-gtk-modules @as []
+org.cinnamon.settings-daemon.plugins.screensaver-proxy active true
+org.cinnamon.settings-daemon.plugins.screensaver-proxy priority 8
+org.cinnamon.settings-daemon.plugins.media-keys logout ''
+org.cinnamon.settings-daemon.plugins.media-keys shutdown ''
+org.cinnamon.settings-daemon.plugins.media-keys screenreader ''
+org.cinnamon.settings-daemon.plugins.media-keys volume-mute ''
+org.cinnamon.settings-daemon.plugins.media-keys volume-up ''
+org.cinnamon.settings-daemon.plugins.media-keys previous ''
+org.cinnamon.settings-daemon.plugins.media-keys stop ''
+org.cinnamon.settings-daemon.plugins.media-keys window-screenshot ''
+org.cinnamon.settings-daemon.plugins.media-keys home ''
+org.cinnamon.settings-daemon.plugins.media-keys terminal ''
+org.cinnamon.settings-daemon.plugins.media-keys screenshot-clip ''
+org.cinnamon.settings-daemon.plugins.media-keys magnifier ''
+org.cinnamon.settings-daemon.plugins.media-keys help ''
+org.cinnamon.settings-daemon.plugins.media-keys search ''
+org.cinnamon.settings-daemon.plugins.media-keys window-screenshot-clip ''
+org.cinnamon.settings-daemon.plugins.media-keys magnifier-zoom-in ''
+org.cinnamon.settings-daemon.plugins.media-keys calculator ''
+org.cinnamon.settings-daemon.plugins.media-keys eject ''
+org.cinnamon.settings-daemon.plugins.media-keys area-screenshot-clip ''
+org.cinnamon.settings-daemon.plugins.media-keys media ''
+org.cinnamon.settings-daemon.plugins.media-keys www ''
+org.cinnamon.settings-daemon.plugins.media-keys play ''
+org.cinnamon.settings-daemon.plugins.media-keys email ''
+org.cinnamon.settings-daemon.plugins.media-keys volume-down ''
+org.cinnamon.settings-daemon.plugins.media-keys decrease-text-size ''
+org.cinnamon.settings-daemon.plugins.media-keys on-screen-keyboard ''
+org.cinnamon.settings-daemon.plugins.media-keys next ''
+org.cinnamon.settings-daemon.plugins.media-keys screenshot ''
+org.cinnamon.settings-daemon.plugins.media-keys increase-text-size ''
+org.cinnamon.settings-daemon.plugins.media-keys magnifier-zoom-out ''
+org.cinnamon.settings-daemon.plugins.media-keys priority 98
+org.cinnamon.settings-daemon.plugins.media-keys screensaver ''
+org.cinnamon.settings-daemon.plugins.media-keys toggle-contrast ''
+org.cinnamon.settings-daemon.plugins.media-keys pause ''
+org.cinnamon.settings-daemon.plugins.media-keys active true
+org.cinnamon.settings-daemon.plugins.media-keys area-screenshot ''
+org.cinnamon.settings-daemon.plugins.a11y-keyboard active true
+org.cinnamon.settings-daemon.plugins.a11y-keyboard priority 7
+org.cinnamon.settings-daemon.plugins.smartcard active true
+org.cinnamon.settings-daemon.plugins.smartcard priority 8
+org.cinnamon.settings-daemon.plugins.xrandr active true
+org.cinnamon.settings-daemon.plugins.xrandr priority 2
+org.cinnamon.settings-daemon.plugins.xrandr default-monitors-setup 'follow-lid'
+org.cinnamon.settings-daemon.plugins.xrandr default-configuration-file '/etc/cinnamon-settings-daemon/xrandr/monitors.xml'
+org.cinnamon.settings-daemon.plugins.sound active true
+org.cinnamon.settings-daemon.plugins.sound priority 5
+org.cinnamon.settings-daemon.plugins.cursor active true
+org.cinnamon.settings-daemon.plugins.cursor priority 99
+org.cinnamon.settings-daemon.plugins.print-notifications active true
+org.cinnamon.settings-daemon.plugins.print-notifications priority 99
+org.cinnamon.settings-daemon.plugins.a11y-settings active true
+org.cinnamon.settings-daemon.plugins.a11y-settings priority 7
+org.cinnamon.settings-daemon.plugins.font active true
+org.cinnamon.settings-daemon.plugins.font priority 4
+org.cinnamon.settings-daemon.plugins.power button-power 'interactive'
+org.cinnamon.settings-daemon.plugins.power sleep-display-battery 600
+org.cinnamon.settings-daemon.plugins.power use-time-for-policy true
+org.cinnamon.settings-daemon.plugins.power critical-battery-action 'hibernate'
+org.cinnamon.settings-daemon.plugins.power percentage-low 10
+org.cinnamon.settings-daemon.plugins.power priority 1
+org.cinnamon.settings-daemon.plugins.power idle-dim-time 90
+org.cinnamon.settings-daemon.plugins.power backlight-helper-force false
+org.cinnamon.settings-daemon.plugins.power lid-close-suspend-with-external-monitor false
+org.cinnamon.settings-daemon.plugins.power button-hibernate 'hibernate'
+org.cinnamon.settings-daemon.plugins.power sleep-inactive-ac-timeout 0
+org.cinnamon.settings-daemon.plugins.power sleep-inactive-ac-type 'suspend'
+org.cinnamon.settings-daemon.plugins.power button-suspend 'suspend'
+org.cinnamon.settings-daemon.plugins.power sleep-inactive-battery-timeout 0
+org.cinnamon.settings-daemon.plugins.power time-low 1200
+org.cinnamon.settings-daemon.plugins.power lid-close-ac-action 'suspend'
+org.cinnamon.settings-daemon.plugins.power lock-on-suspend true
+org.cinnamon.settings-daemon.plugins.power idle-dim-ac false
+org.cinnamon.settings-daemon.plugins.power percentage-action 2
+org.cinnamon.settings-daemon.plugins.power sleep-inactive-battery-type 'suspend'
+org.cinnamon.settings-daemon.plugins.power percentage-critical 3
+org.cinnamon.settings-daemon.plugins.power time-action 120
+org.cinnamon.settings-daemon.plugins.power time-critical 300
+org.cinnamon.settings-daemon.plugins.power idle-dim-battery true
+org.cinnamon.settings-daemon.plugins.power idle-brightness 30
+org.cinnamon.settings-daemon.plugins.power backlight-helper-preference-order ['firmware', 'platform', 'raw']
+org.cinnamon.settings-daemon.plugins.power lid-close-battery-action 'suspend'
+org.cinnamon.settings-daemon.plugins.power active true
+org.cinnamon.settings-daemon.plugins.power sleep-display-ac 600
+org.cinnamon.settings-daemon.plugins.housekeeping min-notify-period 10
+org.cinnamon.settings-daemon.plugins.housekeeping active true
+org.cinnamon.settings-daemon.plugins.housekeeping free-size-gb-no-notify 1
+org.cinnamon.settings-daemon.plugins.housekeeping ignore-paths @as []
+org.cinnamon.settings-daemon.plugins.housekeeping free-percent-notify 0.050000000000000003
+org.cinnamon.settings-daemon.plugins.housekeeping free-percent-notify-again 0.01
+org.cinnamon.settings-daemon.plugins.housekeeping priority 300
+org.cinnamon.settings-daemon.plugins.background active true
+org.cinnamon.settings-daemon.plugins.background priority 97
+org.cinnamon.settings-daemon.plugins.automount active true
+org.cinnamon.settings-daemon.plugins.automount priority 97
+org.cinnamon.settings-daemon.plugins.color active true
+org.cinnamon.settings-daemon.plugins.color priority 1
+org.cinnamon.settings-daemon.plugins.color recalibrate-display-threshold uint32 0
+org.cinnamon.settings-daemon.plugins.color recalibrate-printer-threshold uint32 0
+org.cinnamon.desktop.default-applications.office.calendar exec 'evolution -c calendar'
+org.cinnamon.desktop.default-applications.office.calendar needs-term false
+org.gnome.gedit.plugins.time selected-format '%c'
+org.gnome.gedit.plugins.time prompt-type 'prompt-selected-format'
+org.gnome.gedit.plugins.time custom-format '%d/%m/%Y %H:%M:%S'
+org.gnome.desktop.notifications application-children @as []
+org.gnome.desktop.notifications show-in-lock-screen true
+org.gnome.desktop.notifications show-banners true
+org.gnome.gedit.plugins.filebrowser.nautilus confirm-trash true
+org.gnome.gedit.plugins.filebrowser.nautilus click-policy 'double'
+org.cinnamon.settings-daemon.plugins.a11y-keyboard active true
+org.cinnamon.settings-daemon.plugins.a11y-keyboard priority 7
+org.gnome.Charmap last-char uint32 65
+org.gnome.Charmap group-by 'script'
+org.gnome.Charmap snap-cols-pow2 false
+org.gnome.Charmap font @ms nothing
+org.gnome.gnome-panel.layout object-id-list @as []
+org.gnome.gnome-panel.layout toplevel-id-list @as []
+org.x.viewer.plugins active-plugins ['fullscreen']
+org.x.viewer.view zoom-multiplier 0.050000000000000003
+org.x.viewer.view scroll-wheel-zoom true
+org.x.viewer.view trans-color '#000000'
+org.x.viewer.view interpolate true
+org.x.viewer.view use-background-color true
+org.x.viewer.view transparency 'checked'
+org.x.viewer.view extrapolate true
+org.x.viewer.view background-color '#000000'
+org.x.viewer.view autorotate true
+org.x.viewer.fullscreen seconds 5
+org.x.viewer.fullscreen loop true
+org.x.viewer.fullscreen upscale true
+org.x.viewer.ui toolbar true
+org.x.viewer.ui external-editor ''
+org.x.viewer.ui image-gallery false
+org.x.viewer.ui sidebar true
+org.x.viewer.ui propsdialog-netbook-mode true
+org.x.viewer.ui statusbar true
+org.x.viewer.ui image-gallery-resizable false
+org.x.viewer.ui scroll-buttons true
+org.x.viewer.ui image-gallery-position 'bottom'
+org.x.viewer.ui disable-trash-confirmation false
+org.x.viewer.ui disable-close-confirmation false
+org.x.viewer.ui filechooser-xdg-fallback true
+org.gnome.FileRoller.General compression-level 'normal'
+org.gnome.FileRoller.General editors @as []
+org.gnome.FileRoller.General encrypt-header false
+org.gnome.FileRoller.FileSelector show-hidden false
+org.gnome.FileRoller.FileSelector sidebar-size -1
+org.gnome.FileRoller.FileSelector window-size (-1, -1)
+org.gnome.FileRoller.Listing show-time true
+org.gnome.FileRoller.Listing sort-type 'ascending'
+org.gnome.FileRoller.Listing sort-method 'name'
+org.gnome.FileRoller.Listing list-mode 'as-folder'
+org.gnome.FileRoller.Listing show-type true
+org.gnome.FileRoller.Listing name-column-width 250
+org.gnome.FileRoller.Listing show-path false
+org.gnome.FileRoller.Listing show-size true
+org.gnome.FileRoller.Dialogs.Add recursive true
+org.gnome.FileRoller.Dialogs.Add selected-files @as []
+org.gnome.FileRoller.Dialogs.Add filename ''
+org.gnome.FileRoller.Dialogs.Add no-symlinks true
+org.gnome.FileRoller.Dialogs.Add include-files ''
+org.gnome.FileRoller.Dialogs.Add exclude-files ''
+org.gnome.FileRoller.Dialogs.Add exclude-folders ''
+org.gnome.FileRoller.Dialogs.Add current-folder ''
+org.gnome.FileRoller.Dialogs.Add update false
+org.gnome.FileRoller.Dialogs.LastOutput width -1
+org.gnome.FileRoller.Dialogs.LastOutput height -1
+org.gnome.FileRoller.Dialogs.New default-extension '.tar.gz'
+org.gnome.FileRoller.Dialogs.New other-options false
+org.gnome.FileRoller.Dialogs.New volume-size 0
+org.gnome.FileRoller.Dialogs.New encrypt-header false
+org.gnome.FileRoller.Dialogs.Extract skip-newer false
+org.gnome.FileRoller.Dialogs.Extract recreate-folders true
+org.gnome.FileRoller.UI sidebar-width 200
+org.gnome.FileRoller.UI view-sidebar false
+org.gnome.FileRoller.UI window-height 480
+org.gnome.FileRoller.UI window-width 600
+org.cinnamon.settings-daemon.plugins.print-notifications active true
+org.cinnamon.settings-daemon.plugins.print-notifications priority 99
+com.ubuntu.geoip geoip-url 'http://geoip.ubuntu.com/lookup'
+org.x.viewer.plugins.exif-display channels-histogram false
+org.x.viewer.plugins.exif-display exif-in-statusbar false
+org.x.viewer.plugins.exif-display rgb-histogram false
+org.x.reader override-restrictions true
+org.x.reader.Default window-ratio (0.0, 0.0)
+org.x.reader.Default continuous true
+org.x.reader.Default fullscreen false
+org.x.reader.Default show-toolbar true
+org.x.reader.Default show-sidebar true
+org.x.reader.Default inverted-colors false
+org.x.reader.Default zoom 1.0
+org.x.reader.Default sidebar-page 'links'
+org.x.reader.Default sidebar-size 132
+org.x.reader.Default dual-page false
+org.x.reader.Default sizing-mode 'fit-width'
+org.cinnamon.settings-daemon.plugins.smartcard active true
+org.cinnamon.settings-daemon.plugins.smartcard priority 8
+org.gnome.gedit.plugins.filebrowser binary-patterns ['*.la', '*.lo']
+org.gnome.gedit.plugins.filebrowser filter-mode ['hide-hidden', 'hide-binary']
+org.gnome.gedit.plugins.filebrowser filter-pattern ''
+org.gnome.gedit.plugins.filebrowser tree-view true
+org.gnome.gedit.plugins.filebrowser open-at-first-doc true
+org.gnome.gedit.plugins.filebrowser virtual-root 'file:///home/sven/scripts'
+org.gnome.gedit.plugins.filebrowser enable-remote false
+org.gnome.gedit.plugins.filebrowser root 'file:///'
+org.x.pix.pixbuf-savers.png compression-level 6
+org.gnome.desktop.peripherals.mouse natural-scroll false
+org.gnome.desktop.peripherals.mouse speed 0.0
+org.gnome.desktop.peripherals.mouse left-handed false
+org.gnome.crypto.pgp keyservers ['hkp://keyserver.ubuntu.com:11371', 'hkp://pool.sks-keyservers.net', 'ldap://keyserver.pgp.com']
+org.gnome.crypto.pgp last-signer ''
+org.gnome.crypto.pgp default-key ''
+org.gnome.crypto.pgp ascii-armor true
+org.gnome.crypto.pgp encrypt-to-self true
+org.gnome.crypto.pgp sort-recipients-by 'name'
+org.gnome.FileRoller.General compression-level 'normal'
+org.gnome.FileRoller.General editors @as []
+org.gnome.FileRoller.General encrypt-header false
+org.x.pix.dialogs.messages confirm-deletion true
+org.x.pix.dialogs.messages cannot-move-to-trash true
+org.x.pix.dialogs.messages save-modified-image true
+org.x.pix.dialogs.add-to-catalog view false
+org.x.pix.dialogs.save-file show-options true
+org.gnome.GWeather distance-unit 'default'
+org.gnome.GWeather default-location ('', 'KNYC', @m(dd) nothing)
+org.gnome.GWeather temperature-unit 'default'
+org.gnome.GWeather radar ''
+org.gnome.GWeather speed-unit 'default'
+org.gnome.GWeather pressure-unit 'default'
+org.cinnamon.desktop.thumbnail-cache maximum-age 180
+org.cinnamon.desktop.thumbnail-cache maximum-size 512
+org.gnome.settings-daemon.plugins.screensaver-proxy active true
+org.gnome.settings-daemon.plugins.screensaver-proxy priority 0
+org.gnome.desktop.default-applications.office.tasks exec 'evolution -c tasks'
+org.gnome.desktop.default-applications.office.tasks needs-term false
+org.x.pix.flickr resize-width -1
+org.x.pix.flickr resize-height -1
+org.cinnamon.desktop.media-handling automount-open true
+org.cinnamon.desktop.media-handling automount true
+org.cinnamon.desktop.media-handling autorun-x-content-start-app ['x-content/unix-software']
+org.cinnamon.desktop.media-handling autorun-never false
+org.cinnamon.desktop.media-handling autorun-x-content-ignore @as []
+org.cinnamon.desktop.media-handling autorun-x-content-open-folder @as []
+org.gnome.desktop.app-folders folder-children @as []
+org.gnome.gedit.preferences.editor wrap-mode 'word'
+org.gnome.gedit.preferences.editor display-right-margin false
+org.gnome.gedit.preferences.editor highlight-current-line false
+org.gnome.gedit.preferences.editor search-highlighting true
+org.gnome.gedit.preferences.editor display-overview-map false
+org.gnome.gedit.preferences.editor create-backup-copy false
+org.gnome.gedit.preferences.editor auto-save false
+org.gnome.gedit.preferences.editor restore-cursor-position true
+org.gnome.gedit.preferences.editor bracket-matching false
+org.gnome.gedit.preferences.editor scheme 'classic'
+org.gnome.gedit.preferences.editor display-line-numbers false
+org.gnome.gedit.preferences.editor editor-font 'Monospace 12'
+org.gnome.gedit.preferences.editor insert-spaces false
+org.gnome.gedit.preferences.editor right-margin-position uint32 80
+org.gnome.gedit.preferences.editor tabs-size uint32 8
+org.gnome.gedit.preferences.editor background-pattern 'none'
+org.gnome.gedit.preferences.editor use-default-font true
+org.gnome.gedit.preferences.editor ensure-trailing-newline true
+org.gnome.gedit.preferences.editor wrap-last-split-mode 'word'
+org.gnome.gedit.preferences.editor smart-home-end 'after'
+org.gnome.gedit.preferences.editor auto-indent false
+org.gnome.gedit.preferences.editor max-undo-actions 2000
+org.gnome.gedit.preferences.editor auto-save-interval uint32 10
+org.gnome.gedit.preferences.editor syntax-highlighting true
+org.gnome.settings-daemon.peripherals.smartcard removal-action 'none'
+org.gnome.gnome-system-monitor.openfilestree sort-order 0
+org.gnome.gnome-system-monitor.openfilestree sort-col 0
+org.cinnamon.settings-daemon.plugins.xsettings menus-have-icons true
+org.cinnamon.settings-daemon.plugins.xsettings disabled-gtk-modules @as []
+org.cinnamon.settings-daemon.plugins.xsettings priority 2
+org.cinnamon.settings-daemon.plugins.xsettings hinting 'slight'
+org.cinnamon.settings-daemon.plugins.xsettings show-input-method-menu true
+org.cinnamon.settings-daemon.plugins.xsettings buttons-have-icons false
+org.cinnamon.settings-daemon.plugins.xsettings overrides @a{sv} {}
+org.cinnamon.settings-daemon.plugins.xsettings rgba-order 'rgb'
+org.cinnamon.settings-daemon.plugins.xsettings automatic-mnemonics true
+org.cinnamon.settings-daemon.plugins.xsettings antialiasing 'rgba'
+org.cinnamon.settings-daemon.plugins.xsettings show-unicode-menu true
+org.cinnamon.settings-daemon.plugins.xsettings active true
+org.cinnamon.settings-daemon.plugins.xsettings enabled-gtk-modules @as []
+org.gnome.nautilus.list-view default-visible-columns ['name', 'size', 'type', 'date_modified']
+org.gnome.nautilus.list-view default-zoom-level 'small'
+org.gnome.nautilus.list-view use-tree-view false
+org.gnome.nautilus.list-view default-column-order ['name', 'size', 'type', 'date_modified']
+org.gnome.SimpleScan jpeg-quality 75
+org.gnome.SimpleScan text-dpi 150
+org.gnome.SimpleScan paper-width 0
+org.gnome.SimpleScan brightness 0
+org.gnome.SimpleScan paper-height 0
+org.gnome.SimpleScan selected-device ''
+org.gnome.SimpleScan save-directory ''
+org.gnome.SimpleScan photo-dpi 300
+org.gnome.SimpleScan page-side 'both'
+org.gnome.SimpleScan contrast 0
+org.gnome.SimpleScan document-type 'photo'
+org.x.pix.rename-series start-at 1
+org.x.pix.rename-series sort-by 'general::unsorted'
+org.x.pix.rename-series template '####%E'
+org.x.pix.rename-series change-case 'none'
+org.x.pix.rename-series reverse-order false
+org.cinnamon.desktop.notifications timeout 1800
+org.cinnamon.desktop.notifications fade-opacity 40
+org.cinnamon.desktop.notifications display-notifications true
+org.cinnamon.desktop.notifications fade-on-mouseover true
+org.cinnamon.desktop.notifications remove-old false
+org.x.pix.crop bind-dimensions false
+org.x.pix.crop aspect-ratio-height 1
+org.x.pix.crop aspect-ratio-invert false
+org.x.pix.crop aspect-ratio 'none'
+org.x.pix.crop bind-factor 8
+org.x.pix.crop aspect-ratio-width 1
+org.x.pix.crop grid-type 'thirds'
+org.gnome.nautilus.icon-view captions ['none', 'size', 'date_modified']
+org.gnome.nautilus.icon-view thumbnail-size 64
+org.gnome.nautilus.icon-view default-zoom-level 'standard'
+org.gnome.nautilus.icon-view text-ellipsis-limit ['3']
+org.nemo.compact-view default-zoom-level 'standard'
+org.nemo.compact-view all-columns-have-same-width false
+org.x.pix.convert-format mime-type 'image/jpeg'
+org.cinnamon.desktop.interface menus-have-icons true
+org.cinnamon.desktop.interface cursor-blink-timeout 10
+org.cinnamon.desktop.interface gtk-color-palette 'black:white:gray50:red:purple:blue:light blue:green:yellow:orange:lavender:brown:goldenrod4:dodger blue:pink:light green:gray10:gray30:gray75:gray90'
+org.cinnamon.desktop.interface gtk-timeout-repeat 20
+org.cinnamon.desktop.interface automatic-mnemonics true
+org.cinnamon.desktop.interface toolkit-accessibility false
+org.cinnamon.desktop.interface first-day-of-week 7
+org.cinnamon.desktop.interface cursor-theme 'DMZ-White'
+org.cinnamon.desktop.interface can-change-accels false
+org.cinnamon.desktop.interface clock-show-seconds false
+org.cinnamon.desktop.interface cursor-blink-time 1200
+org.cinnamon.desktop.interface toolbar-detachable false
+org.cinnamon.desktop.interface enable-animations true
+org.cinnamon.desktop.interface menubar-detachable false
+org.cinnamon.desktop.interface toolbar-style 'both-horiz'
+org.cinnamon.desktop.interface toolbar-icons-size 'large'
+org.cinnamon.desktop.interface gtk-im-module ''
+org.cinnamon.desktop.interface icon-theme 'Mint-X'
+org.cinnamon.desktop.interface gtk-timeout-initial 200
+org.cinnamon.desktop.interface scaling-factor uint32 1
+org.cinnamon.desktop.interface show-input-method-menu true
+org.cinnamon.desktop.interface clock-use-24h true
+org.cinnamon.desktop.interface buttons-have-icons false
+org.cinnamon.desktop.interface text-scaling-factor 1.0
+org.cinnamon.desktop.interface menus-have-tearoff false
+org.cinnamon.desktop.interface gtk-decoration-layout 'menu:minimize,maximize,close'
+org.cinnamon.desktop.interface gtk-overlay-scrollbars true
+org.cinnamon.desktop.interface gtk-im-preedit-style 'callback'
+org.cinnamon.desktop.interface show-unicode-menu true
+org.cinnamon.desktop.interface cursor-blink true
+org.cinnamon.desktop.interface gtk-theme 'Mint-X'
+org.cinnamon.desktop.interface gtk-key-theme 'Default'
+org.cinnamon.desktop.interface gtk-im-status-style 'callback'
+org.cinnamon.desktop.interface menubar-accel 'F10'
+org.cinnamon.desktop.interface cursor-size 24
+org.cinnamon.desktop.interface font-name 'Noto Sans 9'
+org.cinnamon.desktop.interface clock-show-date false
+org.cinnamon.desktop.interface gtk-color-scheme ''
+org.gnome.gnome-system-monitor.memmapstree sort-order 0
+org.gnome.gnome-system-monitor.memmapstree sort-col 0
+org.cinnamon.desktop.background.slideshow image-source ''
+org.cinnamon.desktop.background.slideshow slideshow-paused false
+org.cinnamon.desktop.background.slideshow random-order false
+org.cinnamon.desktop.background.slideshow delay 15
+org.cinnamon.desktop.background.slideshow slideshow-enabled false
+org.gnome.desktop.peripherals.touchpad natural-scroll false
+org.gnome.desktop.peripherals.touchpad click-method 'default'
+org.gnome.desktop.peripherals.touchpad scroll-method 'two-finger-scrolling'
+org.gnome.desktop.peripherals.touchpad left-handed 'mouse'
+org.gnome.desktop.peripherals.touchpad send-events 'enabled'
+org.gnome.desktop.peripherals.touchpad tap-to-click true
+org.gnome.desktop.peripherals.touchpad speed 0.0
+org.gnome.seahorse.manager show-expiry false
+org.gnome.seahorse.manager show-trust false
+org.gnome.seahorse.manager keyrings-selected ['secret-service://login']
+org.gnome.seahorse.manager sidebar-width 148
+org.gnome.seahorse.manager item-filter 'personal'
+org.gnome.seahorse.manager show-validity false
+org.gnome.seahorse.manager sidebar-visible true
+org.gnome.seahorse.manager show-type false
+org.gnome.seahorse.manager sort-by 'name'
+org.cinnamon.background slideshow-recursive false
+org.cinnamon.background slideshow-delay 15
+org.cinnamon.background mode 'wallpaper'
+org.cinnamon.background slideshow-folder ''
+org.gtk.Settings.FileChooser sort-column 'name'
+org.gtk.Settings.FileChooser clock-format '24h'
+org.gtk.Settings.FileChooser last-folder-uri ''
+org.gtk.Settings.FileChooser sidebar-width 148
+org.gtk.Settings.FileChooser window-position (-1, -1)
+org.gtk.Settings.FileChooser show-size-column true
+org.gtk.Settings.FileChooser startup-mode 'cwd'
+org.gtk.Settings.FileChooser show-hidden false
+org.gtk.Settings.FileChooser window-size (-1, -1)
+org.gtk.Settings.FileChooser sort-directories-first true
+org.gtk.Settings.FileChooser expand-folders false
+org.gtk.Settings.FileChooser date-format 'regular'
+org.gtk.Settings.FileChooser sort-order 'ascending'
+org.gtk.Settings.FileChooser location-mode 'path-bar'
+org.x.pix.contact-sheet.contact-sheet html-image-map false
+org.x.pix.contact-sheet.contact-sheet same-size true
+org.x.pix.contact-sheet.contact-sheet single-page false
+org.x.pix.contact-sheet.contact-sheet sort-type 'general::unsorted'
+org.x.pix.contact-sheet.contact-sheet squared-thumbnail false
+org.x.pix.contact-sheet.contact-sheet theme 'default.cst'
+org.x.pix.contact-sheet.contact-sheet images-per-page 25
+org.x.pix.contact-sheet.contact-sheet sort-inverse false
+org.x.pix.contact-sheet.contact-sheet mime-type 'image/jpeg'
+org.x.pix.contact-sheet.contact-sheet thumbnail-size 128
+org.x.pix.contact-sheet.contact-sheet columns 5
+org.x.pix.contact-sheet.contact-sheet destination ''
+org.x.pix.contact-sheet.contact-sheet template '###'
+org.x.pix.contact-sheet.contact-sheet footer ''
+org.x.pix.contact-sheet.contact-sheet header ''
+org.x.pix.contact-sheet.contact-sheet thumbnail-caption 'general::datetime,general::dimensions,gth::file::display-size'
+org.cinnamon.desktop.screensaver logout-enabled false
+org.cinnamon.desktop.screensaver lock-enabled true
+org.cinnamon.desktop.screensaver embedded-keyboard-enabled false
+org.cinnamon.desktop.screensaver logout-delay uint32 7200
+org.cinnamon.desktop.screensaver font-date 'Noto Sans 24'
+org.cinnamon.desktop.screensaver idle-activation-enabled true
+org.cinnamon.desktop.screensaver screensaver-webkit-theme 'webkit-stars@cinnamon.org'
+org.cinnamon.desktop.screensaver logout-command ''
+org.cinnamon.desktop.screensaver font-message 'Noto Sans 14'
+org.cinnamon.desktop.screensaver embedded-keyboard-command ''
+org.cinnamon.desktop.screensaver default-message ''
+org.cinnamon.desktop.screensaver show-notifications false
+org.cinnamon.desktop.screensaver ask-for-away-message true
+org.cinnamon.desktop.screensaver time-format '%H:%M'
+org.cinnamon.desktop.screensaver use-custom-format false
+org.cinnamon.desktop.screensaver lock-delay uint32 0
+org.cinnamon.desktop.screensaver xscreensaver-hack 'fiberlamp'
+org.cinnamon.desktop.screensaver date-format '%A %B %e'
+org.cinnamon.desktop.screensaver screensaver-name ''
+org.cinnamon.desktop.screensaver status-message-enabled true
+org.cinnamon.desktop.screensaver font-time 'Noto Sans 64'
+org.cinnamon.desktop.screensaver user-switch-enabled true
+org.x.editor auto-save-interval 10
+org.x.editor side-pane-visible false
+org.x.editor print-font-header-pango 'Sans 11'
+org.x.editor bottom-panel-visible false
+org.x.editor wrap-mode 'GTK_WRAP_WORD'
+org.x.editor color-scheme 'tango'
+org.x.editor shown-in-menu-encodings ['ISO-8859-15']
+org.x.editor smart-home-end 'after'
+org.x.editor active-plugins ['docinfo', 'modelines', 'filebrowser', 'spell', 'time']
+org.x.editor print-font-body-pango 'Monospace 9'
+org.x.editor use-default-font true
+org.x.editor auto-save false
+org.x.editor bracket-matching false
+org.x.editor display-line-numbers false
+org.x.editor editor-font 'Monospace 12'
+org.x.editor print-wrap-mode 'GTK_WRAP_WORD'
+org.x.editor tabs-size 4
+org.x.editor print-header true
+org.x.editor statusbar-visible true
+org.x.editor right-margin-position 80
+org.x.editor enable-syntax-highlighting true
+org.x.editor display-right-margin false
+org.x.editor writable-vfs-schemes ['dav', 'davs', 'ftp', 'sftp', 'smb', 'ssh']
+org.x.editor enable-search-highlighting true
+org.x.editor max-undo-actions 2000
+org.x.editor create-backup-copy false
+org.x.editor highlight-current-line false
+org.x.editor auto-detected-encodings ['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']
+org.x.editor history-replace-with @as []
+org.x.editor auto-indent false
+org.x.editor restore-cursor-position true
+org.x.editor max-recents 5
+org.x.editor toolbar-visible true
+org.x.editor print-font-numbers-pango 'Sans 8'
+org.x.editor print-line-numbers 0
+org.x.editor toolbar-buttons-style 'XED_TOOLBAR_SYSTEM'
+org.x.editor insert-spaces false
+org.x.editor print-syntax-highlighting true
+org.x.editor history-search-for @as []
+org.cinnamon.desktop.default-applications.terminal exec-arg '-x'
+org.cinnamon.desktop.default-applications.terminal exec 'gnome-terminal'
+org.gnome.settings-daemon.plugins.remote-display active true
+org.gnome.settings-daemon.plugins.remote-display priority 0
+org.gnome.libgnomekbd.desktop layout-names-as-group-names true
+org.gnome.libgnomekbd.desktop handle-indicators false
+org.gnome.libgnomekbd.desktop load-extra-items false
+org.gnome.libgnomekbd.desktop default-group -1
+org.gnome.libgnomekbd.desktop group-per-window false
+org.gnome.gedit.state.file-filter filter-id 0
+org.x.pix.pixbuf-savers.png compression-level 6
+org.x.pix.pixbuf-savers.tga rle-compression true
+org.x.pix.pixbuf-savers.tiff compression 'deflate'
+org.x.pix.pixbuf-savers.tiff horizontal-resolution 72
+org.x.pix.pixbuf-savers.tiff default-ext 'tiff'
+org.x.pix.pixbuf-savers.tiff vertical-resolution 72
+org.x.pix.pixbuf-savers.jpeg smoothing 0
+org.x.pix.pixbuf-savers.jpeg progressive false
+org.x.pix.pixbuf-savers.jpeg optimize true
+org.x.pix.pixbuf-savers.jpeg default-ext 'jpeg'
+org.x.pix.pixbuf-savers.jpeg quality 85
+org.x.pix.pixbuf-savers.webp method 4
+org.x.pix.pixbuf-savers.webp lossless false
+org.x.pix.pixbuf-savers.webp quality 75
+org.gnome.settings-daemon.plugins.background active false
+org.gnome.settings-daemon.plugins.background priority 97
+org.x.pix.pixbuf-savers.tga rle-compression true
+org.gnome.settings-daemon.plugins.a11y-keyboard active true
+org.gnome.settings-daemon.plugins.a11y-keyboard priority 0
+org.gnome.Charmap.WindowState size (-1, -1)
+org.gnome.Charmap.WindowState fullscreen false
+org.gnome.Charmap.WindowState maximized false
+org.gtk.Settings.ColorChooser selected-color (false, 1.0, 1.0, 1.0, 1.0)
+org.gtk.Settings.ColorChooser custom-colors @a(dddd) []
+org.gnome.settings-daemon.peripherals.input-devices hotplug-command ''
+org.x.pix.photo-importer adjust-orientation false
+org.x.pix.photo-importer delete-from-device false
+org.cinnamon.settings-daemon.peripherals.mouse drag-threshold 8
+org.cinnamon.settings-daemon.peripherals.mouse motion-threshold -1
+org.cinnamon.settings-daemon.peripherals.mouse middle-button-enabled true
+org.cinnamon.settings-daemon.peripherals.mouse motion-acceleration -1.0
+org.cinnamon.settings-daemon.peripherals.mouse double-click 400
+org.cinnamon.settings-daemon.peripherals.mouse left-handed false
+org.cinnamon.settings-daemon.peripherals.mouse locate-pointer false
+org.gnome.desktop.privacy remember-app-usage true
+org.gnome.desktop.privacy remove-old-temp-files false
+org.gnome.desktop.privacy old-files-age uint32 30
+org.gnome.desktop.privacy remove-old-trash-files false
+org.gnome.desktop.privacy remember-recent-files true
+org.gnome.desktop.privacy send-software-usage-stats false
+org.gnome.desktop.privacy report-technical-problems false
+org.gnome.desktop.privacy recent-files-max-age -1
+org.gnome.desktop.privacy hide-identity false
+org.gnome.desktop.privacy show-full-name-in-top-bar true
+org.gnome.system.dns_sd extra-domains ''
+org.gnome.system.dns_sd display-local 'merged'
+org.freedesktop.ColorHelper display-gamma 2.3999999999999999
+org.freedesktop.ColorHelper profile-upload-uri 'http://www.hughski.com/profile-store.php'
+org.freedesktop.ColorHelper display-whitepoint 6500
+org.freedesktop.ColorHelper sample-delay 400
+org.gnome.desktop.a11y.magnifier focus-tracking 'proportional'
+org.gnome.desktop.a11y.magnifier contrast-green 0.0
+org.gnome.desktop.a11y.magnifier caret-tracking 'centered'
+org.gnome.desktop.a11y.magnifier brightness-red 0.0
+org.gnome.desktop.a11y.magnifier cross-hairs-color '#ff0000'
+org.gnome.desktop.a11y.magnifier cross-hairs-clip false
+org.gnome.desktop.a11y.magnifier contrast-blue 0.0
+org.gnome.desktop.a11y.magnifier scroll-at-edges false
+org.gnome.desktop.a11y.magnifier cross-hairs-length 4096
+org.gnome.desktop.a11y.magnifier show-cross-hairs false
+org.gnome.desktop.a11y.magnifier screen-position 'full-screen'
+org.gnome.desktop.a11y.magnifier color-saturation 1.0
+org.gnome.desktop.a11y.magnifier brightness-green 0.0
+org.gnome.desktop.a11y.magnifier cross-hairs-thickness 8
+org.gnome.desktop.a11y.magnifier lens-mode false
+org.gnome.desktop.a11y.magnifier contrast-red 0.0
+org.gnome.desktop.a11y.magnifier invert-lightness false
+org.gnome.desktop.a11y.magnifier brightness-blue 0.0
+org.gnome.desktop.a11y.magnifier mouse-tracking 'proportional'
+org.gnome.desktop.a11y.magnifier cross-hairs-opacity 0.66000000000000003
+org.gnome.desktop.a11y.magnifier mag-factor 2.0
+org.cinnamon.desklets.launcher launcher-list @as []
+org.gnome.desktop.default-applications.office.calendar exec 'evolution -c calendar'
+org.gnome.desktop.default-applications.office.calendar needs-term false
+org.gnome.desktop.default-applications.office.tasks exec 'evolution -c tasks'
+org.gnome.desktop.default-applications.office.tasks needs-term false
+org.x.pix.picasaweb resize-width -1
+org.x.pix.picasaweb resize-height -1
+org.x.pix.dialogs.add-to-catalog view false
+org.gnome.desktop.peripherals.keyboard repeat-interval uint32 30
+org.gnome.desktop.peripherals.keyboard delay uint32 500
+org.gnome.desktop.peripherals.keyboard repeat true
+org.gnome.desktop.sound input-feedback-sounds false
+org.gnome.desktop.sound theme-name 'LinuxMint'
+org.gnome.desktop.sound event-sounds false
+org.gnome.desktop.datetime automatic-timezone false
+org.gnome.settings-daemon.plugins.sharing active true
+org.gnome.settings-daemon.plugins.sharing priority 0
+org.gnome.Vino notify-on-connect true
+org.gnome.Vino alternative-port uint16 5900
+org.gnome.Vino disable-background false
+org.gnome.Vino use-alternative-port false
+org.gnome.Vino icon-visibility 'client'
+org.gnome.Vino use-upnp false
+org.gnome.Vino view-only false
+org.gnome.Vino enabled false
+org.gnome.Vino prompt-enabled true
+org.gnome.Vino disable-xdamage false
+org.gnome.Vino authentication-methods ['none']
+org.gnome.Vino network-interface ''
+org.gnome.Vino require-encryption true
+org.gnome.Vino mailto ''
+org.gnome.Vino lock-screen-on-disconnect false
+org.gnome.Vino vnc-password 'keyring'
+org.gnome.evolution-data-server.addressbook self-contact-uid ''
+org.gnome.settings-daemon.plugins.mouse active true
+org.gnome.settings-daemon.plugins.mouse priority 0
+org.x.pix.comments synchronize true
+org.cinnamon.settings-daemon.plugins.clipboard active true
+org.cinnamon.settings-daemon.plugins.clipboard priority 99
+org.gnome.crypto.cache gpg-cache-method 'session'
+org.gnome.crypto.cache gpg-cache-ttl 300
+org.gnome.gedit.plugins.pythonconsole command-color '#314e6c'
+org.gnome.gedit.plugins.pythonconsole use-system-font true
+org.gnome.gedit.plugins.pythonconsole error-color '#990000'
+org.gnome.gedit.plugins.pythonconsole font 'Monospace 10'
+org.x.player.plugins.opensubtitles language ''
+org.x.viewer.plugins.export-to-folder target-folder ''
+org.cinnamon.desktop.sound volume-sound-file '/usr/share/mint-artwork-cinnamon/sounds/volume.oga'
+org.cinnamon.desktop.sound input-feedback-sounds false
+org.cinnamon.desktop.sound theme-name 'LinuxMint'
+org.cinnamon.desktop.sound volume-sound-enabled true
+org.cinnamon.desktop.sound event-sounds false
+org.gnome.gnome-panel.run-dialog show-program-list false
+org.gnome.gnome-panel.run-dialog enable-autocompletion true
+org.gnome.gnome-panel.run-dialog enable-program-list true
+org.gnome.gnome-panel.run-dialog history @as []
+org.cinnamon.settings-daemon.plugins.automount active true
+org.cinnamon.settings-daemon.plugins.automount priority 97
+org.gnome.FileRoller.UI sidebar-width 200
+org.gnome.FileRoller.UI view-sidebar false
+org.gnome.FileRoller.UI window-height 480
+org.gnome.FileRoller.UI window-width 600
+org.gnome.FileRoller.Dialogs.Extract skip-newer false
+org.gnome.FileRoller.Dialogs.Extract recreate-folders true
+org.x.pix.data-migration catalogs-2-10 false
+org.gnome.FileRoller.Dialogs.Add recursive true
+org.gnome.FileRoller.Dialogs.Add selected-files @as []
+org.gnome.FileRoller.Dialogs.Add filename ''
+org.gnome.FileRoller.Dialogs.Add no-symlinks true
+org.gnome.FileRoller.Dialogs.Add include-files ''
+org.gnome.FileRoller.Dialogs.Add exclude-files ''
+org.gnome.FileRoller.Dialogs.Add exclude-folders ''
+org.gnome.FileRoller.Dialogs.Add current-folder ''
+org.gnome.FileRoller.Dialogs.Add update false
+org.gnome.FileRoller.Dialogs.LastOutput width -1
+org.gnome.FileRoller.Dialogs.LastOutput height -1
+org.gnome.FileRoller.Dialogs.New default-extension '.tar.gz'
+org.gnome.FileRoller.Dialogs.New other-options false
+org.gnome.FileRoller.Dialogs.New volume-size 0
+org.gnome.FileRoller.Dialogs.New encrypt-header false
+org.gnome.FileRoller.Dialogs.Extract skip-newer false
+org.gnome.FileRoller.Dialogs.Extract recreate-folders true
+org.gnome.desktop.input-sources show-all-sources false
+org.gnome.desktop.input-sources per-window false
+org.gnome.desktop.input-sources current uint32 0
+org.gnome.desktop.input-sources sources @a(ss) []
+org.gnome.desktop.input-sources xkb-options @as []
+org.gnome.Evolution.DefaultSources default-task-list 'system'
+org.gnome.Evolution.DefaultSources default-calendar 'system'
+org.gnome.Evolution.DefaultSources default-address-book 'system'
+org.gnome.Evolution.DefaultSources default-mail-account 'system'
+org.gnome.Evolution.DefaultSources default-mail-identity ''
+org.gnome.Evolution.DefaultSources default-memo-list 'system'
+org.gnome.desktop.default-applications.terminal exec-arg '-e'
+org.gnome.desktop.default-applications.terminal exec 'x-terminal-emulator'
+org.gnome.system.location max-accuracy-level 'exact'
+org.gnome.system.location enabled false
+org.x.pix.pixbuf-savers.jpeg smoothing 0
+org.x.pix.pixbuf-savers.jpeg progressive false
+org.x.pix.pixbuf-savers.jpeg optimize true
+org.x.pix.pixbuf-savers.jpeg default-ext 'jpeg'
+org.x.pix.pixbuf-savers.jpeg quality 85
+org.cinnamon.desktop.default-applications.office.calendar exec 'evolution -c calendar'
+org.cinnamon.desktop.default-applications.office.calendar needs-term false
+org.cinnamon.desktop.default-applications.office.tasks exec 'evolution -c tasks'
+org.cinnamon.desktop.default-applications.office.tasks needs-term false
+org.cinnamon.settings-daemon.plugins.csdwacom active true
+org.cinnamon.settings-daemon.plugins.csdwacom priority 0
+org.cinnamon.settings-daemon.plugins.font active true
+org.cinnamon.settings-daemon.plugins.font priority 4
+org.cinnamon.desktop.a11y.mouse dwell-time 1.2
+org.cinnamon.desktop.a11y.mouse secondary-click-time 1.2
+org.cinnamon.desktop.a11y.mouse click-type-window-visible true
+org.cinnamon.desktop.a11y.mouse secondary-click-enabled false
+org.cinnamon.desktop.a11y.mouse dwell-gesture-double 'up'
+org.cinnamon.desktop.a11y.mouse dwell-mode 'window'
+org.cinnamon.desktop.a11y.mouse dwell-gesture-single 'left'
+org.cinnamon.desktop.a11y.mouse dwell-click-enabled false
+org.cinnamon.desktop.a11y.mouse dwell-threshold 10
+org.cinnamon.desktop.a11y.mouse dwell-gesture-drag 'down'
+org.cinnamon.desktop.a11y.mouse dwell-gesture-secondary 'right'
+org.x.pix.resize-images width 100
+org.x.pix.resize-images keep-aspect-ratio true
+org.x.pix.resize-images mime-type ''
+org.x.pix.resize-images unit 'percentage'
+org.x.pix.resize-images allow-swap-width-height true
+org.x.pix.resize-images height 100
+org.x.pix.image-print unit 'pixels'
+org.x.pix.image-print n-rows 1
+org.x.pix.image-print n-columns 1
+org.x.pix.image-print footer-font-name 'sans normal 8'
+org.x.pix.image-print font-name 'sans normal 12'
+org.x.pix.image-print caption ''
+org.x.pix.image-print header-font-name 'sans bold 12'
+org.x.pix.image-print footer ''
+org.x.pix.image-print header ''
+org.gnome.power-manager info-last-device ''
+org.gnome.power-manager info-stats-graph-smooth true
+org.gnome.power-manager info-page-number 0
+org.gnome.power-manager info-history-graph-points true
+org.gnome.power-manager info-history-time 21600
+org.gnome.power-manager info-history-type 'power'
+org.gnome.power-manager info-history-graph-smooth true
+org.gnome.power-manager info-stats-type 'power'
+org.gnome.power-manager info-stats-graph-points true
+org.nemo.sidebar-panels.tree show-only-directories true
+org.gnome.FileRoller.FileSelector show-hidden false
+org.gnome.FileRoller.FileSelector sidebar-size -1
+org.gnome.FileRoller.FileSelector window-size (-1, -1)
+org.gnome.libgnomekbd.indicator background-color ''
+org.gnome.libgnomekbd.indicator font-size 10
+org.gnome.libgnomekbd.indicator show-flags false
+org.gnome.libgnomekbd.indicator foreground-color ''
+org.gnome.libgnomekbd.indicator secondary 0
+org.gnome.libgnomekbd.indicator font-family ''
+org.x.viewer.fullscreen seconds 5
+org.x.viewer.fullscreen loop true
+org.x.viewer.fullscreen upscale true
+org.gnome.settings-daemon.plugins.sound active true
+org.gnome.settings-daemon.plugins.sound priority 0
+org.cinnamon.settings-daemon.plugins.media-keys logout ''
+org.cinnamon.settings-daemon.plugins.media-keys shutdown ''
+org.cinnamon.settings-daemon.plugins.media-keys screenreader ''
+org.cinnamon.settings-daemon.plugins.media-keys volume-mute ''
+org.cinnamon.settings-daemon.plugins.media-keys volume-up ''
+org.cinnamon.settings-daemon.plugins.media-keys previous ''
+org.cinnamon.settings-daemon.plugins.media-keys stop ''
+org.cinnamon.settings-daemon.plugins.media-keys window-screenshot ''
+org.cinnamon.settings-daemon.plugins.media-keys home ''
+org.cinnamon.settings-daemon.plugins.media-keys terminal ''
+org.cinnamon.settings-daemon.plugins.media-keys screenshot-clip ''
+org.cinnamon.settings-daemon.plugins.media-keys magnifier ''
+org.cinnamon.settings-daemon.plugins.media-keys help ''
+org.cinnamon.settings-daemon.plugins.media-keys search ''
+org.cinnamon.settings-daemon.plugins.media-keys window-screenshot-clip ''
+org.cinnamon.settings-daemon.plugins.media-keys magnifier-zoom-in ''
+org.cinnamon.settings-daemon.plugins.media-keys calculator ''
+org.cinnamon.settings-daemon.plugins.media-keys eject ''
+org.cinnamon.settings-daemon.plugins.media-keys area-screenshot-clip ''
+org.cinnamon.settings-daemon.plugins.media-keys media ''
+org.cinnamon.settings-daemon.plugins.media-keys www ''
+org.cinnamon.settings-daemon.plugins.media-keys play ''
+org.cinnamon.settings-daemon.plugins.media-keys email ''
+org.cinnamon.settings-daemon.plugins.media-keys volume-down ''
+org.cinnamon.settings-daemon.plugins.media-keys decrease-text-size ''
+org.cinnamon.settings-daemon.plugins.media-keys on-screen-keyboard ''
+org.cinnamon.settings-daemon.plugins.media-keys next ''
+org.cinnamon.settings-daemon.plugins.media-keys screenshot ''
+org.cinnamon.settings-daemon.plugins.media-keys increase-text-size ''
+org.cinnamon.settings-daemon.plugins.media-keys magnifier-zoom-out ''
+org.cinnamon.settings-daemon.plugins.media-keys priority 98
+org.cinnamon.settings-daemon.plugins.media-keys screensaver ''
+org.cinnamon.settings-daemon.plugins.media-keys toggle-contrast ''
+org.cinnamon.settings-daemon.plugins.media-keys pause ''
+org.cinnamon.settings-daemon.plugins.media-keys active true
+org.cinnamon.settings-daemon.plugins.media-keys area-screenshot ''
+org.cinnamon overview-corner ['expo:false:false', 'scale:false:false', 'scale:false:false', 'desktop:false:false']
+org.cinnamon desktop-effects-minimize-transition 'easeInQuad'
+org.cinnamon number-workspaces 0
+org.cinnamon desklet-snap true
+org.cinnamon development-tools true
+org.cinnamon panels-scale-text-icons ['1:true']
+org.cinnamon desktop-effects-maximize-effect 'none'
+org.cinnamon prevent-focus-stealing false
+org.cinnamon device-aliases @as []
+org.cinnamon no-adjacent-panel-barriers false
+org.cinnamon desktop-effects-minimize-effect 'traditional'
+org.cinnamon desktop-effects-on-menus true
+org.cinnamon desktop-effects-map-time 175
+org.cinnamon run-dialog-aliases @as []
+org.cinnamon panels-resizable ['1:true']
+org.cinnamon panels-height ['1:43']
+org.cinnamon edge-flip-delay 1000
+org.cinnamon panels-show-delay ['1:0']
+org.cinnamon desktop-effects true
+org.cinnamon desklet-snap-interval 25
+org.cinnamon workspace-osd-x 50
+org.cinnamon workspace-osd-y 50
+org.cinnamon panel-launchers ['DEPRECATED']
+org.cinnamon alttab-switcher-delay 100
+org.cinnamon desktop-effects-minimize-time 200
+org.cinnamon bring-windows-to-current-workspace false
+org.cinnamon enabled-extensions @as []
+org.cinnamon desktop-effects-map-transition 'easeOutQuad'
+org.cinnamon panels-hide-delay ['1:0']
+org.cinnamon enabled-applets ['panel1:left:0:menu@cinnamon.org:0', 'panel1:left:1:show-desktop@cinnamon.org:1', 'panel1:left:2:panel-launchers@cinnamon.org:2', 'panel1:left:3:window-list@cinnamon.org:3', 'panel1:right:0:notifications@cinnamon.org:4', 'panel1:right:1:user@cinnamon.org:5', 'panel1:right:2:removable-drives@cinnamon.org:6', 'panel1:right:3:keyboard@cinnamon.org:7', 'panel1:right:4:bluetooth@cinnamon.org:8', 'panel1:right:5:network@cinnamon.org:9', 'panel1:right:6:sound@cinnamon.org:10', 'panel1:right:7:power@cinnamon.org:11', 'panel1:right:8:systray@cinnamon.org:12', 'panel1:right:9:calendar@cinnamon.org:13', 'panel1:right:10:windows-quick-list@cinnamon.org:14']
+org.cinnamon saved-im-presence 1
+org.cinnamon enabled-search-providers @as []
+org.cinnamon enable-app-monitoring true
+org.cinnamon alttab-switcher-style 'icons+thumbnails'
+org.cinnamon desktop-effects-maximize-transition 'easeInExpo'
+org.cinnamon workspace-osd-visible true
+org.cinnamon favorite-apps ['firefox.desktop', 'mintinstall.desktop', 'cinnamon-settings.desktop', 'xchat.desktop', 'gnome-terminal.desktop', 'nemo.desktop']
+org.cinnamon desktop-effects-unmaximize-effect 'none'
+org.cinnamon disabled-open-search-providers @as []
+org.cinnamon show-snap-osd true
+org.cinnamon show-tile-hud true
+org.cinnamon desktop-layout ''
+org.cinnamon panel-edit-mode false
+org.cinnamon next-applet-id 15
+org.cinnamon cinnamon-settings-advanced false
+org.cinnamon run-dialog-show-completions true
+org.cinnamon enabled-desklets @as []
+org.cinnamon enable-edge-flip false
+org.cinnamon desktop-effects-style 'cinnamon'
+org.cinnamon desktop-effects-unmaximize-time 100
+org.cinnamon demands-attention-ignored-wm-classes ['skype', 'viber', 'quassel', 'retroshare', 'psi-plus', 'kadu', 'pidgin']
+org.cinnamon desklet-decorations 1
+org.cinnamon alttab-switcher-enforce-primary-monitor false
+org.cinnamon panel-launchers-draggable true
+org.cinnamon saved-session-presence 0
+org.cinnamon panels-autohide ['1:false']
+org.cinnamon enable-vfade false
+org.cinnamon desktop-effects-map-effect 'traditional'
+org.cinnamon desktop-effects-tile-time 100
+org.cinnamon looking-glass-history @as []
+org.cinnamon desktop-effects-tile-effect 'none'
+org.cinnamon panel-scale-text-icons true
+org.cinnamon date-format 'YYYY-MM-DD'
+org.cinnamon desktop-effects-on-dialogs true
+org.cinnamon desktop-effects-tile-transition 'easeInQuad'
+org.cinnamon desktop-effects-unmaximize-transition 'easeNone'
+org.cinnamon panel-resizable false
+org.cinnamon next-desklet-id 0
+org.cinnamon show-media-keys-osd 'medium'
+org.cinnamon enable-looking-glass-logs true
+org.cinnamon desktop-effects-close-time 175
+org.cinnamon active-display-scale 1
+org.cinnamon enable-indicators false
+org.cinnamon workspace-expo-view-as-grid true
+org.cinnamon desktop-effects-close-transition 'easeOutQuad'
+org.cinnamon workspace-osd-duration 400
+org.cinnamon panels-enabled ['1:0:bottom']
+org.cinnamon desktop-effects-close-effect 'traditional'
+org.cinnamon workspace-name-overrides ['DEPRECATED']
+org.cinnamon desktop-effects-maximize-time 100
+org.cinnamon startup-animation true
+org.cinnamon command-history ['charm']
+org.cinnamon.sounds logout-enabled true
+org.cinnamon.sounds map-file '/usr/share/mint-artwork-cinnamon/sounds/map.oga'
+org.cinnamon.sounds unplug-file '/usr/share/mint-artwork-cinnamon/sounds/unplug.oga'
+org.cinnamon.sounds map-enabled false
+org.cinnamon.sounds maximize-enabled false
+org.cinnamon.sounds login-enabled true
+org.cinnamon.sounds switch-enabled true
+org.cinnamon.sounds logout-file '/usr/share/mint-artwork-cinnamon/sounds/logout.ogg'
+org.cinnamon.sounds tile-enabled true
+org.cinnamon.sounds login-file '/usr/share/mint-artwork-cinnamon/sounds/login.oga'
+org.cinnamon.sounds minimize-enabled false
+org.cinnamon.sounds plug-file '/usr/share/mint-artwork-cinnamon/sounds/plug.oga'
+org.cinnamon.sounds close-file '/usr/share/mint-artwork-cinnamon/sounds/close.oga'
+org.cinnamon.sounds maximize-file '/usr/share/mint-artwork-cinnamon/sounds/maximize.oga'
+org.cinnamon.sounds switch-file '/usr/share/mint-artwork-cinnamon/sounds/switch.oga'
+org.cinnamon.sounds tile-file '/usr/share/mint-artwork-cinnamon/sounds/tile.oga'
+org.cinnamon.sounds unplug-enabled true
+org.cinnamon.sounds close-enabled false
+org.cinnamon.sounds plug-enabled true
+org.cinnamon.sounds minimize-file '/usr/share/mint-artwork-cinnamon/sounds/minimize.oga'
+org.cinnamon.sounds unmaximize-file '/usr/share/mint-artwork-cinnamon/sounds/unmaximize.oga'
+org.cinnamon.sounds unmaximize-enabled false
+org.cinnamon.theme name 'Linux Mint'
+org.cinnamon.recorder pipeline ''
+org.cinnamon.recorder file-extension 'webm'
+org.cinnamon.recorder framerate 15
+org.cinnamon.keyboard activation-mode 'on-demand'
+org.cinnamon.keyboard keyboard-type 'touch'
+org.cinnamon.desklets.launcher launcher-list @as []
+org.gnome.settings-daemon.plugins.power button-power 'interactive'
+org.gnome.settings-daemon.plugins.power sleep-inactive-ac-timeout 0
+org.gnome.settings-daemon.plugins.power power-button-action 'suspend'
+org.gnome.settings-daemon.plugins.power critical-battery-action 'suspend'
+org.gnome.settings-daemon.plugins.power percentage-low 10
+org.gnome.settings-daemon.plugins.power priority 0
+org.gnome.settings-daemon.plugins.power lid-close-suspend-with-external-monitor false
+org.gnome.settings-daemon.plugins.power idle-dim true
+org.gnome.settings-daemon.plugins.power button-hibernate 'hibernate'
+org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'suspend'
+org.gnome.settings-daemon.plugins.power button-suspend 'suspend'
+org.gnome.settings-daemon.plugins.power button-sleep 'suspend'
+org.gnome.settings-daemon.plugins.power sleep-inactive-battery-timeout 0
+org.gnome.settings-daemon.plugins.power time-low 1200
+org.gnome.settings-daemon.plugins.power lid-close-ac-action 'suspend'
+org.gnome.settings-daemon.plugins.power notify-perhaps-recall true
+org.gnome.settings-daemon.plugins.power percentage-critical 3
+org.gnome.settings-daemon.plugins.power percentage-action 2
+org.gnome.settings-daemon.plugins.power sleep-inactive-battery-type 'suspend'
+org.gnome.settings-daemon.plugins.power time-action 120
+org.gnome.settings-daemon.plugins.power lid-close-battery-action 'suspend'
+org.gnome.settings-daemon.plugins.power idle-brightness 30
+org.gnome.settings-daemon.plugins.power ambient-enabled true
+org.gnome.settings-daemon.plugins.power time-critical 300
+org.gnome.settings-daemon.plugins.power active true
+org.gnome.settings-daemon.plugins.power use-time-for-policy true
+org.cinnamon.desktop.a11y.magnifier show-cross-hairs false
+org.cinnamon.desktop.a11y.magnifier contrast-green 0.0
+org.cinnamon.desktop.a11y.magnifier brightness-red 0.0
+org.cinnamon.desktop.a11y.magnifier cross-hairs-color '#ff0000'
+org.cinnamon.desktop.a11y.magnifier cross-hairs-clip false
+org.cinnamon.desktop.a11y.magnifier contrast-blue 0.0
+org.cinnamon.desktop.a11y.magnifier scroll-at-edges false
+org.cinnamon.desktop.a11y.magnifier cross-hairs-length 4096
+org.cinnamon.desktop.a11y.magnifier lens-shape 'square'
+org.cinnamon.desktop.a11y.magnifier screen-position 'full-screen'
+org.cinnamon.desktop.a11y.magnifier color-saturation 1.0
+org.cinnamon.desktop.a11y.magnifier brightness-green 0.0
+org.cinnamon.desktop.a11y.magnifier cross-hairs-thickness 8
+org.cinnamon.desktop.a11y.magnifier lens-mode false
+org.cinnamon.desktop.a11y.magnifier contrast-red 0.0
+org.cinnamon.desktop.a11y.magnifier invert-lightness false
+org.cinnamon.desktop.a11y.magnifier brightness-blue 0.0
+org.cinnamon.desktop.a11y.magnifier mouse-tracking 'proportional'
+org.cinnamon.desktop.a11y.magnifier cross-hairs-opacity 0.66000000000000003
+org.cinnamon.desktop.a11y.magnifier mag-factor 1.0
+org.nemo.plugins disabled-actions @as []
+org.nemo.plugins disabled-extensions @as []
+org.nemo.plugins disabled-scripts @as []
+org.gnome.settings-daemon.plugins.keyboard active true
+org.gnome.settings-daemon.plugins.keyboard priority 0
+org.cinnamon.muffin.keybindings cycle-windows-backward @as []
+org.cinnamon.muffin.keybindings minimize @as []
+org.cinnamon.muffin.keybindings move-to-workspace-7 @as []
+org.cinnamon.muffin.keybindings push-snap-left @as []
+org.cinnamon.muffin.keybindings move-to-workspace-8 @as []
+org.cinnamon.muffin.keybindings move-to-workspace-9 @as []
+org.cinnamon.muffin.keybindings move-to-workspace-5 @as []
+org.cinnamon.muffin.keybindings move-to-workspace-6 @as []
+org.cinnamon.muffin.keybindings move-to-workspace-10 @as []
+org.cinnamon.muffin.keybindings move-to-workspace-11 @as []
+org.cinnamon.muffin.keybindings move-to-workspace-12 @as []
+org.cinnamon.muffin.keybindings move-to-center @as []
+org.cinnamon.muffin.keybindings unmaximize @as []
+org.cinnamon.muffin.keybindings panel-main-menu @as []
+org.cinnamon.muffin.keybindings cycle-windows @as []
+org.cinnamon.muffin.keybindings push-tile-down @as []
+org.cinnamon.muffin.keybindings cycle-panels-backward @as []
+org.cinnamon.muffin.keybindings push-tile-up @as []
+org.cinnamon.muffin.keybindings panel-run-dialog @as []
+org.cinnamon.muffin.keybindings push-snap-right @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-down @as []
+org.cinnamon.muffin.keybindings tab-popup-select @as []
+org.cinnamon.muffin.keybindings move-to-corner-ne @as []
+org.cinnamon.muffin.keybindings move-to-side-e @as []
+org.cinnamon.muffin.keybindings toggle-recording @as []
+org.cinnamon.muffin.keybindings move-to-workspace-right @as []
+org.cinnamon.muffin.keybindings move-to-workspace-up @as []
+org.cinnamon.muffin.keybindings raise @as []
+org.cinnamon.muffin.keybindings maximize @as []
+org.cinnamon.muffin.keybindings cycle-group-backward @as []
+org.cinnamon.muffin.keybindings move-to-side-n @as []
+org.cinnamon.muffin.keybindings move-to-side-s @as []
+org.cinnamon.muffin.keybindings maximize-horizontally @as []
+org.cinnamon.muffin.keybindings tab-popup-cancel @as []
+org.cinnamon.muffin.keybindings move-to-side-w @as []
+org.cinnamon.muffin.keybindings move-to-corner-nw @as []
+org.cinnamon.muffin.keybindings switch-windows @as []
+org.cinnamon.muffin.keybindings push-snap-down @as []
+org.cinnamon.muffin.keybindings begin-move @as []
+org.cinnamon.muffin.keybindings switch-windows-backward @as []
+org.cinnamon.muffin.keybindings move-to-workspace-left @as []
+org.cinnamon.muffin.keybindings move-to-corner-se @as []
+org.cinnamon.muffin.keybindings activate-window-menu @as []
+org.cinnamon.muffin.keybindings push-tile-right @as []
+org.cinnamon.muffin.keybindings toggle-above @as []
+org.cinnamon.muffin.keybindings toggle-fullscreen @as []
+org.cinnamon.muffin.keybindings lower @as []
+org.cinnamon.muffin.keybindings cycle-panels @as []
+org.cinnamon.muffin.keybindings toggle-on-all-workspaces @as []
+org.cinnamon.muffin.keybindings move-to-corner-sw @as []
+org.cinnamon.muffin.keybindings toggle-shaded @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-1 @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-2 @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-3 @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-4 @as []
+org.cinnamon.muffin.keybindings raise-or-lower @as []
+org.cinnamon.muffin.keybindings switch-panels @as []
+org.cinnamon.muffin.keybindings switch-panels-backward @as []
+org.cinnamon.muffin.keybindings increase-opacity @as []
+org.cinnamon.muffin.keybindings maximize-vertically @as []
+org.cinnamon.muffin.keybindings push-tile-left @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-5 @as []
+org.cinnamon.muffin.keybindings show-desktop @as []
+org.cinnamon.muffin.keybindings push-snap-up @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-8 @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-9 @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-6 @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-7 @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-10 @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-11 @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-12 @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-left @as []
+org.cinnamon.muffin.keybindings toggle-maximized @as []
+org.cinnamon.muffin.keybindings set-spew-mark @as []
+org.cinnamon.muffin.keybindings begin-resize @as []
+org.cinnamon.muffin.keybindings move-to-workspace-down @as []
+org.cinnamon.muffin.keybindings decrease-opacity @as []
+org.cinnamon.muffin.keybindings switch-group-backward @as []
+org.cinnamon.muffin.keybindings switch-group @as []
+org.cinnamon.muffin.keybindings cycle-group @as []
+org.cinnamon.muffin.keybindings close @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-up @as []
+org.cinnamon.muffin.keybindings move-to-workspace-1 @as []
+org.cinnamon.muffin.keybindings move-to-workspace-2 @as []
+org.cinnamon.muffin.keybindings move-to-workspace-3 @as []
+org.cinnamon.muffin.keybindings move-to-workspace-4 @as []
+org.cinnamon.muffin.keybindings switch-to-workspace-right @as []
+org.nemo.window-state side-pane-view 'places'
+org.nemo.window-state devices-expanded true
+org.nemo.window-state sidebar-width 178
+org.nemo.window-state start-with-menu-bar true
+org.nemo.window-state start-with-status-bar true
+org.nemo.window-state my-computer-expanded true
+org.nemo.window-state geometry '1375x944+1223+587'
+org.nemo.window-state network-expanded true
+org.nemo.window-state start-with-toolbar true
+org.nemo.window-state sidebar-bookmark-breakpoint 0
+org.nemo.window-state maximized false
+org.nemo.window-state bookmarks-expanded true
+org.nemo.window-state start-with-sidebar true
+org.nemo.window-state start-with-location-bar true
+org.x.pix.gstreamer-tools screenshot-location 'file://~'
+org.x.pix.gstreamer-tools volume 100
+org.nemo.compact-view default-zoom-level 'standard'
+org.nemo.compact-view all-columns-have-same-width false
+org.nemo.preferences tabs-open-position 'after-current-tab'
+org.nemo.preferences default-folder-viewer 'list-view'
+org.nemo.preferences show-image-thumbnails 'local-only'
+org.nemo.preferences show-computer-icon-toolbar false
+org.nemo.preferences show-icon-text 'never'
+org.nemo.preferences context-menus-show-all-actions false
+org.nemo.preferences show-hidden-files false
+org.nemo.preferences show-icon-view-icon-toolbar true
+org.nemo.preferences show-home-icon-toolbar false
+org.nemo.preferences desktop-is-home-dir false
+org.nemo.preferences never-queue-file-ops false
+org.nemo.preferences quick-renames-with-pause-in-between false
+org.nemo.preferences swap-trash-delete false
+org.nemo.preferences date-format 'locale'
+org.nemo.preferences show-up-icon-toolbar true
+org.nemo.preferences mouse-use-extra-buttons true
+org.nemo.preferences always-use-browser true
+org.nemo.preferences close-device-view-on-device-eject false
+org.nemo.preferences tooltips-show-file-type false
+org.nemo.preferences tooltips-on-desktop false
+org.nemo.preferences executable-text-activation 'ask'
+org.nemo.preferences show-new-folder-icon-toolbar false
+org.nemo.preferences show-directory-item-counts 'local-only'
+org.nemo.preferences sort-directories-first true
+org.nemo.preferences mouse-forward-button 9
+org.nemo.preferences show-places-in-to-menus true
+org.nemo.preferences thumbnail-limit uint64 4294967295
+org.nemo.preferences ignore-view-metadata false
+org.nemo.preferences last-server-connect-method 2
+org.nemo.preferences show-reload-icon-toolbar false
+org.nemo.preferences size-prefixes 'base-10'
+org.nemo.preferences tooltips-show-access-date false
+org.nemo.preferences show-search-icon-toolbar true
+org.nemo.preferences show-edit-icon-toolbar true
+org.nemo.preferences tooltips-show-mod-date false
+org.nemo.preferences disable-menu-warning false
+org.nemo.preferences enable-delete true
+org.nemo.preferences bulk-rename-tool @ay []
+org.nemo.preferences show-open-in-terminal-toolbar false
+org.nemo.preferences confirm-trash true
+org.nemo.preferences show-advanced-permissions false
+org.nemo.preferences tooltips-in-icon-view false
+org.nemo.preferences click-policy 'double'
+org.nemo.preferences show-previous-icon-toolbar true
+org.nemo.preferences mouse-back-button 8
+org.nemo.preferences tooltips-show-path false
+org.nemo.preferences default-sort-in-reverse-order false
+org.nemo.preferences show-full-path-titles true
+org.nemo.preferences show-compact-view-icon-toolbar true
+org.nemo.preferences show-location-entry true
+org.nemo.preferences show-list-view-icon-toolbar true
+org.nemo.preferences show-next-icon-toolbar true
+org.nemo.preferences show-bookmarks-in-to-menus true
+org.nemo.preferences default-sort-order 'name'
+org.nemo.preferences tooltips-in-list-view false
+org.nemo.preferences start-with-dual-pane false
+org.nemo.window-state side-pane-view 'places'
+org.nemo.window-state devices-expanded true
+org.nemo.window-state sidebar-width 178
+org.nemo.window-state start-with-menu-bar true
+org.nemo.window-state start-with-status-bar true
+org.nemo.window-state my-computer-expanded true
+org.nemo.window-state geometry '1375x944+1223+587'
+org.nemo.window-state network-expanded true
+org.nemo.window-state start-with-toolbar true
+org.nemo.window-state sidebar-bookmark-breakpoint 0
+org.nemo.window-state maximized false
+org.nemo.window-state bookmarks-expanded true
+org.nemo.window-state start-with-sidebar true
+org.nemo.window-state start-with-location-bar true
+org.nemo.icon-view captions ['none', 'size', 'date_modified']
+org.nemo.icon-view thumbnail-size 64
+org.nemo.icon-view default-zoom-level 'standard'
+org.nemo.icon-view default-use-tighter-layout false
+org.nemo.icon-view labels-beside-icons false
+org.nemo.icon-view text-ellipsis-limit ['3']
+org.nemo.sidebar-panels.tree show-only-directories true
+org.nemo.desktop text-ellipsis-limit 3
+org.nemo.desktop show-desktop-icons true
+org.nemo.desktop background-fade true
+org.nemo.desktop computer-icon-visible true
+org.nemo.desktop desktop-layout 'true::false'
+org.nemo.desktop home-icon-visible true
+org.nemo.desktop trash-icon-visible false
+org.nemo.desktop network-icon-visible false
+org.nemo.desktop show-orphaned-desktop-icons true
+org.nemo.desktop font 'Noto Sans 10'
+org.nemo.desktop volumes-visible true
+org.nemo.list-view default-visible-columns ['name', 'size', 'type', 'date_modified']
+org.nemo.list-view default-zoom-level 'smaller'
+org.nemo.list-view search-visible-columns ['name', 'size', 'type', 'where']
+org.nemo.list-view default-column-order ['name', 'size', 'type', 'date_modified']
+org.gnome.brasero.display iso-folder ''
+org.gnome.brasero.display viewer true
+org.x.viewer.plugins active-plugins ['fullscreen']
+org.gnome.desktop.session session-name 'ubuntu'
+org.gnome.desktop.session idle-delay uint32 300
+org.gnome.settings-daemon.peripherals.touchscreen orientation-lock false
+org.freedesktop.Geoclue gps-baudrate uint32 0
+org.freedesktop.Geoclue gps-device ''
+org.cinnamon.desktop.default-applications.terminal exec-arg '-x'
+org.cinnamon.desktop.default-applications.terminal exec 'gnome-terminal'
+org.cinnamon.desktop.default-applications.office.calendar exec 'evolution -c calendar'
+org.cinnamon.desktop.default-applications.office.calendar needs-term false
+org.cinnamon.desktop.default-applications.office.tasks exec 'evolution -c tasks'
+org.cinnamon.desktop.default-applications.office.tasks needs-term false
+org.gnome.gnome-system-monitor.proctree col-14-width 48
+org.gnome.gnome-system-monitor.proctree col-20-width 59
+org.gnome.gnome-system-monitor.proctree sort-order 0
+org.gnome.gnome-system-monitor.proctree col-15-width 80
+org.gnome.gnome-system-monitor.proctree col-21-width 59
+org.gnome.gnome-system-monitor.proctree col-22-width 100
+org.gnome.gnome-system-monitor.proctree col-16-width 48
+org.gnome.gnome-system-monitor.proctree col-0-width 225
+org.gnome.gnome-system-monitor.proctree col-17-width 48
+org.gnome.gnome-system-monitor.proctree col-18-width 70
+org.gnome.gnome-system-monitor.proctree col-1-width 98
+org.gnome.gnome-system-monitor.proctree sort-col 0
+org.gnome.gnome-system-monitor.proctree col-0-visible true
+org.gnome.gnome-system-monitor.proctree col-1-visible true
+org.gnome.gnome-system-monitor.proctree col-2-width 37
+org.gnome.gnome-system-monitor.proctree columns-order [0]
+org.gnome.gnome-system-monitor.proctree col-19-width 41
+org.gnome.gnome-system-monitor.proctree col-2-visible false
+org.gnome.gnome-system-monitor.proctree col-3-visible false
+org.gnome.gnome-system-monitor.proctree col-4-width 53
+org.gnome.gnome-system-monitor.proctree col-5-visible false
+org.gnome.gnome-system-monitor.proctree col-3-width 50
+org.gnome.gnome-system-monitor.proctree col-6-visible false
+org.gnome.gnome-system-monitor.proctree col-7-visible false
+org.gnome.gnome-system-monitor.proctree col-8-visible true
+org.gnome.gnome-system-monitor.proctree col-4-visible false
+org.gnome.gnome-system-monitor.proctree col-21-visible false
+org.gnome.gnome-system-monitor.proctree col-20-visible false
+org.gnome.gnome-system-monitor.proctree col-10-visible false
+org.gnome.gnome-system-monitor.proctree col-6-width 50
+org.gnome.gnome-system-monitor.proctree col-22-visible true
+org.gnome.gnome-system-monitor.proctree col-14-visible false
+org.gnome.gnome-system-monitor.proctree col-13-visible false
+org.gnome.gnome-system-monitor.proctree col-11-visible false
+org.gnome.gnome-system-monitor.proctree col-7-width 80
+org.gnome.gnome-system-monitor.proctree col-16-visible false
+org.gnome.gnome-system-monitor.proctree col-15-visible true
+org.gnome.gnome-system-monitor.proctree col-10-width 50
+org.gnome.gnome-system-monitor.proctree col-8-width 71
+org.gnome.gnome-system-monitor.proctree col-18-visible false
+org.gnome.gnome-system-monitor.proctree col-17-visible false
+org.gnome.gnome-system-monitor.proctree col-11-width 48
+org.gnome.gnome-system-monitor.proctree col-12-visible true
+org.gnome.gnome-system-monitor.proctree col-19-visible false
+org.gnome.gnome-system-monitor.proctree col-12-width 60
+org.gnome.gnome-system-monitor.proctree col-5-width 80
+org.gnome.gnome-system-monitor.proctree col-9-width 50
+org.gnome.gnome-system-monitor.proctree col-9-visible false
+org.gnome.gnome-system-monitor.proctree col-13-width 48
+org.gnome.nautilus.preferences confirm-trash true
+org.gnome.nautilus.preferences install-mime-activation true
+org.gnome.nautilus.preferences always-use-location-entry false
+org.gnome.nautilus.preferences default-sort-in-reverse-order false
+org.gnome.nautilus.preferences executable-text-activation 'display'
+org.gnome.nautilus.preferences mouse-forward-button 9
+org.gnome.nautilus.preferences enable-interactive-search true
+org.gnome.nautilus.preferences click-policy 'double'
+org.gnome.nautilus.preferences enable-delete false
+org.gnome.nautilus.preferences default-sort-order 'name'
+org.gnome.nautilus.preferences default-folder-viewer 'icon-view'
+org.gnome.nautilus.preferences sort-directories-first true
+org.gnome.nautilus.preferences show-directory-item-counts 'local-only'
+org.gnome.nautilus.preferences tabs-open-position 'after-current-tab'
+org.gnome.nautilus.preferences show-hidden-files false
+org.gnome.nautilus.preferences show-image-thumbnails 'local-only'
+org.gnome.nautilus.preferences thumbnail-limit uint64 10485760
+org.gnome.nautilus.preferences mouse-back-button 8
+org.gnome.nautilus.preferences bulk-rename-tool @ay []
+org.gnome.nautilus.preferences mouse-use-extra-buttons true
+org.gnome.nautilus.window-state sidebar-width 188
+org.gnome.nautilus.window-state start-with-sidebar true
+org.gnome.nautilus.window-state geometry ''
+org.gnome.nautilus.window-state maximized false
+org.gnome.nautilus.window-state start-with-location-bar true
+org.gnome.nautilus.icon-view captions ['none', 'size', 'date_modified']
+org.gnome.nautilus.icon-view thumbnail-size 64
+org.gnome.nautilus.icon-view default-zoom-level 'standard'
+org.gnome.nautilus.icon-view text-ellipsis-limit ['3']
+org.gnome.nautilus.desktop trash-icon-name 'Trash'
+org.gnome.nautilus.desktop text-ellipsis-limit 3
+org.gnome.nautilus.desktop background-fade true
+org.gnome.nautilus.desktop home-icon-visible false
+org.gnome.nautilus.desktop trash-icon-visible false
+org.gnome.nautilus.desktop network-icon-visible false
+org.gnome.nautilus.desktop font ''
+org.gnome.nautilus.desktop network-icon-name 'Network Servers'
+org.gnome.nautilus.desktop home-icon-name ''
+org.gnome.nautilus.desktop volumes-visible false
+org.gnome.nautilus.list-view default-visible-columns ['name', 'size', 'type', 'date_modified']
+org.gnome.nautilus.list-view default-zoom-level 'small'
+org.gnome.nautilus.list-view use-tree-view false
+org.gnome.nautilus.list-view default-column-order ['name', 'size', 'type', 'date_modified']
+org.gnome.desktop.peripherals.trackball scroll-wheel-emulation-button 0
+org.cinnamon.desktop.input-sources show-all-sources false
+org.cinnamon.desktop.input-sources current uint32 0
+org.cinnamon.desktop.input-sources sources @a(ss) []
+org.cinnamon.desktop.input-sources xkb-options @as []
+org.gnome.evolution.eds-shell start-offline false
+org.gnome.desktop.thumbnail-cache maximum-age 180
+org.gnome.desktop.thumbnail-cache maximum-size 512
+org.gnome.desktop.thumbnailers disable-all false
+org.gnome.desktop.thumbnailers disable @as []
+org.cinnamon.settings-daemon.plugins.housekeeping min-notify-period 10
+org.cinnamon.settings-daemon.plugins.housekeeping active true
+org.cinnamon.settings-daemon.plugins.housekeeping free-size-gb-no-notify 1
+org.cinnamon.settings-daemon.plugins.housekeeping ignore-paths @as []
+org.cinnamon.settings-daemon.plugins.housekeeping free-percent-notify 0.050000000000000003
+org.cinnamon.settings-daemon.plugins.housekeeping free-percent-notify-again 0.01
+org.cinnamon.settings-daemon.plugins.housekeeping priority 300
+org.x.pix.importer subfolder-format 'yyyymmdd'
+org.x.pix.importer destination ''
+org.x.pix.importer warn-delete-unsupported true
+org.x.pix.importer subfolder-custom-format ''
+org.x.pix.importer subfolder-single false
+org.x.pix.importer subfolder-type 'none'
+com.canonical.Unity.Lenses home-lens-priority ['files.scope', 'music.scope']
+com.canonical.Unity.Lenses disabled-scopes @as []
+com.canonical.Unity.Lenses remote-content-search 'none'
+com.canonical.Unity.Lenses home-lens-default-view ['applications.scope', 'files.scope']
+com.canonical.Unity.Lenses hidden-scopes @as []
+com.canonical.Unity.Lenses always-search ['applications.scope', 'music.scope', 'videos.scope', 'files.scope']
+com.canonical.Unity.Lenses locked-scopes @as []
+org.gnome.gedit.plugins.externaltools use-system-font true
+org.gnome.gedit.plugins.externaltools font 'Monospace 10'
+org.gnome.nautilus.preferences confirm-trash true
+org.gnome.nautilus.preferences install-mime-activation true
+org.gnome.nautilus.preferences always-use-location-entry false
+org.gnome.nautilus.preferences default-sort-in-reverse-order false
+org.gnome.nautilus.preferences executable-text-activation 'display'
+org.gnome.nautilus.preferences mouse-forward-button 9
+org.gnome.nautilus.preferences enable-interactive-search true
+org.gnome.nautilus.preferences click-policy 'double'
+org.gnome.nautilus.preferences enable-delete false
+org.gnome.nautilus.preferences default-sort-order 'name'
+org.gnome.nautilus.preferences default-folder-viewer 'icon-view'
+org.gnome.nautilus.preferences sort-directories-first true
+org.gnome.nautilus.preferences show-directory-item-counts 'local-only'
+org.gnome.nautilus.preferences tabs-open-position 'after-current-tab'
+org.gnome.nautilus.preferences show-hidden-files false
+org.gnome.nautilus.preferences show-image-thumbnails 'local-only'
+org.gnome.nautilus.preferences thumbnail-limit uint64 10485760
+org.gnome.nautilus.preferences mouse-back-button 8
+org.gnome.nautilus.preferences bulk-rename-tool @ay []
+org.gnome.nautilus.preferences mouse-use-extra-buttons true
+org.gnome.gnome-system-monitor.disktreenew sort-col 1
+org.gnome.gnome-system-monitor.disktreenew columns-order [0]
+org.gnome.gnome-system-monitor.disktreenew col-2-visible true
+org.gnome.gnome-system-monitor.disktreenew col-0-visible true
+org.gnome.gnome-system-monitor.disktreenew col-0-width 100
+org.gnome.gnome-system-monitor.disktreenew col-3-visible true
+org.gnome.gnome-system-monitor.disktreenew col-3-width 80
+org.gnome.gnome-system-monitor.disktreenew col-1-visible true
+org.gnome.gnome-system-monitor.disktreenew col-1-width 100
+org.gnome.gnome-system-monitor.disktreenew col-4-visible false
+org.gnome.gnome-system-monitor.disktreenew col-2-width 50
+org.gnome.gnome-system-monitor.disktreenew col-4-width 80
+org.gnome.gnome-system-monitor.disktreenew col-5-width 80
+org.gnome.gnome-system-monitor.disktreenew col-5-visible true
+org.gnome.gnome-system-monitor.disktreenew col-6-visible true
+org.gnome.gnome-system-monitor.disktreenew col-6-width 300
+org.gnome.gnome-system-monitor.disktreenew sort-order 0
+org.gnome.brasero.filter broken-sym true
+org.gnome.brasero.filter hidden true
+org.gnome.brasero.filter replace-sym true
+org.x.pix.resize aspect-ratio-height 1
+org.x.pix.resize aspect-ratio 'image'
+org.x.pix.resize high-quality true
+org.x.pix.resize unit 'percentage'
+org.x.pix.resize aspect-ratio-width 1
+org.x.pix.resize aspect-ratio-invert true
+org.x.pix.resize width 100.0
+org.x.pix.resize height 100.0
+org.cinnamon.settings-daemon.plugins.a11y-settings active true
+org.cinnamon.settings-daemon.plugins.a11y-settings priority 7
+org.x.pix.pixbuf-savers.tiff compression 'deflate'
+org.x.pix.pixbuf-savers.tiff horizontal-resolution 72
+org.x.pix.pixbuf-savers.tiff default-ext 'tiff'
+org.x.pix.pixbuf-savers.tiff vertical-resolution 72
+org.cinnamon.settings-daemon.peripherals.smartcard removal-action 'none'
+org.cinnamon.settings-daemon.peripherals.touchpad tap-to-click true
+org.cinnamon.settings-daemon.peripherals.touchpad natural-scroll true
+org.cinnamon.settings-daemon.peripherals.touchpad left-handed 'mouse'
+org.cinnamon.settings-daemon.peripherals.touchpad horizontal-edge-scrolling false
+org.cinnamon.settings-daemon.peripherals.touchpad motion-acceleration -1.0
+org.cinnamon.settings-daemon.peripherals.touchpad two-finger-click 3
+org.cinnamon.settings-daemon.peripherals.touchpad vertical-edge-scrolling true
+org.cinnamon.settings-daemon.peripherals.touchpad disable-while-typing true
+org.cinnamon.settings-daemon.peripherals.touchpad horizontal-two-finger-scrolling false
+org.cinnamon.settings-daemon.peripherals.touchpad vertical-two-finger-scrolling true
+org.cinnamon.settings-daemon.peripherals.touchpad three-finger-click 2
+org.cinnamon.settings-daemon.peripherals.touchpad motion-threshold -1
+org.cinnamon.settings-daemon.peripherals.touchpad touchpad-enabled true
+org.cinnamon.settings-daemon.peripherals.input-devices hotplug-command ''
+org.cinnamon.settings-daemon.peripherals.touchscreen orientation-lock false
+org.cinnamon.settings-daemon.peripherals.keyboard remember-numlock-state true
+org.cinnamon.settings-daemon.peripherals.keyboard input-sources-switcher 'off'
+org.cinnamon.settings-daemon.peripherals.keyboard delay uint32 500
+org.cinnamon.settings-daemon.peripherals.keyboard bell-pitch 400
+org.cinnamon.settings-daemon.peripherals.keyboard repeat true
+org.cinnamon.settings-daemon.peripherals.keyboard click-volume 0
+org.cinnamon.settings-daemon.peripherals.keyboard numlock-state 'on'
+org.cinnamon.settings-daemon.peripherals.keyboard bell-duration 100
+org.cinnamon.settings-daemon.peripherals.keyboard bell-mode 'on'
+org.cinnamon.settings-daemon.peripherals.keyboard bell-custom-file ''
+org.cinnamon.settings-daemon.peripherals.keyboard click true
+org.cinnamon.settings-daemon.peripherals.keyboard repeat-interval uint32 30
+org.cinnamon.settings-daemon.peripherals.mouse drag-threshold 8
+org.cinnamon.settings-daemon.peripherals.mouse motion-threshold -1
+org.cinnamon.settings-daemon.peripherals.mouse middle-button-enabled true
+org.cinnamon.settings-daemon.peripherals.mouse motion-acceleration -1.0
+org.cinnamon.settings-daemon.peripherals.mouse double-click 400
+org.cinnamon.settings-daemon.peripherals.mouse left-handed false
+org.cinnamon.settings-daemon.peripherals.mouse locate-pointer false
+org.x.pix.pixbuf-savers.webp method 4
+org.x.pix.pixbuf-savers.webp lossless false
+org.x.pix.pixbuf-savers.webp quality 75
+org.cinnamon.desklets.launcher launcher-list @as []
+org.cinnamon.theme name 'Linux Mint'
+org.cinnamon.desktop.a11y.applications screen-keyboard-enabled false
+org.cinnamon.desktop.a11y.applications screen-magnifier-enabled false
+org.cinnamon.desktop.a11y.applications screen-reader-enabled false
+org.cinnamon.settings-daemon.plugins.mouse active true
+org.cinnamon.settings-daemon.plugins.mouse priority 7
+org.gnome.settings-daemon.peripherals.mouse drag-threshold 8
+org.gnome.settings-daemon.peripherals.mouse double-click 400
+org.gnome.settings-daemon.peripherals.mouse locate-pointer false
+org.x.reader.Default window-ratio (0.0, 0.0)
+org.x.reader.Default continuous true
+org.x.reader.Default fullscreen false
+org.x.reader.Default show-toolbar true
+org.x.reader.Default show-sidebar true
+org.x.reader.Default inverted-colors false
+org.x.reader.Default zoom 1.0
+org.x.reader.Default sidebar-page 'links'
+org.x.reader.Default sidebar-size 132
+org.x.reader.Default dual-page false
+org.x.reader.Default sizing-mode 'fit-width'
+org.gnome.settings-daemon.plugins.print-notifications active false
+org.gnome.settings-daemon.plugins.print-notifications priority 0
+org.x.pix.webalbums enable-thumbnail-caption true
+org.x.pix.webalbums image-attributes 'gth::file::display-size,standard::fast-content-type,general::dimensions,general::format,general::location,general::datetime,general::rating,Exif::Image::Make,Exif::Image::Model,Exif::Image::Software,Exif::Image::Artist,Exif::Image::Copyright,Exif::Photo::ISOSpeedRatings,Exif::Photo::BrightnessValue,Exif::Photo::FNumber,Exif::Photo::ApertureValue,Exif::Photo::MaxApertureValue,Exif::Photo::ExposureTime,Exif::Photo::ExposureProgram,Exif::Photo::ExposureIndex,Exif::Photo::ExposureBiasValue,Exif::Photo::ExposureMode,Exif::Photo::ShutterSpeedValue,Exif::Photo::MeteringMode,Exif::Photo::LightSource,Exif::Photo::WhiteBalance,Exif::Photo::Flash,Exif::Photo::FocalLength,Exif::Photo::SubjectArea,Exif::Photo::Contrast,Exif::Photo::Saturation,Exif::Photo::Sharpness'
+org.x.pix.webalbums image-page-footer ''
+org.x.pix.webalbums sort-type 'file::mtime'
+org.x.pix.webalbums copy-images false
+org.x.pix.webalbums theme 'Wiki'
+org.x.pix.webalbums adapt-to-width true
+org.x.pix.webalbums enable-image-description true
+org.x.pix.webalbums image-page-header ''
+org.x.pix.webalbums resize-images false
+org.x.pix.webalbums single-index false
+org.x.pix.webalbums resize-height 480
+org.x.pix.webalbums columns 4
+org.x.pix.webalbums destination ''
+org.x.pix.webalbums index-file 'index.html'
+org.x.pix.webalbums enable-image-attributes true
+org.x.pix.webalbums sort-inverse false
+org.x.pix.webalbums footer ''
+org.x.pix.webalbums header ''
+org.x.pix.webalbums images-per-index 12
+org.x.pix.webalbums resize-width 640
+org.x.pix.webalbums thumbnail-caption 'general::datetime,general::dimensions,gth::file::display-size'
+org.x.pix.webalbums.directories html-images 'html'
+org.x.pix.webalbums.directories thumbnails 'thumbnails'
+org.x.pix.webalbums.directories images 'images'
+org.x.pix.webalbums.directories theme-files 'theme'
+org.x.pix.webalbums.directories html-indexes 'html'
+org.x.pix.webalbums.directories previews 'previews'
+org.x.pix.browser thumbnail-limit 0
+org.x.pix.browser viewer-sidebar 'hidden'
+org.x.pix.browser show-hidden-files false
+org.x.pix.browser image-pane-visible true
+org.x.pix.browser properties-visible true
+org.x.pix.browser filterbar-visible true
+org.x.pix.browser show-thumbnails true
+org.x.pix.browser toolbar-style 'text-below'
+org.x.pix.browser window-height 0
+org.x.pix.browser general-filter 'file::type::is_media'
+org.x.pix.browser viewer-thumbnails-orientation 'horizontal'
+org.x.pix.browser reuse-active-window false
+org.x.pix.browser maximized false
+org.x.pix.browser startup-current-file ''
+org.x.pix.browser statusbar-visible true
+org.x.pix.browser sort-type 'file::mtime'
+org.x.pix.browser viewer-sidebar-width 285
+org.x.pix.browser thumbnail-caption 'comment::note,comment::time'
+org.x.pix.browser browser-sidebar-width 285
+org.x.pix.browser save-thumbnails true
+org.x.pix.browser thumbnail-list-size 0
+org.x.pix.browser sidebar-visible true
+org.x.pix.browser use-startup-location false
+org.x.pix.browser sort-inverse false
+org.x.pix.browser go-to-last-location true
+org.x.pix.browser thumbnail-list-visible true
+org.x.pix.browser startup-location ''
+org.x.pix.browser thumbnail-size 128
+org.x.pix.browser fast-file-type true
+org.x.pix.browser shrink-wrap-viewer false
+org.x.pix.browser toolbar-visible true
+org.x.pix.browser properties-on-the-right false
+org.x.pix.browser window-width 0
+org.x.pix.general active-extensions ['default']
+org.x.pix.general store-metadata-in-files true
+org.x.pix.data-migration catalogs-2-10 false
+org.x.pix.dialogs.messages confirm-deletion true
+org.x.pix.dialogs.messages cannot-move-to-trash true
+org.x.pix.dialogs.messages save-modified-image true
+org.x.pix.dialogs.add-to-catalog view false
+org.x.pix.dialogs.save-file show-options true
+org.cinnamon.settings-daemon.plugins.background active true
+org.cinnamon.settings-daemon.plugins.background priority 97
+org.gnome.nautilus.desktop trash-icon-name 'Trash'
+org.gnome.nautilus.desktop text-ellipsis-limit 3
+org.gnome.nautilus.desktop background-fade true
+org.gnome.nautilus.desktop home-icon-visible false
+org.gnome.nautilus.desktop trash-icon-visible false
+org.gnome.nautilus.desktop network-icon-visible false
+org.gnome.nautilus.desktop font ''
+org.gnome.nautilus.desktop network-icon-name 'Network Servers'
+org.gnome.nautilus.desktop home-icon-name ''
+org.gnome.nautilus.desktop volumes-visible false
