@@ -13,6 +13,7 @@ This project is coded and organized in a modular fashion so you can easily delet
 
  * [`data`](/data): This folder contains files used by the main script
  * [`config`](/config): This folder contains configuration scripts like .profile andd ssh config.
+ * [`info`](/info): This folder contains general ubuntu and ml info
 
 
 ##Usage
