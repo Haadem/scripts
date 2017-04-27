@@ -175,6 +175,22 @@ dconf write /org/compiz/profiles/unity/plugins/unityshell/alt-tab-bias-viewport 
 #cp ~/.config/dconf/user ./dconf/user
 #XDG_CONFIG_HOME=./ dconf dump / > old-gsettings-data.txt
 
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt update
+sudo apt install nvidia-381-dev 
+
+sudo apt-get install libxss1 libappindicator1 libindicator7
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome*.deb
+rm google-chrome-stable_current_amd64.deb
+
+sudo apt install ssh
+sudo apt-get install xclip
+ssh-keygen -t rsa -b 4096 -C "svenhaadem@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+xclip -sel clip < ~/.ssh/id_rsa.pub
+
 
 
 #----------------------------------------------------------------------------
